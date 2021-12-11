@@ -1,0 +1,28 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @home.name %>
+</p>
+
+<p>
+  <strong>Address:</strong>
+  <%= @home.address %>
+</p>
+
+<p>
+  <strong>Room number:</strong>
+  <%= @home.room_number %>
+</p>
+
+<p>
+  <strong>Price:</strong>
+  <%= @home.price %>
+</p>
+
+<p>
+  <strong>user_id:</strong>
+  <%= @home.user.name %>
+</p>
+<%= link_to 'Edit', edit_home_path(@home) %> |
+<%= link_to 'Back', homes_path %>
