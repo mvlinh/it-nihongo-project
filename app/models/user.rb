@@ -11,4 +11,5 @@ class User < ApplicationRecord
          validates :phone, presence: true
          validates :address, presence: true
          has_many   :homes
+         has_many   :homelikes
 end

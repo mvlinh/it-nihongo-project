@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  resources :homelikes
   get 'users/show'
   resources :homes
   root 'static_pages#home'

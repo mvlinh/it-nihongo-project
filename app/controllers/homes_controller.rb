@@ -12,6 +12,7 @@ class HomesController < ApplicationController
   end
   # GET /homes/1 or /homes/1.json
   def show
+    @homelike = Homelike.new
   end
 
   # GET /homes/new
@@ -23,7 +24,6 @@ class HomesController < ApplicationController
   # GET /homes/1/edit
   def edit
   end
-
   # POST /homes or /homes.json
   def create
     @home = current_user.homes.build(home_params)
@@ -66,7 +66,6 @@ class HomesController < ApplicationController
     def set_home
       @home = Home.find(params[:id])
     end
-
     # Only allow a list of trusted parameters through.
     def home_params
       params.require(:home).permit(:name, :address, :room_number, :price, :user_id,:detail,:home_avatar, detail_image:[])
