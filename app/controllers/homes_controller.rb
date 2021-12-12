@@ -12,6 +12,7 @@ class HomesController < ApplicationController
   end
   # GET /homes/1 or /homes/1.json
   def show
+    @home_review = HomeReview.new
   end
 
   # GET /homes/new
