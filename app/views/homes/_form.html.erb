@@ -10,12 +10,19 @@
       </ul>
     </div>
   <% end %>
-
   <div class="field">
     <%= form.label :name %>
     <%= form.text_field :name %>
   </div>
 
+  <div class="field">
+    <%= form.label :home_avatar %>
+    <%= form.file_field :home_avatar %>
+  </div>
+  <div class="field">
+  <%= form.label :detail_image %>
+  <%= form.file_field :detail_image, multiple: true%>
+</div>
   <div class="field">
     <%= form.label :address %>
     <%= form.text_field :address %>
@@ -29,6 +36,11 @@
   <div class="field">
     <%= form.label :price %>
     <%= form.number_field :price %>
+  </div>
+
+  <div class="field">
+    <%= form.label :detail %>
+    <%= form.text_field :detail %>
   </div>
 
   <div class="actions">

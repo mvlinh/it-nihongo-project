@@ -21,8 +21,28 @@
 </p>
 
 <p>
-  <strong>user_id:</strong>
+  <strong>user name:</strong>
   <%= @home.user.name %>
 </p>
+
+<p>
+  <strong>detail:</strong>
+  <%= @home.detail   %>
+</p>
+
+<p>
+  <strong>avatar:</strong>
+  <%=  image_tag(@home.home_avatar) %>
+</p>
+
+<p>
+  <strong>detail_image:</strong>
+  <% if @home.detail_image.attached? %>
+    <% @home.detail_image.each do |image|%>
+    <%=  image_tag image  ,width: "200px" %>
+    <% end %> 
+  <% end %>
+</p>
+
 <%= link_to 'Edit', edit_home_path(@home) %> |
 <%= link_to 'Back', homes_path %>

@@ -1,18 +1,23 @@
 class HomesController < ApplicationController
   before_action :set_home, only: %i[ show edit update destroy ]
-
+  before_action :authenticate_user!, except: [:index, :show]
+  before_action :correct_user, only: [:edit, :update, :destroy]
   # GET /homes or /homes.json
   def index
     @homes = Home.all
   end
-
+  def correct_user
+    @homes =  current_user.homes.find_by(id: params[:id])
+    redirect_to homes_path, notice: "Đây không phải nhà bạn" if @homes.nil?
+  end
   # GET /homes/1 or /homes/1.json
   def show
   end
 
   # GET /homes/new
   def new
-    @home = Home.new
+    @home = current_user.homes.build
+    # @home = Home.new
   end
 
   # GET /homes/1/edit
@@ -21,7 +26,7 @@ class HomesController < ApplicationController
 
   # POST /homes or /homes.json
   def create
-    @home = Home.new(home_params)
+    @home = current_user.homes.build(home_params)
     @home.user_id = current_user.id
     respond_to do |format|
       if @home.save
@@ -64,6 +69,6 @@ class HomesController < ApplicationController
 
     # Only allow a list of trusted parameters through.
     def home_params
-      params.require(:home).permit(:name, :address, :room_number, :price, :user_id)
+      params.require(:home).permit(:name, :address, :room_number, :price, :user_id,:detail,:home_avatar, detail_image:[])
     end
 end
