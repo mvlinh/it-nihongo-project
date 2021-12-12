@@ -1,0 +1,31 @@
+<p id="notice"><%= notice %></p>
+
+<h1>Home Reviews</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>User</th>
+      <th>Home</th>
+      <th>Review</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @home_reviews.each do |home_review| %>
+      <tr>
+        <td><%= home_review.user_id %></td>
+        <td><%= home_review.home_id %></td>
+        <td><%= home_review.review %></td>
+        <td><%= link_to 'Show', home_review %></td>
+        <td><%= link_to 'Edit', edit_home_review_path(home_review) %></td>
+        <td><%= link_to 'Destroy', home_review, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Home Review', new_home_review_path %>
