@@ -1,0 +1,32 @@
+<%= form_with(model: homelike) do |form| %>
+  <% if homelike.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(homelike.errors.count, "error") %> prohibited this homelike from being saved:</h2>
+
+      <ul>
+        <% homelike.errors.each do |error| %>
+          <li><%= error.full_message %></li>
+        <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= form.label :user_id %>
+    <%= form.number_field :user_id %>
+  </div>
+
+  <div class="field">
+    <%= form.label :home_id %>
+    <%= form.number_field :home_id %>
+  </div>
+
+  <div class="field">
+    <%= form.label :status %>
+    <%= form.number_field :status %>
+  </div>
+
+  <div class="actions">
+    <%= form.submit %>
+  </div>
+<% end %>

@@ -40,6 +40,10 @@ ActiveRecord::Schema.define(version: 2021_12_12_092337) do
     t.index ["blob_id", "variation_digest"], name: "index_active_storage_variant_records_uniqueness", unique: true
   end
 
+  create_table "homelikes", force: :cascade do |t|
+    t.integer "user_id"
+    t.integer "home_id"
+    t.integer "status"
   create_table "home_reviews", force: :cascade do |t|
     t.integer "user_id"
     t.integer "home_id"

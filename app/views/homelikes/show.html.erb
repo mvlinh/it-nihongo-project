@@ -1,0 +1,19 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>User:</strong>
+  <%= @homelike.user_id %>
+</p>
+
+<p>
+  <strong>Home:</strong>
+  <%= @homelike.home_id %>
+</p>
+
+<p>
+  <strong>Status:</strong>
+  <%= @homelike.status %>
+</p>
+
+<%= link_to 'Edit', edit_homelike_path(@homelike) %> |
+<%= link_to 'Back', homelikes_path %>

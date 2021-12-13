@@ -31,18 +31,74 @@
 </p>
 
 <p>
-  <strong>avatar:</strong>
-  <%=  image_tag(@home.home_avatar) %>
+
+  <% if @home.detail_image.attached? %>
+    <strong>avatar:</strong>
+    <%=  image_tag(@home.home_avatar) %>
+  <% end %>
 </p>
 
 <p>
+
+<% if @home.detail_image.attached? %>
   <strong>detail_image:</strong>
-  <% if @home.detail_image.attached? %>
     <% @home.detail_image.each do |image|%>
     <%=  image_tag image  ,width: "200px" %>
     <% end %> 
   <% end %>
 </p>
+    <% like = nil%>
+    <% current_user.homelikes.each do |homelike|%>
+      <% if homelike.home_id == @home.id %>
+      <% like = 1%>
+      <% end %>
+    <% end %>
+
+  <% if !like%>
+    <%= form_with(model: @homelike) do |form| %>
+      <% if @homelike.errors.any? %>
+
+        <div id="error_explanation">
+          <h2><%= pluralize(homelike.errors.count, "error") %> prohibited this homelike from being saved:</h2>
+          <ul>
+            <% homelike.errors.each do |error| %>
+              <li><%= error.full_message %></li>
+            <% end %>
+          </ul>
+        </div>
+
+      <% end %>
+
+
+      <div class="field">
+        <%= form.label :user_id %>
+        <%= form.hidden_field :user_id , :value => current_user.id %>
+      </div>
+
+      <div class="field">
+        <%= form.label :home_id %>
+        <%= form.hidden_field :home_id , :value => @home.id%>
+      </div>
+
+      <div class="field">
+        <%= form.label :status %>
+        <%= form.hidden_field :status, :value => "1"%>
+      </div>
+
+      <div class="actions">
+        <%= form.submit "Like", class:'btn btn-primary'%>
+      </div>
+    <% end %>
+  <% else %>
+    <% current_user.homelikes.each do |homelike| %>
+      <% if homelike.home_id == @home.id %>
+      <%= link_to 'Destroy', homelike, method: :delete, data: { confirm: 'Are you sure?',:user_id => current_user.id, :home_id => @home.id }, class: 'btn btn-danger' %>
+      <% end %>
+    <%end%>
+    
+</div>
+    <% end %>
+
 
 <h2>Review From</h2>
  <%= form_with(model: @home_review, local: true) do |form| %>

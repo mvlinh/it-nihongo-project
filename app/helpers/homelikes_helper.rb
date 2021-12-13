@@ -1,0 +1,2 @@
+module HomelikesHelper
+end
