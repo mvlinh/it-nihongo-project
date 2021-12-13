@@ -1,0 +1,19 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>User:</strong>
+  <%= @home_review.user_id %>
+</p>
+
+<p>
+  <strong>Home:</strong>
+  <%= @home_review.home_id %>
+</p>
+
+<p>
+  <strong>Review:</strong>
+  <%= @home_review.review %>
+</p>
+
+<%= link_to 'Edit', edit_home_review_path(@home_review) %> |
+<%= link_to 'Back', home_reviews_path %>

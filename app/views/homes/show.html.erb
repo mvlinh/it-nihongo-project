@@ -1,5 +1,4 @@
 <p id="notice"><%= notice %></p>
-
 <p>
   <strong>Name:</strong>
   <%= @home.name %>
@@ -51,6 +50,15 @@
     <% end %> 
   <% end %>
 </p>
+<p>
+  <strong>Like:</strong>
+  <%= @home.homelikes.count %>
+</p>
+
+<p>
+  <strong>view:</strong>
+  <%= @home.impressionist_count%>
+</p>
   <% if user_signed_in? %>
       <% like = nil%>
     <% current_user.homelikes.each do |homelike|%>
@@ -91,13 +99,32 @@
   <% else %>
     <% current_user.homelikes.each do |homelike| %>
       <% if homelike.home_id == @home.id %>
-      <%= link_to 'Destroy', homelike, method: :delete, data: { confirm: 'Are you sure?',:user_id => current_user.id, :home_id => @home.id }, class: 'btn btn-danger' %>
+      <%= link_to 'Unlike', homelike, method: :delete, data: {:user_id => current_user.id, :home_id => @home.id }, class: 'btn btn-danger' %>
       <% end %>
     <%end%>
     
-</div>
     <% end %>
 
+
+<h2>Review From</h2>
+ <%= form_with(model: @home_review, local: true) do |form| %>
+   <div class= "field">
+     <%= form.text_area :review %>
+     <%= form.hidden_field :home_id, :value => @home.id %>
+   </div>
+   <div class="actions">
+     <%= form.submit %>
+   </div>
+<% end %>
+
+<h2>Review List</h2>
+<ul>
+ <% @home.home_review.each do |home_review|%>
+    <li><%= home_review.review %>
+     (<i><%= home_review.user.name %></i>)
+    </li>
+ <% end %>
+</ul>
 
 <%= link_to 'Edit', edit_home_path(@home) %> |
 <%= link_to 'Back', homes_path %>
