@@ -1,4 +1,5 @@
 <p id="notice"><%= notice %></p>
+
 <p>
   <strong>Name:</strong>
   <%= @home.name %>
@@ -25,10 +26,6 @@
 </p>
 
 <p>
-  <strong>user name:</strong>
-  <%= @home.user.phone %>
-</p>
-<p>
   <strong>detail:</strong>
   <%= @home.detail   %>
 </p>
@@ -50,25 +47,13 @@
     <% end %> 
   <% end %>
 </p>
-<p>
-  <strong>Like:</strong>
-  <%= @home.homelikes.count %>
-</p>
-
-<p>
-  <strong>view:</strong>
-  <%= @home.impressionist_count%>
-</p>
-  <% if user_signed_in? %>
-      <% like = nil%>
+    <% like = nil%>
     <% current_user.homelikes.each do |homelike|%>
       <% if homelike.home_id == @home.id %>
       <% like = 1%>
       <% end %>
     <% end %>
-      <% else %>
-      <% like = nil%>
-      <% end %>
+
   <% if !like%>
     <%= form_with(model: @homelike) do |form| %>
       <% if @homelike.errors.any? %>
@@ -84,11 +69,19 @@
 
       <% end %>
 
+
       <div class="field">
+        <%= form.label :user_id %>
+        <%= form.hidden_field :user_id , :value => current_user.id %>
+      </div>
+
+      <div class="field">
+        <%= form.label :home_id %>
         <%= form.hidden_field :home_id , :value => @home.id%>
       </div>
 
       <div class="field">
+        <%= form.label :status %>
         <%= form.hidden_field :status, :value => "1"%>
       </div>
 
@@ -99,10 +92,11 @@
   <% else %>
     <% current_user.homelikes.each do |homelike| %>
       <% if homelike.home_id == @home.id %>
-      <%= link_to 'Unlike', homelike, method: :delete, data: {:user_id => current_user.id, :home_id => @home.id }, class: 'btn btn-danger' %>
+      <%= link_to 'Destroy', homelike, method: :delete, data: { confirm: 'Are you sure?',:user_id => current_user.id, :home_id => @home.id }, class: 'btn btn-danger' %>
       <% end %>
     <%end%>
     
+</div>
     <% end %>
 
 
