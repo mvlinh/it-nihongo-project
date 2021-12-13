@@ -5,5 +5,4 @@ class Home < ApplicationRecord
     has_many :status, -> { order "created_at DESC"}
     has_many :homelikes
     has_many :home_review, -> { order "created_at DESC"}
-    is_impressionable
 end

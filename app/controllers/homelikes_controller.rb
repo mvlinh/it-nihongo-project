@@ -1,9 +1,7 @@
 class HomelikesController < ApplicationController
   before_action :set_homelike, only: %i[ show edit update destroy ]
   before_action :authenticate_user!
-  rescue_from ActionController::RenderError, with: :redirect_to_default
 
-  
   # GET /homelikes or /homelikes.json
   def index
     @homes = Home.all
@@ -27,7 +25,7 @@ class HomelikesController < ApplicationController
   # POST /homelikes or /homelikes.json
   def create
     @homelike = Homelike.new(homelike_params)
-    @homelike.user_id = current_user.id
+
     respond_to do |format|
       if @homelike.save
         url = "/homes/" + @homelike.home_id.to_s
@@ -57,20 +55,11 @@ class HomelikesController < ApplicationController
   def destroy
     @homelike.destroy
     respond_to do |format|
-      format.html { redirect_back(fallback_location: root_path)}
+      format.html { redirect_to homelikes_url, notice: "Homelike was successfully destroyed." }
       format.json { head :no_content }
     end
   end
-  def publish
-    homelikes = Homelike.find params[:id]
-    redirect_to :back
-  end
 
-  private
-
-  def redirect_to_default
-    redirect_to root_path
-  end
   private
     # Use callbacks to share common setup or constraints between actions.
     def set_homelike
