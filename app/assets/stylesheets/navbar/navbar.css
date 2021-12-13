@@ -1,27 +1,41 @@
-.m-navbar {
-    /* background-image: url(542ac03681516bcca0dd605bedd41a2b.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;
-    background-image: url('https://www.ohanaliving.vn/542ac03681516bcca0dd605bedd41a2b.jpg'); */
-    background-color: pink;
-}
-
 .navbar-left {
     display: flex;
     margin-right: auto;
+}
+
+.m-container {
+    margin-top: 72px;
+    padding-bottom: 48px;
 }
 
 .container-wrapper {
     padding: 20px 32px;
     display: flex;
     align-items: center;
-    width: 100%;
     top: 0;
+    width: 100%;
+    height: 72px;
+    opacity: 1;
     justify-content: space-between;
+    box-shadow: 0 2px 8px 0 rgb(0 0 0 / 12%);
+    transition: 0.5s;
+    z-index: 20;
+    position: fixed;
+    background-color: #fff;
 }
 
 .nav-item {
     font-size: 20px;
     color: #ffffff;
+}
+
+.header-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-btn {
+    color: #fff !important;
+    display: flex;
 }

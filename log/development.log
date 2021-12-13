@@ -18788,3 +18788,3158 @@ Processing by HomesController#show as HTML
 Completed 200 OK in 55ms (Views: 49.6ms | ActiveRecord: 3.2ms | Allocations: 14349)
 
 
+Started GET "/homes" for ::1 at 2021-12-14 05:02:32 +0700
+Processing by HomesController#index as HTML
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  ↳ app/controllers/homes_controller.rb:7:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering homes/index.html.erb within layouts/application
+  [1m[36mHome Load (0.2ms)[0m  [1m[34mSELECT DISTINCT "homes".* FROM "homes"[0m
+  ↳ app/views/homes/index.html.erb:13
+  Rendered homes/index.html.erb within layouts/application (Duration: 9.0ms | Allocations: 6613)
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/static_pages/_nav.html.erb:12
+  Rendered static_pages/_nav.html.erb (Duration: 11.4ms | Allocations: 6320)
+  Rendered layout layouts/application.html.erb (Duration: 35.9ms | Allocations: 19377)
+Completed 200 OK in 47ms (Views: 35.0ms | ActiveRecord: 2.9ms | Allocations: 24591)
+
+
+Started GET "/homes" for ::1 at 2021-12-14 05:32:30 +0700
+Processing by HomesController#index as HTML
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  ↳ app/controllers/homes_controller.rb:7:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering homes/index.html.erb within layouts/application
+  [1m[36mHome Load (0.2ms)[0m  [1m[34mSELECT DISTINCT "homes".* FROM "homes"[0m
+  ↳ app/views/homes/index.html.erb:15
+  Rendered homes/index.html.erb within layouts/application (Duration: 3.3ms | Allocations: 2314)
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/static_pages/_nav.html.erb:12
+  Rendered static_pages/_nav.html.erb (Duration: 3.0ms | Allocations: 1363)
+  Rendered layout layouts/application.html.erb (Duration: 34.6ms | Allocations: 10896)
+Completed 200 OK in 41ms (Views: 35.9ms | ActiveRecord: 1.0ms | Allocations: 12796)
+
+
+Started GET "/homes" for ::1 at 2021-12-14 05:32:47 +0700
+Processing by HomesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering homes/index.html.erb within layouts/application
+  [1m[36mHome Load (0.2ms)[0m  [1m[34mSELECT DISTINCT "homes".* FROM "homes"[0m
+  ↳ app/views/homes/index.html.erb:15
+  Rendered homes/index.html.erb within layouts/application (Duration: 3.0ms | Allocations: 1884)
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/static_pages/_nav.html.erb:12
+  Rendered static_pages/_nav.html.erb (Duration: 2.3ms | Allocations: 1031)
+  Rendered layout layouts/application.html.erb (Duration: 21.3ms | Allocations: 9380)
+Completed 200 OK in 23ms (Views: 21.7ms | ActiveRecord: 0.3ms | Allocations: 9846)
+
+
+Started GET "/homes" for ::1 at 2021-12-14 05:32:49 +0700
+Processing by HomesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering homes/index.html.erb within layouts/application
+  [1m[36mHome Load (0.2ms)[0m  [1m[34mSELECT DISTINCT "homes".* FROM "homes"[0m
+  ↳ app/views/homes/index.html.erb:15
+  Rendered homes/index.html.erb within layouts/application (Duration: 3.9ms | Allocations: 2288)
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/static_pages/_nav.html.erb:12
+  Rendered static_pages/_nav.html.erb (Duration: 3.0ms | Allocations: 1335)
+  Rendered layout layouts/application.html.erb (Duration: 25.5ms | Allocations: 10477)
+Completed 200 OK in 29ms (Views: 27.0ms | ActiveRecord: 0.4ms | Allocations: 11749)
+
+
+Started GET "/homes" for ::1 at 2021-12-14 05:33:00 +0700
+Processing by HomesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering homes/index.html.erb within layouts/application
+  [1m[36mHome Load (0.2ms)[0m  [1m[34mSELECT DISTINCT "homes".* FROM "homes"[0m
+  ↳ app/views/homes/index.html.erb:15
+  Rendered homes/index.html.erb within layouts/application (Duration: 4.0ms | Allocations: 2288)
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/static_pages/_nav.html.erb:12
+  Rendered static_pages/_nav.html.erb (Duration: 3.1ms | Allocations: 1334)
+  Rendered layout layouts/application.html.erb (Duration: 24.7ms | Allocations: 10469)
+Completed 200 OK in 28ms (Views: 26.4ms | ActiveRecord: 0.3ms | Allocations: 11740)
+
+
+Started GET "/homes" for ::1 at 2021-12-14 05:33:19 +0700
+Processing by HomesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering homes/index.html.erb within layouts/application
+  [1m[36mHome Load (0.2ms)[0m  [1m[34mSELECT DISTINCT "homes".* FROM "homes"[0m
+  ↳ app/views/homes/index.html.erb:15
+  Rendered homes/index.html.erb within layouts/application (Duration: 3.4ms | Allocations: 3084)
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/static_pages/_nav.html.erb:12
+  Rendered static_pages/_nav.html.erb (Duration: 5.0ms | Allocations: 2617)
+  Rendered layout layouts/application.html.erb (Duration: 44.2ms | Allocations: 17143)
+Completed 200 OK in 49ms (Views: 46.1ms | ActiveRecord: 0.6ms | Allocations: 20293)
+
+
+Started GET "/homes" for ::1 at 2021-12-14 05:34:29 +0700
+Processing by HomesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering homes/index.html.erb within layouts/application
+  [1m[36mHome Load (0.2ms)[0m  [1m[34mSELECT DISTINCT "homes".* FROM "homes"[0m
+  ↳ app/views/homes/index.html.erb:15
+  Rendered homes/index.html.erb within layouts/application (Duration: 3.9ms | Allocations: 2301)
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/static_pages/_nav.html.erb:12
+  Rendered static_pages/_nav.html.erb (Duration: 3.6ms | Allocations: 2171)
+  Rendered layout layouts/application.html.erb (Duration: 40.0ms | Allocations: 12751)
+Completed 200 OK in 46ms (Views: 43.8ms | ActiveRecord: 0.5ms | Allocations: 14029)
+
+
+Started GET "/homes" for ::1 at 2021-12-14 05:35:02 +0700
+Processing by HomesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering homes/index.html.erb within layouts/application
+  [1m[36mHome Load (0.2ms)[0m  [1m[34mSELECT DISTINCT "homes".* FROM "homes"[0m
+  ↳ app/views/homes/index.html.erb:15
+  Rendered homes/index.html.erb within layouts/application (Duration: 4.3ms | Allocations: 2294)
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/static_pages/_nav.html.erb:12
+  Rendered static_pages/_nav.html.erb (Duration: 2.9ms | Allocations: 1335)
+  Rendered layout layouts/application.html.erb (Duration: 204.5ms | Allocations: 58764)
+Completed 200 OK in 209ms (Views: 206.7ms | ActiveRecord: 0.3ms | Allocations: 60035)
+
+
+Started GET "/homes" for ::1 at 2021-12-14 05:35:04 +0700
+Processing by HomesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering homes/index.html.erb within layouts/application
+  [1m[36mHome Load (0.2ms)[0m  [1m[34mSELECT DISTINCT "homes".* FROM "homes"[0m
+  ↳ app/views/homes/index.html.erb:15
+  Rendered homes/index.html.erb within layouts/application (Duration: 2.4ms | Allocations: 1889)
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/static_pages/_nav.html.erb:12
+  Rendered static_pages/_nav.html.erb (Duration: 2.1ms | Allocations: 1031)
+  Rendered layout layouts/application.html.erb (Duration: 19.4ms | Allocations: 9407)
+Completed 200 OK in 21ms (Views: 19.5ms | ActiveRecord: 0.3ms | Allocations: 9873)
+
+
+Started GET "/homes" for ::1 at 2021-12-14 05:35:13 +0700
+Processing by HomesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering homes/index.html.erb within layouts/application
+  [1m[36mHome Load (0.3ms)[0m  [1m[34mSELECT DISTINCT "homes".* FROM "homes"[0m
+  ↳ app/views/homes/index.html.erb:15
+  Rendered homes/index.html.erb within layouts/application (Duration: 2.7ms | Allocations: 1880)
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/static_pages/_nav.html.erb:12
+  Rendered static_pages/_nav.html.erb (Duration: 2.4ms | Allocations: 1031)
+  Rendered layout layouts/application.html.erb (Duration: 129.2ms | Allocations: 54554)
+Completed 200 OK in 130ms (Views: 129.2ms | ActiveRecord: 0.5ms | Allocations: 55019)
+
+
+Started GET "/homes" for ::1 at 2021-12-14 05:36:16 +0700
+Processing by HomesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering homes/index.html.erb within layouts/application
+  [1m[36mHome Load (0.3ms)[0m  [1m[34mSELECT DISTINCT "homes".* FROM "homes"[0m
+  ↳ app/views/homes/index.html.erb:15
+  Rendered homes/index.html.erb within layouts/application (Duration: 4.3ms | Allocations: 2295)
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/static_pages/_nav.html.erb:12
+  Rendered static_pages/_nav.html.erb (Duration: 7.2ms | Allocations: 1335)
+  Rendered layout layouts/application.html.erb (Duration: 161.2ms | Allocations: 58611)
+Completed 200 OK in 165ms (Views: 162.6ms | ActiveRecord: 0.5ms | Allocations: 59883)
+
+
+Started GET "/homes/new" for ::1 at 2021-12-14 05:36:21 +0700
+Processing by HomesController#new as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering layout layouts/application.html.erb
+  Rendering homes/new.html.erb within layouts/application
+  Rendered homes/_form.html.erb (Duration: 50.0ms | Allocations: 5798)
+  Rendered homes/new.html.erb within layouts/application (Duration: 64.1ms | Allocations: 7100)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered static_pages/_nav.html.erb (Duration: 0.2ms | Allocations: 155)
+  Rendered layout layouts/application.html.erb (Duration: 108.4ms | Allocations: 15304)
+Completed 200 OK in 114ms (Views: 109.1ms | ActiveRecord: 0.3ms | Allocations: 17954)
+
+
+Started GET "/homes" for ::1 at 2021-12-14 05:37:14 +0700
+Processing by HomesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering homes/index.html.erb within layouts/application
+  [1m[36mHome Load (0.2ms)[0m  [1m[34mSELECT DISTINCT "homes".* FROM "homes"[0m
+  ↳ app/views/homes/index.html.erb:15
+  Rendered homes/index.html.erb within layouts/application (Duration: 3.5ms | Allocations: 2295)
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/static_pages/_nav.html.erb:12
+  Rendered static_pages/_nav.html.erb (Duration: 2.8ms | Allocations: 1335)
+  Rendered layout layouts/application.html.erb (Duration: 147.3ms | Allocations: 57932)
+Completed 200 OK in 153ms (Views: 149.7ms | ActiveRecord: 0.4ms | Allocations: 59209)
+
+
+Started GET "/homes" for ::1 at 2021-12-14 05:37:47 +0700
+Processing by HomesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering homes/index.html.erb within layouts/application
+  [1m[36mHome Load (0.2ms)[0m  [1m[34mSELECT DISTINCT "homes".* FROM "homes"[0m
+  ↳ app/views/homes/index.html.erb:15
+  Rendered homes/index.html.erb within layouts/application (Duration: 2.7ms | Allocations: 1889)
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/static_pages/_nav.html.erb:12
+  Rendered static_pages/_nav.html.erb (Duration: 3.0ms | Allocations: 1031)
+  Rendered layout layouts/application.html.erb (Duration: 19.8ms | Allocations: 9399)
+Completed 200 OK in 21ms (Views: 20.0ms | ActiveRecord: 0.4ms | Allocations: 9866)
+
+
+Started GET "/homes" for ::1 at 2021-12-14 05:38:22 +0700
+Processing by HomesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering homes/index.html.erb within layouts/application
+  [1m[36mHome Load (0.2ms)[0m  [1m[34mSELECT DISTINCT "homes".* FROM "homes"[0m
+  ↳ app/views/homes/index.html.erb:15
+  Rendered homes/index.html.erb within layouts/application (Duration: 3.2ms | Allocations: 1880)
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/static_pages/_nav.html.erb:12
+  Rendered static_pages/_nav.html.erb (Duration: 2.6ms | Allocations: 1031)
+  Rendered layout layouts/application.html.erb (Duration: 21.9ms | Allocations: 9451)
+Completed 200 OK in 24ms (Views: 22.4ms | ActiveRecord: 0.4ms | Allocations: 9916)
+
+
+Started GET "/homes" for ::1 at 2021-12-14 05:38:41 +0700
+Processing by HomesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering homes/index.html.erb within layouts/application
+  [1m[36mHome Load (0.2ms)[0m  [1m[34mSELECT DISTINCT "homes".* FROM "homes"[0m
+  ↳ app/views/homes/index.html.erb:15
+  Rendered homes/index.html.erb within layouts/application (Duration: 3.6ms | Allocations: 1880)
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/static_pages/_nav.html.erb:12
+  Rendered static_pages/_nav.html.erb (Duration: 2.3ms | Allocations: 1031)
+  Rendered layout layouts/application.html.erb (Duration: 25.6ms | Allocations: 9387)
+Completed 200 OK in 27ms (Views: 26.1ms | ActiveRecord: 0.4ms | Allocations: 9855)
+
+
+Started GET "/static_pages/home" for ::1 at 2021-12-14 05:38:42 +0700
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/static_pages/home.html.erb:3
+  [1m[36mActiveStorage::Attachment Load (0.7ms)[0m  [1m[34mSELECT "active_storage_attachments".* FROM "active_storage_attachments" WHERE "active_storage_attachments"."record_id" = ? AND "active_storage_attachments"."record_type" = ? AND "active_storage_attachments"."name" = ? LIMIT ?[0m  [["record_id", 2], ["record_type", "User"], ["name", "avatar"], ["LIMIT", 1]]
+  ↳ app/views/static_pages/home.html.erb:4
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 28.3ms | Allocations: 5011)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered static_pages/_nav.html.erb (Duration: 0.5ms | Allocations: 169)
+  Rendered layout layouts/application.html.erb (Duration: 43.0ms | Allocations: 11564)
+Completed 200 OK in 50ms (Views: 46.5ms | ActiveRecord: 2.0ms | Allocations: 12638)
+
+
+Started GET "/homes" for ::1 at 2021-12-14 05:38:43 +0700
+Processing by HomesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering homes/index.html.erb within layouts/application
+  [1m[36mHome Load (0.5ms)[0m  [1m[34mSELECT DISTINCT "homes".* FROM "homes"[0m
+  ↳ app/views/homes/index.html.erb:15
+  Rendered homes/index.html.erb within layouts/application (Duration: 7.2ms | Allocations: 2294)
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/static_pages/_nav.html.erb:12
+  Rendered static_pages/_nav.html.erb (Duration: 4.2ms | Allocations: 1334)
+  Rendered layout layouts/application.html.erb (Duration: 41.9ms | Allocations: 11081)
+Completed 200 OK in 46ms (Views: 43.6ms | ActiveRecord: 0.8ms | Allocations: 12361)
+
+
+Started GET "/homelikes" for ::1 at 2021-12-14 05:38:44 +0700
+Processing by HomelikesController#index as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering layout layouts/application.html.erb
+  Rendering homelikes/index.html.erb within layouts/application
+  [1m[36mHomelike Load (0.2ms)[0m  [1m[34mSELECT "homelikes".* FROM "homelikes" WHERE "homelikes"."user_id" = ?[0m  [["user_id", 2]]
+  ↳ app/views/homelikes/index.html.erb:20
+  Rendered homelikes/index.html.erb within layouts/application (Duration: 15.8ms | Allocations: 3183)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered static_pages/_nav.html.erb (Duration: 0.3ms | Allocations: 170)
+  Rendered layout layouts/application.html.erb (Duration: 30.0ms | Allocations: 9741)
+Completed 200 OK in 43ms (Views: 36.3ms | ActiveRecord: 0.8ms | Allocations: 12448)
+
+
+Started GET "/homes" for ::1 at 2021-12-14 05:38:45 +0700
+Processing by HomesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering homes/index.html.erb within layouts/application
+  [1m[36mHome Load (0.3ms)[0m  [1m[34mSELECT DISTINCT "homes".* FROM "homes"[0m
+  ↳ app/views/homes/index.html.erb:15
+  Rendered homes/index.html.erb within layouts/application (Duration: 6.3ms | Allocations: 2294)
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/static_pages/_nav.html.erb:12
+  Rendered static_pages/_nav.html.erb (Duration: 2.4ms | Allocations: 1334)
+  Rendered layout layouts/application.html.erb (Duration: 45.5ms | Allocations: 11205)
+Completed 200 OK in 49ms (Views: 47.3ms | ActiveRecord: 0.4ms | Allocations: 12479)
+
+
+Started GET "/homes/new" for ::1 at 2021-12-14 05:38:50 +0700
+Processing by HomesController#new as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering layout layouts/application.html.erb
+  Rendering homes/new.html.erb within layouts/application
+  Rendered homes/_form.html.erb (Duration: 2.9ms | Allocations: 2068)
+  Rendered homes/new.html.erb within layouts/application (Duration: 4.7ms | Allocations: 2851)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered static_pages/_nav.html.erb (Duration: 0.2ms | Allocations: 155)
+  Rendered layout layouts/application.html.erb (Duration: 33.5ms | Allocations: 9635)
+Completed 200 OK in 37ms (Views: 34.2ms | ActiveRecord: 0.2ms | Allocations: 11437)
+
+
+Started GET "/static_pages/home" for ::1 at 2021-12-14 05:39:39 +0700
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/static_pages/home.html.erb:3
+  [1m[36mActiveStorage::Attachment Load (1.0ms)[0m  [1m[34mSELECT "active_storage_attachments".* FROM "active_storage_attachments" WHERE "active_storage_attachments"."record_id" = ? AND "active_storage_attachments"."record_type" = ? AND "active_storage_attachments"."name" = ? LIMIT ?[0m  [["record_id", 2], ["record_type", "User"], ["name", "avatar"], ["LIMIT", 1]]
+  ↳ app/views/static_pages/home.html.erb:4
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 12.5ms | Allocations: 2442)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered static_pages/_nav.html.erb (Duration: 0.9ms | Allocations: 463)
+  Rendered layout layouts/application.html.erb (Duration: 46.1ms | Allocations: 9959)
+Completed 200 OK in 50ms (Views: 47.0ms | ActiveRecord: 1.5ms | Allocations: 11150)
+
+
+Started GET "/homes" for ::1 at 2021-12-14 05:40:56 +0700
+Processing by HomesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering homes/index.html.erb within layouts/application
+  [1m[36mHome Load (0.3ms)[0m  [1m[34mSELECT DISTINCT "homes".* FROM "homes"[0m
+  ↳ app/views/homes/index.html.erb:15
+  Rendered homes/index.html.erb within layouts/application (Duration: 5.6ms | Allocations: 2294)
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/static_pages/_nav.html.erb:12
+  Rendered static_pages/_nav.html.erb (Duration: 4.1ms | Allocations: 1334)
+  Rendered layout layouts/application.html.erb (Duration: 39.3ms | Allocations: 11131)
+Completed 200 OK in 43ms (Views: 41.0ms | ActiveRecord: 0.4ms | Allocations: 12405)
+
+
+Started GET "/homes/new" for ::1 at 2021-12-14 05:40:57 +0700
+Processing by HomesController#new as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering layout layouts/application.html.erb
+  Rendering homes/new.html.erb within layouts/application
+  Rendered homes/_form.html.erb (Duration: 4.1ms | Allocations: 2087)
+  Rendered homes/new.html.erb within layouts/application (Duration: 5.6ms | Allocations: 2467)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered static_pages/_nav.html.erb (Duration: 0.3ms | Allocations: 155)
+  Rendered layout layouts/application.html.erb (Duration: 49.7ms | Allocations: 10020)
+Completed 200 OK in 56ms (Views: 50.8ms | ActiveRecord: 0.3ms | Allocations: 11823)
+
+
+Started GET "/homes/new" for ::1 at 2021-12-14 05:44:12 +0700
+Processing by HomesController#new as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering layout layouts/application.html.erb
+  Rendering homes/new.html.erb within layouts/application
+  Rendered homes/_form.html.erb (Duration: 3.3ms | Allocations: 2159)
+  Rendered homes/new.html.erb within layouts/application (Duration: 5.0ms | Allocations: 2497)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered static_pages/_nav.html.erb (Duration: 0.7ms | Allocations: 454)
+  Rendered layout layouts/application.html.erb (Duration: 41.6ms | Allocations: 10937)
+Completed 200 OK in 47ms (Views: 44.2ms | ActiveRecord: 0.2ms | Allocations: 13420)
+
+
+Started GET "/homes/new" for ::1 at 2021-12-14 05:44:33 +0700
+Processing by HomesController#new as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering layout layouts/application.html.erb
+  Rendering homes/new.html.erb within layouts/application
+  Rendered homes/_form.html.erb (Duration: 6.5ms | Allocations: 2189)
+  Rendered homes/new.html.erb within layouts/application (Duration: 7.7ms | Allocations: 2528)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered static_pages/_nav.html.erb (Duration: 0.7ms | Allocations: 453)
+  Rendered layout layouts/application.html.erb (Duration: 25.5ms | Allocations: 9847)
+Completed 200 OK in 31ms (Views: 27.4ms | ActiveRecord: 0.3ms | Allocations: 12328)
+
+
+Started GET "/homes/new" for ::1 at 2021-12-14 05:44:44 +0700
+Processing by HomesController#new as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering layout layouts/application.html.erb
+  Rendering homes/new.html.erb within layouts/application
+  Rendered homes/_form.html.erb (Duration: 2.5ms | Allocations: 2187)
+  Rendered homes/new.html.erb within layouts/application (Duration: 3.7ms | Allocations: 2525)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered static_pages/_nav.html.erb (Duration: 0.9ms | Allocations: 453)
+  Rendered layout layouts/application.html.erb (Duration: 23.7ms | Allocations: 9938)
+Completed 200 OK in 29ms (Views: 25.8ms | ActiveRecord: 0.2ms | Allocations: 12418)
+
+
+Started GET "/homes/new" for ::1 at 2021-12-14 05:48:52 +0700
+Processing by HomesController#new as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering layout layouts/application.html.erb
+  Rendering homes/new.html.erb within layouts/application
+  Rendered homes/_form.html.erb (Duration: 2.6ms | Allocations: 2140)
+  Rendered homes/new.html.erb within layouts/application (Duration: 3.9ms | Allocations: 2478)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered static_pages/_nav.html.erb (Duration: 0.8ms | Allocations: 453)
+  Rendered layout layouts/application.html.erb (Duration: 27.8ms | Allocations: 9927)
+Completed 200 OK in 34ms (Views: 29.5ms | ActiveRecord: 0.3ms | Allocations: 12404)
+
+
+Started GET "/homes/new" for ::1 at 2021-12-14 05:51:08 +0700
+Processing by HomesController#new as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering layout layouts/application.html.erb
+  Rendering homes/new.html.erb within layouts/application
+  Rendered homes/_form.html.erb (Duration: 4.0ms | Allocations: 2139)
+  Rendered homes/new.html.erb within layouts/application (Duration: 5.4ms | Allocations: 2478)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered static_pages/_nav.html.erb (Duration: 0.7ms | Allocations: 453)
+  Rendered layout layouts/application.html.erb (Duration: 44.7ms | Allocations: 11056)
+Completed 200 OK in 50ms (Views: 46.3ms | ActiveRecord: 0.2ms | Allocations: 13532)
+
+
+Started GET "/homes/new" for ::1 at 2021-12-14 05:51:09 +0700
+Processing by HomesController#new as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering layout layouts/application.html.erb
+  Rendering homes/new.html.erb within layouts/application
+  Rendered homes/_form.html.erb (Duration: 2.1ms | Allocations: 1603)
+  Rendered homes/new.html.erb within layouts/application (Duration: 2.6ms | Allocations: 1710)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered static_pages/_nav.html.erb (Duration: 0.4ms | Allocations: 150)
+  Rendered layout layouts/application.html.erb (Duration: 18.8ms | Allocations: 8340)
+Completed 200 OK in 23ms (Views: 19.9ms | ActiveRecord: 0.2ms | Allocations: 10014)
+
+
+Started GET "/homes/new" for ::1 at 2021-12-14 05:53:08 +0700
+Processing by HomesController#new as HTML
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering layout layouts/application.html.erb
+  Rendering homes/new.html.erb within layouts/application
+  Rendered homes/_form.html.erb (Duration: 3.1ms | Allocations: 680)
+  Rendered homes/new.html.erb within layouts/application (Duration: 5.0ms | Allocations: 1018)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered static_pages/_nav.html.erb (Duration: 0.7ms | Allocations: 453)
+  Rendered layout layouts/application.html.erb (Duration: 26.0ms | Allocations: 8539)
+Completed 200 OK in 34ms (Views: 28.6ms | ActiveRecord: 0.6ms | Allocations: 11016)
+
+
+Started GET "/homes/new" for ::1 at 2021-12-14 05:53:28 +0700
+Processing by HomesController#new as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering layout layouts/application.html.erb
+  Rendering homes/new.html.erb within layouts/application
+  Rendered homes/_form.html.erb (Duration: 3.4ms | Allocations: 2355)
+  Rendered homes/new.html.erb within layouts/application (Duration: 4.9ms | Allocations: 2693)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered static_pages/_nav.html.erb (Duration: 0.6ms | Allocations: 453)
+  Rendered layout layouts/application.html.erb (Duration: 22.7ms | Allocations: 9998)
+Completed 200 OK in 29ms (Views: 24.9ms | ActiveRecord: 0.2ms | Allocations: 12474)
+
+
+Started GET "/homes/new" for ::1 at 2021-12-14 05:54:08 +0700
+Processing by HomesController#new as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering layout layouts/application.html.erb
+  Rendering homes/new.html.erb within layouts/application
+  Rendered homes/_form.html.erb (Duration: 3.1ms | Allocations: 2571)
+  Rendered homes/new.html.erb within layouts/application (Duration: 4.1ms | Allocations: 2910)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered static_pages/_nav.html.erb (Duration: 0.7ms | Allocations: 453)
+  Rendered layout layouts/application.html.erb (Duration: 20.9ms | Allocations: 10215)
+Completed 200 OK in 27ms (Views: 22.6ms | ActiveRecord: 0.3ms | Allocations: 12691)
+
+
+Started GET "/homes/new" for ::1 at 2021-12-14 05:54:23 +0700
+Processing by HomesController#new as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering layout layouts/application.html.erb
+  Rendering homes/new.html.erb within layouts/application
+  Rendered homes/_form.html.erb (Duration: 2.0ms | Allocations: 1969)
+  Rendered homes/new.html.erb within layouts/application (Duration: 2.3ms | Allocations: 2076)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered static_pages/_nav.html.erb (Duration: 0.3ms | Allocations: 150)
+  Rendered layout layouts/application.html.erb (Duration: 17.3ms | Allocations: 8724)
+Completed 200 OK in 21ms (Views: 17.8ms | ActiveRecord: 0.2ms | Allocations: 10398)
+
+
+Started GET "/homes/new" for ::1 at 2021-12-14 05:54:51 +0700
+Processing by HomesController#new as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering layout layouts/application.html.erb
+  Rendering homes/new.html.erb within layouts/application
+  Rendered homes/_form.html.erb (Duration: 2.7ms | Allocations: 2794)
+  Rendered homes/new.html.erb within layouts/application (Duration: 3.7ms | Allocations: 3132)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered static_pages/_nav.html.erb (Duration: 0.6ms | Allocations: 453)
+  Rendered layout layouts/application.html.erb (Duration: 20.7ms | Allocations: 10437)
+Completed 200 OK in 25ms (Views: 22.4ms | ActiveRecord: 0.2ms | Allocations: 12918)
+
+
+Started GET "/homes/new" for ::1 at 2021-12-14 05:56:00 +0700
+Processing by HomesController#new as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering layout layouts/application.html.erb
+  Rendering homes/new.html.erb within layouts/application
+  Rendered homes/_form.html.erb (Duration: 3.8ms | Allocations: 3014)
+  Rendered homes/new.html.erb within layouts/application (Duration: 5.6ms | Allocations: 3352)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered static_pages/_nav.html.erb (Duration: 0.9ms | Allocations: 453)
+  Rendered layout layouts/application.html.erb (Duration: 26.3ms | Allocations: 10657)
+Completed 200 OK in 33ms (Views: 28.5ms | ActiveRecord: 0.3ms | Allocations: 13133)
+
+
+Started GET "/homes/new" for ::1 at 2021-12-14 05:56:30 +0700
+Processing by HomesController#new as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering layout layouts/application.html.erb
+  Rendering homes/new.html.erb within layouts/application
+  Rendered homes/_form.html.erb (Duration: 3.9ms | Allocations: 2350)
+  Rendered homes/new.html.erb within layouts/application (Duration: 4.4ms | Allocations: 2457)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered static_pages/_nav.html.erb (Duration: 0.3ms | Allocations: 150)
+  Rendered layout layouts/application.html.erb (Duration: 25.0ms | Allocations: 9103)
+Completed 200 OK in 31ms (Views: 26.0ms | ActiveRecord: 0.3ms | Allocations: 10777)
+
+
+Started GET "/homes/new" for ::1 at 2021-12-14 05:59:08 +0700
+Processing by HomesController#new as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering layout layouts/application.html.erb
+  Rendering homes/new.html.erb within layouts/application
+  Rendered homes/_form.html.erb (Duration: 3.1ms | Allocations: 3008)
+  Rendered homes/new.html.erb within layouts/application (Duration: 4.3ms | Allocations: 3346)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered static_pages/_nav.html.erb (Duration: 1.1ms | Allocations: 458)
+  Rendered layout layouts/application.html.erb (Duration: 162.9ms | Allocations: 48516)
+Completed 200 OK in 170ms (Views: 164.7ms | ActiveRecord: 0.3ms | Allocations: 50992)
+
+
+Started GET "/homes/new" for ::1 at 2021-12-14 05:59:15 +0700
+Processing by HomesController#new as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering layout layouts/application.html.erb
+  Rendering homes/new.html.erb within layouts/application
+  Rendered homes/_form.html.erb (Duration: 2.9ms | Allocations: 2346)
+  Rendered homes/new.html.erb within layouts/application (Duration: 3.5ms | Allocations: 2453)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered static_pages/_nav.html.erb (Duration: 0.5ms | Allocations: 150)
+  Rendered layout layouts/application.html.erb (Duration: 111.3ms | Allocations: 45669)
+Completed 200 OK in 115ms (Views: 112.0ms | ActiveRecord: 0.2ms | Allocations: 47343)
+
+
+Started GET "/homes/new" for ::1 at 2021-12-14 05:59:27 +0700
+Processing by HomesController#new as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering layout layouts/application.html.erb
+  Rendering homes/new.html.erb within layouts/application
+  Rendered homes/_form.html.erb (Duration: 2.4ms | Allocations: 2342)
+  Rendered homes/new.html.erb within layouts/application (Duration: 2.7ms | Allocations: 2449)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered static_pages/_nav.html.erb (Duration: 0.3ms | Allocations: 150)
+  Rendered layout layouts/application.html.erb (Duration: 124.4ms | Allocations: 47217)
+Completed 200 OK in 128ms (Views: 125.0ms | ActiveRecord: 0.2ms | Allocations: 48890)
+
+
+Started GET "/homes/new" for ::1 at 2021-12-14 06:01:24 +0700
+Processing by HomesController#new as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering layout layouts/application.html.erb
+  Rendering homes/new.html.erb within layouts/application
+  Rendered homes/_form.html.erb (Duration: 2.5ms | Allocations: 2342)
+  Rendered homes/new.html.erb within layouts/application (Duration: 3.0ms | Allocations: 2449)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered static_pages/_nav.html.erb (Duration: 0.6ms | Allocations: 150)
+  Rendered layout layouts/application.html.erb (Duration: 22.0ms | Allocations: 9075)
+Completed 200 OK in 27ms (Views: 22.7ms | ActiveRecord: 0.3ms | Allocations: 10748)
+
+
+Started GET "/homes/new" for ::1 at 2021-12-14 06:02:02 +0700
+Processing by HomesController#new as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering layout layouts/application.html.erb
+  Rendering homes/new.html.erb within layouts/application
+  Rendered homes/_form.html.erb (Duration: 7.3ms | Allocations: 3007)
+  Rendered homes/new.html.erb within layouts/application (Duration: 9.2ms | Allocations: 3347)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered static_pages/_nav.html.erb (Duration: 1.2ms | Allocations: 453)
+  Rendered layout layouts/application.html.erb (Duration: 36.6ms | Allocations: 10698)
+Completed 200 OK in 45ms (Views: 39.7ms | ActiveRecord: 0.3ms | Allocations: 13181)
+
+
+Started GET "/homes/new" for ::1 at 2021-12-14 06:02:23 +0700
+Processing by HomesController#new as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering layout layouts/application.html.erb
+  Rendering homes/new.html.erb within layouts/application
+  Rendered homes/_form.html.erb (Duration: 2.1ms | Allocations: 3043)
+  Rendered homes/new.html.erb within layouts/application (Duration: 3.1ms | Allocations: 3366)
+  Rendered layout layouts/application.html.erb (Duration: 3.6ms | Allocations: 3430)
+Completed 500 Internal Server Error in 9ms (ActiveRecord: 0.2ms | Allocations: 5878)
+
+
+  
+ActionView::Template::Error (uninitialized constant #<Class:0x00007f094d1b0550>::Details):
+    29:         
+    30:         <div class="form-group">
+    31:           <%= form.label :detail %>
+    32:           <%= form.text_area :detail, class:"form-control rows-3", placeholder:Details%>
+    33:         </div>
+    34:         
+    35:         <div class="form-group">
+  
+app/views/homes/_form.html.erb:32
+app/views/homes/_form.html.erb:1
+app/views/homes/new.html.erb:3
+Started GET "/homes/new" for ::1 at 2021-12-14 06:02:27 +0700
+Processing by HomesController#new as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering layout layouts/application.html.erb
+  Rendering homes/new.html.erb within layouts/application
+  Rendered homes/_form.html.erb (Duration: 3.7ms | Allocations: 3014)
+  Rendered homes/new.html.erb within layouts/application (Duration: 4.7ms | Allocations: 3353)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered static_pages/_nav.html.erb (Duration: 0.7ms | Allocations: 453)
+  Rendered layout layouts/application.html.erb (Duration: 29.7ms | Allocations: 10807)
+Completed 200 OK in 35ms (Views: 31.5ms | ActiveRecord: 0.2ms | Allocations: 13289)
+
+
+Started GET "/homes/new" for ::1 at 2021-12-14 06:02:57 +0700
+Processing by HomesController#new as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering layout layouts/application.html.erb
+  Rendering homes/new.html.erb within layouts/application
+  Rendered homes/_form.html.erb (Duration: 3.2ms | Allocations: 3015)
+  Rendered homes/new.html.erb within layouts/application (Duration: 4.9ms | Allocations: 3353)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered static_pages/_nav.html.erb (Duration: 0.7ms | Allocations: 453)
+  Rendered layout layouts/application.html.erb (Duration: 37.5ms | Allocations: 11317)
+Completed 200 OK in 44ms (Views: 40.2ms | ActiveRecord: 0.2ms | Allocations: 13793)
+
+
+Started GET "/homes/new" for ::1 at 2021-12-14 06:04:54 +0700
+Processing by HomesController#new as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering layout layouts/application.html.erb
+  Rendering homes/new.html.erb within layouts/application
+  Rendered homes/_form.html.erb (Duration: 4.8ms | Allocations: 3404)
+  Rendered homes/new.html.erb within layouts/application (Duration: 6.0ms | Allocations: 3744)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered static_pages/_nav.html.erb (Duration: 0.8ms | Allocations: 453)
+  Rendered layout layouts/application.html.erb (Duration: 23.9ms | Allocations: 11043)
+Completed 200 OK in 31ms (Views: 26.0ms | ActiveRecord: 0.3ms | Allocations: 13526)
+
+
+Started GET "/homes/new" for ::1 at 2021-12-14 06:05:06 +0700
+Processing by HomesController#new as HTML
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering layout layouts/application.html.erb
+  Rendering homes/new.html.erb within layouts/application
+  Rendered homes/_form.html.erb (Duration: 3.4ms | Allocations: 1723)
+  Rendered homes/new.html.erb within layouts/application (Duration: 5.2ms | Allocations: 2062)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered static_pages/_nav.html.erb (Duration: 0.7ms | Allocations: 453)
+  Rendered layout layouts/application.html.erb (Duration: 22.4ms | Allocations: 9360)
+Completed 200 OK in 29ms (Views: 24.7ms | ActiveRecord: 0.4ms | Allocations: 11836)
+
+
+Started GET "/homes/new" for ::1 at 2021-12-14 06:05:07 +0700
+Processing by HomesController#new as HTML
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering layout layouts/application.html.erb
+  Rendering homes/new.html.erb within layouts/application
+  Rendered homes/_form.html.erb (Duration: 1.5ms | Allocations: 1267)
+  Rendered homes/new.html.erb within layouts/application (Duration: 1.8ms | Allocations: 1374)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered static_pages/_nav.html.erb (Duration: 0.4ms | Allocations: 150)
+  Rendered layout layouts/application.html.erb (Duration: 23.4ms | Allocations: 8315)
+Completed 200 OK in 28ms (Views: 24.0ms | ActiveRecord: 0.4ms | Allocations: 9989)
+
+
+Started GET "/homes/new" for ::1 at 2021-12-14 06:05:07 +0700
+Processing by HomesController#new as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering layout layouts/application.html.erb
+  Rendering homes/new.html.erb within layouts/application
+  Rendered homes/_form.html.erb (Duration: 1.5ms | Allocations: 1263)
+  Rendered homes/new.html.erb within layouts/application (Duration: 2.0ms | Allocations: 1383)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered static_pages/_nav.html.erb (Duration: 0.4ms | Allocations: 150)
+  Rendered layout layouts/application.html.erb (Duration: 55.2ms | Allocations: 9986)
+Completed 200 OK in 60ms (Views: 56.8ms | ActiveRecord: 0.2ms | Allocations: 12845)
+
+
+Started GET "/homes/new" for ::1 at 2021-12-14 06:05:08 +0700
+Processing by HomesController#new as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering layout layouts/application.html.erb
+  Rendering homes/new.html.erb within layouts/application
+  Rendered homes/_form.html.erb (Duration: 1.5ms | Allocations: 1263)
+  Rendered homes/new.html.erb within layouts/application (Duration: 1.8ms | Allocations: 1370)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered static_pages/_nav.html.erb (Duration: 0.2ms | Allocations: 150)
+  Rendered layout layouts/application.html.erb (Duration: 17.7ms | Allocations: 7988)
+Completed 200 OK in 22ms (Views: 18.4ms | ActiveRecord: 0.3ms | Allocations: 9661)
+
+
+Started GET "/homes/new" for ::1 at 2021-12-14 06:05:20 +0700
+Processing by HomesController#new as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering layout layouts/application.html.erb
+  Rendering homes/new.html.erb within layouts/application
+  Rendered homes/_form.html.erb (Duration: 1.4ms | Allocations: 1263)
+  Rendered homes/new.html.erb within layouts/application (Duration: 1.7ms | Allocations: 1370)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered static_pages/_nav.html.erb (Duration: 0.2ms | Allocations: 150)
+  Rendered layout layouts/application.html.erb (Duration: 20.0ms | Allocations: 8234)
+Completed 200 OK in 23ms (Views: 20.4ms | ActiveRecord: 0.2ms | Allocations: 9907)
+
+
+Started GET "/homes/new" for ::1 at 2021-12-14 06:06:25 +0700
+Processing by HomesController#new as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering layout layouts/application.html.erb
+  Rendering homes/new.html.erb within layouts/application
+  Rendered homes/_form.html.erb (Duration: 1.9ms | Allocations: 1491)
+  Rendered homes/new.html.erb within layouts/application (Duration: 2.9ms | Allocations: 1829)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered static_pages/_nav.html.erb (Duration: 1.1ms | Allocations: 453)
+  Rendered layout layouts/application.html.erb (Duration: 21.3ms | Allocations: 9145)
+Completed 200 OK in 29ms (Views: 24.7ms | ActiveRecord: 0.2ms | Allocations: 11621)
+
+
+Started GET "/homes/new" for ::1 at 2021-12-14 06:07:46 +0700
+Processing by HomesController#new as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering layout layouts/application.html.erb
+  Rendering homes/new.html.erb within layouts/application
+  Rendered homes/_form.html.erb (Duration: 2.4ms | Allocations: 1723)
+  Rendered homes/new.html.erb within layouts/application (Duration: 3.7ms | Allocations: 2061)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered static_pages/_nav.html.erb (Duration: 0.9ms | Allocations: 456)
+  Rendered layout layouts/application.html.erb (Duration: 34.1ms | Allocations: 9971)
+Completed 200 OK in 41ms (Views: 36.9ms | ActiveRecord: 0.3ms | Allocations: 12448)
+
+
+Started GET "/homes/new" for ::1 at 2021-12-14 06:07:47 +0700
+Processing by HomesController#new as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering layout layouts/application.html.erb
+  Rendering homes/new.html.erb within layouts/application
+  Rendered homes/_form.html.erb (Duration: 1.5ms | Allocations: 1267)
+  Rendered homes/new.html.erb within layouts/application (Duration: 1.8ms | Allocations: 1374)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered static_pages/_nav.html.erb (Duration: 0.2ms | Allocations: 150)
+  Rendered layout layouts/application.html.erb (Duration: 19.9ms | Allocations: 8141)
+Completed 200 OK in 24ms (Views: 20.4ms | ActiveRecord: 0.2ms | Allocations: 9815)
+
+
+Started GET "/homes/new" for ::1 at 2021-12-14 06:07:48 +0700
+Processing by HomesController#new as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering layout layouts/application.html.erb
+  Rendering homes/new.html.erb within layouts/application
+  Rendered homes/_form.html.erb (Duration: 1.3ms | Allocations: 1263)
+  Rendered homes/new.html.erb within layouts/application (Duration: 1.6ms | Allocations: 1370)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered static_pages/_nav.html.erb (Duration: 0.2ms | Allocations: 150)
+  Rendered layout layouts/application.html.erb (Duration: 17.8ms | Allocations: 8154)
+Completed 200 OK in 21ms (Views: 18.4ms | ActiveRecord: 0.2ms | Allocations: 9827)
+
+
+Started GET "/homes/new" for ::1 at 2021-12-14 06:08:32 +0700
+Processing by HomesController#new as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering layout layouts/application.html.erb
+  Rendering homes/new.html.erb within layouts/application
+  Rendered homes/_form.html.erb (Duration: 2.3ms | Allocations: 1724)
+  Rendered homes/new.html.erb within layouts/application (Duration: 3.3ms | Allocations: 2063)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered static_pages/_nav.html.erb (Duration: 1.5ms | Allocations: 453)
+  Rendered layout layouts/application.html.erb (Duration: 57.6ms | Allocations: 11303)
+Completed 200 OK in 64ms (Views: 60.6ms | ActiveRecord: 0.2ms | Allocations: 13785)
+
+
+Started GET "/homes/new" for ::1 at 2021-12-14 06:08:33 +0700
+Processing by HomesController#new as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering layout layouts/application.html.erb
+  Rendering homes/new.html.erb within layouts/application
+  Rendered homes/_form.html.erb (Duration: 1.5ms | Allocations: 1267)
+  Rendered homes/new.html.erb within layouts/application (Duration: 1.7ms | Allocations: 1374)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered static_pages/_nav.html.erb (Duration: 0.3ms | Allocations: 150)
+  Rendered layout layouts/application.html.erb (Duration: 21.4ms | Allocations: 8241)
+Completed 200 OK in 26ms (Views: 22.0ms | ActiveRecord: 0.3ms | Allocations: 9915)
+
+
+Started GET "/homes/new" for ::1 at 2021-12-14 06:08:33 +0700
+Processing by HomesController#new as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering layout layouts/application.html.erb
+  Rendering homes/new.html.erb within layouts/application
+  Rendered homes/_form.html.erb (Duration: 1.5ms | Allocations: 1263)
+  Rendered homes/new.html.erb within layouts/application (Duration: 1.8ms | Allocations: 1370)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered static_pages/_nav.html.erb (Duration: 0.2ms | Allocations: 150)
+  Rendered layout layouts/application.html.erb (Duration: 15.3ms | Allocations: 7988)
+Completed 200 OK in 19ms (Views: 16.0ms | ActiveRecord: 0.2ms | Allocations: 9661)
+
+
+Started GET "/homes/new" for ::1 at 2021-12-14 06:08:34 +0700
+Processing by HomesController#new as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering layout layouts/application.html.erb
+  Rendering homes/new.html.erb within layouts/application
+  Rendered homes/_form.html.erb (Duration: 1.3ms | Allocations: 1263)
+  Rendered homes/new.html.erb within layouts/application (Duration: 1.8ms | Allocations: 1370)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered static_pages/_nav.html.erb (Duration: 0.3ms | Allocations: 150)
+  Rendered layout layouts/application.html.erb (Duration: 17.2ms | Allocations: 7988)
+Completed 200 OK in 21ms (Views: 18.0ms | ActiveRecord: 0.2ms | Allocations: 9662)
+
+
+Started GET "/homes/new" for ::1 at 2021-12-14 06:08:34 +0700
+Processing by HomesController#new as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering layout layouts/application.html.erb
+  Rendering homes/new.html.erb within layouts/application
+  Rendered homes/_form.html.erb (Duration: 1.6ms | Allocations: 1263)
+  Rendered homes/new.html.erb within layouts/application (Duration: 1.9ms | Allocations: 1370)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered static_pages/_nav.html.erb (Duration: 0.7ms | Allocations: 150)
+  Rendered layout layouts/application.html.erb (Duration: 60.5ms | Allocations: 10582)
+Completed 200 OK in 64ms (Views: 61.1ms | ActiveRecord: 0.2ms | Allocations: 12255)
+
+
+Started GET "/homes" for ::1 at 2021-12-14 06:08:35 +0700
+Processing by HomesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering homes/index.html.erb within layouts/application
+  [1m[36mHome Load (0.3ms)[0m  [1m[34mSELECT DISTINCT "homes".* FROM "homes"[0m
+  ↳ app/views/homes/index.html.erb:15
+  Rendered homes/index.html.erb within layouts/application (Duration: 4.6ms | Allocations: 2299)
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/static_pages/_nav.html.erb:12
+  Rendered static_pages/_nav.html.erb (Duration: 2.2ms | Allocations: 1036)
+  Rendered layout layouts/application.html.erb (Duration: 32.4ms | Allocations: 10446)
+Completed 200 OK in 34ms (Views: 32.7ms | ActiveRecord: 0.5ms | Allocations: 11042)
+
+
+Started GET "/homelikes" for ::1 at 2021-12-14 06:08:38 +0700
+Processing by HomelikesController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering layout layouts/application.html.erb
+  Rendering homelikes/index.html.erb within layouts/application
+  [1m[36mHomelike Load (0.2ms)[0m  [1m[34mSELECT "homelikes".* FROM "homelikes" WHERE "homelikes"."user_id" = ?[0m  [["user_id", 2]]
+  ↳ app/views/homelikes/index.html.erb:20
+  Rendered homelikes/index.html.erb within layouts/application (Duration: 2.8ms | Allocations: 1122)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered static_pages/_nav.html.erb (Duration: 0.7ms | Allocations: 170)
+  Rendered layout layouts/application.html.erb (Duration: 40.9ms | Allocations: 9001)
+Completed 200 OK in 45ms (Views: 42.2ms | ActiveRecord: 0.4ms | Allocations: 11088)
+
+
+Started GET "/homes" for ::1 at 2021-12-14 06:08:38 +0700
+Processing by HomesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering homes/index.html.erb within layouts/application
+  [1m[36mHome Load (0.3ms)[0m  [1m[34mSELECT DISTINCT "homes".* FROM "homes"[0m
+  ↳ app/views/homes/index.html.erb:15
+  Rendered homes/index.html.erb within layouts/application (Duration: 3.1ms | Allocations: 1894)
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/static_pages/_nav.html.erb:12
+  Rendered static_pages/_nav.html.erb (Duration: 2.2ms | Allocations: 1036)
+  Rendered layout layouts/application.html.erb (Duration: 41.1ms | Allocations: 9998)
+Completed 200 OK in 43ms (Views: 41.5ms | ActiveRecord: 0.4ms | Allocations: 10467)
+
+
+Started GET "/homes/new" for ::1 at 2021-12-14 06:08:39 +0700
+Processing by HomesController#new as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering layout layouts/application.html.erb
+  Rendering homes/new.html.erb within layouts/application
+  Rendered homes/_form.html.erb (Duration: 1.8ms | Allocations: 1263)
+  Rendered homes/new.html.erb within layouts/application (Duration: 2.3ms | Allocations: 1370)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered static_pages/_nav.html.erb (Duration: 0.5ms | Allocations: 150)
+  Rendered layout layouts/application.html.erb (Duration: 35.2ms | Allocations: 8578)
+Completed 200 OK in 39ms (Views: 36.2ms | ActiveRecord: 0.2ms | Allocations: 10255)
+
+
+Started GET "/homes/new" for ::1 at 2021-12-14 06:08:58 +0700
+Processing by HomesController#new as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering layout layouts/application.html.erb
+  Rendering homes/new.html.erb within layouts/application
+  Rendered homes/_form.html.erb (Duration: 2.1ms | Allocations: 1742)
+  Rendered homes/new.html.erb within layouts/application (Duration: 3.7ms | Allocations: 2081)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered static_pages/_nav.html.erb (Duration: 1.3ms | Allocations: 453)
+  Rendered layout layouts/application.html.erb (Duration: 22.5ms | Allocations: 9401)
+Completed 200 OK in 29ms (Views: 25.4ms | ActiveRecord: 0.2ms | Allocations: 11883)
+
+
+Started GET "/homes/new" for ::1 at 2021-12-14 06:09:12 +0700
+Processing by HomesController#new as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering layout layouts/application.html.erb
+  Rendering homes/new.html.erb within layouts/application
+  Rendered homes/_form.html.erb (Duration: 0.9ms | Allocations: 1616)
+  Rendered homes/new.html.erb within layouts/application (Duration: 2.1ms | Allocations: 1939)
+  Rendered layout layouts/application.html.erb (Duration: 2.8ms | Allocations: 2004)
+Completed 500 Internal Server Error in 8ms (ActiveRecord: 0.2ms | Allocations: 4459)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check <%= form_with(model: home) do |form| %>
+  <% if home.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(home.errors.count, "error") %> prohibited this home from being saved:</h2>
+
+      <ul>
+        <% home.errors.each do |error| %>
+          <li><%= error.full_message %></li>
+        <% end %>
+      </ul>
+    </div>
+  <% end %>
+  <%# ------------------ %>
+  <div class="container">
+  <div class="row">
+    <div class="col-8">
+      <form>
+        <div class="form-group">
+          <%= form.label :name %>
+          <%= form.text_field :name, class:"form-control" %>
+          <%= form.label :address %>
+          <%= form.text_field :address, class:"form-control" %>
+        </div>
+        
+        <div class="form-group">
+          <%= form.label :room_number %>
+          <%= form.number_field :room_number, class:"form-control" %>
+        </div>
+        
+        <div class="form-group">
+          <%= form.label :detail %>
+          <%= form.text_area :detail, class:"form-control rows-3", placeholder:"Details"%>
+        </div>
+        
+        <div class="form-group">
+          <label for="group2">Add apartment detail picture</label>
+          <div class="input-group" id="group2">
+            <div class="input-group-prepend">
+              <span class="input-group-text" id="addon2"><i class="fas fa-file-image"></i></span>
+            </div>
+            <div class="custom-file">
+              <%= form.label :detail_image , class:"custom-file-input" %>
+              <%= form.file_field :detail_image, multiple: true, class:"custom-file-label" %>
+            </div>
+          </div>
+        </div>
+        <div class="actions">
+          <%= form.submit, class:"btn btn-info" %>
+        </div>
+        <%# <button type="submit" class="btn btn-info">Submit</button> %>
+      </form>
+    </div>
+  </div>
+</div>
+  <%# ------------------ %>
+
+<% end %>
+
+):
+1:    <%= form_with(model: home) do |form| %>
+2:      <% if home.errors.any? %>
+3:        <div id="error_explanation">
+4:          <h2><%= pluralize(home.errors.count, "error") %> prohibited this home from being saved:</h2>
+5:    
+6:          <ul>
+7:            <% home.errors.each do |error| %>
+8:              <li><%= error.full_message %></li>
+9:            <% end %>
+10:          </ul>
+11:        </div>
+12:      <% end %>
+13:      <%# ------------------ %>
+14:      <div class="container">
+15:      <div class="row">
+16:        <div class="col-8">
+17:          <form>
+18:            <div class="form-group">
+19:              <%= form.label :name %>
+20:              <%= form.text_field :name, class:"form-control" %>
+21:              <%= form.label :address %>
+22:              <%= form.text_field :address, class:"form-control" %>
+23:            </div>
+24:            
+25:            <div class="form-group">
+26:              <%= form.label :room_number %>
+27:              <%= form.number_field :room_number, class:"form-control" %>
+28:            </div>
+29:            
+30:            <div class="form-group">
+31:              <%= form.label :detail %>
+32:              <%= form.text_area :detail, class:"form-control rows-3", placeholder:"Details"%>
+33:            </div>
+34:            
+35:            <div class="form-group">
+36:              <label for="group2">Add apartment detail picture</label>
+37:              <div class="input-group" id="group2">
+38:                <div class="input-group-prepend">
+39:                  <span class="input-group-text" id="addon2"><i class="fas fa-file-image"></i></span>
+40:                </div>
+41:                <div class="custom-file">
+42:                  <%= form.label :detail_image , class:"custom-file-input" %>
+43:                  <%= form.file_field :detail_image, multiple: true, class:"custom-file-label" %>
+44:                </div>
+45:              </div>
+46:            </div>
+47:            <div class="actions">
+48:              <%= form.submit, class:"btn btn-info" %>
+49:            </div>
+50:            <%# <button type="submit" class="btn btn-info">Submit</button> %>
+51:          </form>
+52:        </div>
+53:      </div>
+54:    </div>
+55:      <%# ------------------ %>
+56:    
+57:    <% end %>
+  
+app/views/homes/_form.html.erb:48: syntax error, unexpected tLABEL, expecting '='
+app/views/homes/_form.html.erb:48: syntax error, unexpected tLABEL, expecting '='
+app/views/homes/_form.html.erb:48: syntax error, unexpected tLABEL, expecting '='
+app/views/homes/_form.html.erb:48: syntax error, unexpected tLABEL, expecting '='
+app/views/homes/_form.html.erb:48: syntax error, unexpected tLABEL, expecting '='
+app/views/homes/_form.html.erb:48: syntax error, unexpected tLABEL, expecting '='
+app/views/homes/new.html.erb:3
+Started GET "/homes/new" for ::1 at 2021-12-14 06:09:14 +0700
+Processing by HomesController#new as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering layout layouts/application.html.erb
+  Rendering homes/new.html.erb within layouts/application
+  Rendered homes/_form.html.erb (Duration: 1.2ms | Allocations: 1605)
+  Rendered homes/new.html.erb within layouts/application (Duration: 1.5ms | Allocations: 1697)
+  Rendered layout layouts/application.html.erb (Duration: 2.0ms | Allocations: 1762)
+Completed 500 Internal Server Error in 6ms (ActiveRecord: 0.2ms | Allocations: 3409)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check <%= form_with(model: home) do |form| %>
+  <% if home.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(home.errors.count, "error") %> prohibited this home from being saved:</h2>
+
+      <ul>
+        <% home.errors.each do |error| %>
+          <li><%= error.full_message %></li>
+        <% end %>
+      </ul>
+    </div>
+  <% end %>
+  <%# ------------------ %>
+  <div class="container">
+  <div class="row">
+    <div class="col-8">
+      <form>
+        <div class="form-group">
+          <%= form.label :name %>
+          <%= form.text_field :name, class:"form-control" %>
+          <%= form.label :address %>
+          <%= form.text_field :address, class:"form-control" %>
+        </div>
+        
+        <div class="form-group">
+          <%= form.label :room_number %>
+          <%= form.number_field :room_number, class:"form-control" %>
+        </div>
+        
+        <div class="form-group">
+          <%= form.label :detail %>
+          <%= form.text_area :detail, class:"form-control rows-3", placeholder:"Details"%>
+        </div>
+        
+        <div class="form-group">
+          <label for="group2">Add apartment detail picture</label>
+          <div class="input-group" id="group2">
+            <div class="input-group-prepend">
+              <span class="input-group-text" id="addon2"><i class="fas fa-file-image"></i></span>
+            </div>
+            <div class="custom-file">
+              <%= form.label :detail_image , class:"custom-file-input" %>
+              <%= form.file_field :detail_image, multiple: true, class:"custom-file-label" %>
+            </div>
+          </div>
+        </div>
+        <div class="actions">
+          <%= form.submit, class:"btn btn-info" %>
+        </div>
+        <%# <button type="submit" class="btn btn-info">Submit</button> %>
+      </form>
+    </div>
+  </div>
+</div>
+  <%# ------------------ %>
+
+<% end %>
+
+):
+1:    <%= form_with(model: home) do |form| %>
+2:      <% if home.errors.any? %>
+3:        <div id="error_explanation">
+4:          <h2><%= pluralize(home.errors.count, "error") %> prohibited this home from being saved:</h2>
+5:    
+6:          <ul>
+7:            <% home.errors.each do |error| %>
+8:              <li><%= error.full_message %></li>
+9:            <% end %>
+10:          </ul>
+11:        </div>
+12:      <% end %>
+13:      <%# ------------------ %>
+14:      <div class="container">
+15:      <div class="row">
+16:        <div class="col-8">
+17:          <form>
+18:            <div class="form-group">
+19:              <%= form.label :name %>
+20:              <%= form.text_field :name, class:"form-control" %>
+21:              <%= form.label :address %>
+22:              <%= form.text_field :address, class:"form-control" %>
+23:            </div>
+24:            
+25:            <div class="form-group">
+26:              <%= form.label :room_number %>
+27:              <%= form.number_field :room_number, class:"form-control" %>
+28:            </div>
+29:            
+30:            <div class="form-group">
+31:              <%= form.label :detail %>
+32:              <%= form.text_area :detail, class:"form-control rows-3", placeholder:"Details"%>
+33:            </div>
+34:            
+35:            <div class="form-group">
+36:              <label for="group2">Add apartment detail picture</label>
+37:              <div class="input-group" id="group2">
+38:                <div class="input-group-prepend">
+39:                  <span class="input-group-text" id="addon2"><i class="fas fa-file-image"></i></span>
+40:                </div>
+41:                <div class="custom-file">
+42:                  <%= form.label :detail_image , class:"custom-file-input" %>
+43:                  <%= form.file_field :detail_image, multiple: true, class:"custom-file-label" %>
+44:                </div>
+45:              </div>
+46:            </div>
+47:            <div class="actions">
+48:              <%= form.submit, class:"btn btn-info" %>
+49:            </div>
+50:            <%# <button type="submit" class="btn btn-info">Submit</button> %>
+51:          </form>
+52:        </div>
+53:      </div>
+54:    </div>
+55:      <%# ------------------ %>
+56:    
+57:    <% end %>
+  
+app/views/homes/_form.html.erb:48: syntax error, unexpected tLABEL, expecting '='
+app/views/homes/_form.html.erb:48: syntax error, unexpected tLABEL, expecting '='
+app/views/homes/_form.html.erb:48: syntax error, unexpected tLABEL, expecting '='
+app/views/homes/_form.html.erb:48: syntax error, unexpected tLABEL, expecting '='
+app/views/homes/_form.html.erb:48: syntax error, unexpected tLABEL, expecting '='
+app/views/homes/_form.html.erb:48: syntax error, unexpected tLABEL, expecting '='
+app/views/homes/new.html.erb:3
+Started GET "/homes/new" for ::1 at 2021-12-14 06:09:28 +0700
+Processing by HomesController#new as HTML
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering layout layouts/application.html.erb
+  Rendering homes/new.html.erb within layouts/application
+  Rendered homes/_form.html.erb (Duration: 2.3ms | Allocations: 1742)
+  Rendered homes/new.html.erb within layouts/application (Duration: 3.8ms | Allocations: 2081)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered static_pages/_nav.html.erb (Duration: 0.8ms | Allocations: 453)
+  Rendered layout layouts/application.html.erb (Duration: 27.3ms | Allocations: 9627)
+Completed 200 OK in 33ms (Views: 29.0ms | ActiveRecord: 0.4ms | Allocations: 12109)
+
+
+Started GET "/homes/new" for ::1 at 2021-12-14 06:10:42 +0700
+Processing by HomesController#new as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering layout layouts/application.html.erb
+  Rendering homes/new.html.erb within layouts/application
+  Rendered homes/_form.html.erb (Duration: 2.2ms | Allocations: 1741)
+  Rendered homes/new.html.erb within layouts/application (Duration: 3.3ms | Allocations: 2079)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered static_pages/_nav.html.erb (Duration: 0.7ms | Allocations: 453)
+  Rendered layout layouts/application.html.erb (Duration: 24.3ms | Allocations: 9637)
+Completed 200 OK in 31ms (Views: 27.1ms | ActiveRecord: 0.2ms | Allocations: 12113)
+
+
+Started GET "/homes/new" for ::1 at 2021-12-14 06:10:56 +0700
+Processing by HomesController#new as HTML
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering layout layouts/application.html.erb
+  Rendering homes/new.html.erb within layouts/application
+  Rendered homes/_form.html.erb (Duration: 1.4ms | Allocations: 1615)
+  Rendered homes/new.html.erb within layouts/application (Duration: 3.4ms | Allocations: 1937)
+  Rendered layout layouts/application.html.erb (Duration: 4.0ms | Allocations: 2002)
+Completed 500 Internal Server Error in 12ms (ActiveRecord: 0.5ms | Allocations: 4451)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check <%= form_with(model: home) do |form| %>
+  <% if home.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(home.errors.count, "error") %> prohibited this home from being saved:</h2>
+
+      <ul>
+        <% home.errors.each do |error| %>
+          <li><%= error.full_message %></li>
+        <% end %>
+      </ul>
+    </div>
+  <% end %>
+  <%# ------------------ %>
+  <div class="container">
+  <div class="row">
+    <div class="col-8">
+      <form>
+        <div class="form-group">
+          <%= form.label :name %>
+          <%= form.text_field :name, class:"form-control" %>
+          <%= form.label :address %>
+          <%= form.text_field :address, class:"form-control" %>
+        </div>
+        
+        <div class="form-group">
+          <%= form.label :room_number %>
+          <%= form.number_field :room_number, class:"form-control" %>
+        </div>
+        
+        <div class="form-group">
+          <%= form.label :detail %>
+          <%= form.text_area :detail, class:"form-control rows-3", placeholder:"Details"%>
+        </div>
+        
+        <div class="form-group">
+          <label for="group2">Add apartment detail picture</label>
+          <div class="input-group" id="group2">
+            <div class="input-group-prepend">
+              <span class="input-group-text" id="addon2"><i class="fas fa-file-image"></i></span>
+            </div>
+            <div class="custom-file">
+              <%= form.label :detail_image , class:"custom-file-input" %>
+              <%= form.file_field :detail_image, multiple: true, class:"custom-file-label" %>
+            </div>
+          </div>
+        </div>
+        <div class="actions ">
+          <%= form.submit, class:"btn btn-info" %>
+        </div>
+        <%# <button type="submit" class="btn btn-info">Submit</button> %>
+      </form>
+    </div>
+  </div>
+</div>
+  <%# ------------------ %>
+
+<% end %>
+
+):
+1:    <%= form_with(model: home) do |form| %>
+2:      <% if home.errors.any? %>
+3:        <div id="error_explanation">
+4:          <h2><%= pluralize(home.errors.count, "error") %> prohibited this home from being saved:</h2>
+5:    
+6:          <ul>
+7:            <% home.errors.each do |error| %>
+8:              <li><%= error.full_message %></li>
+9:            <% end %>
+10:          </ul>
+11:        </div>
+12:      <% end %>
+13:      <%# ------------------ %>
+14:      <div class="container">
+15:      <div class="row">
+16:        <div class="col-8">
+17:          <form>
+18:            <div class="form-group">
+19:              <%= form.label :name %>
+20:              <%= form.text_field :name, class:"form-control" %>
+21:              <%= form.label :address %>
+22:              <%= form.text_field :address, class:"form-control" %>
+23:            </div>
+24:            
+25:            <div class="form-group">
+26:              <%= form.label :room_number %>
+27:              <%= form.number_field :room_number, class:"form-control" %>
+28:            </div>
+29:            
+30:            <div class="form-group">
+31:              <%= form.label :detail %>
+32:              <%= form.text_area :detail, class:"form-control rows-3", placeholder:"Details"%>
+33:            </div>
+34:            
+35:            <div class="form-group">
+36:              <label for="group2">Add apartment detail picture</label>
+37:              <div class="input-group" id="group2">
+38:                <div class="input-group-prepend">
+39:                  <span class="input-group-text" id="addon2"><i class="fas fa-file-image"></i></span>
+40:                </div>
+41:                <div class="custom-file">
+42:                  <%= form.label :detail_image , class:"custom-file-input" %>
+43:                  <%= form.file_field :detail_image, multiple: true, class:"custom-file-label" %>
+44:                </div>
+45:              </div>
+46:            </div>
+47:            <div class="actions ">
+48:              <%= form.submit, class:"btn btn-info" %>
+49:            </div>
+50:            <%# <button type="submit" class="btn btn-info">Submit</button> %>
+51:          </form>
+52:        </div>
+53:      </div>
+54:    </div>
+55:      <%# ------------------ %>
+56:    
+57:    <% end %>
+  
+app/views/homes/_form.html.erb:48: syntax error, unexpected tLABEL, expecting '='
+app/views/homes/_form.html.erb:48: syntax error, unexpected tLABEL, expecting '='
+app/views/homes/_form.html.erb:48: syntax error, unexpected tLABEL, expecting '='
+app/views/homes/_form.html.erb:48: syntax error, unexpected tLABEL, expecting '='
+app/views/homes/_form.html.erb:48: syntax error, unexpected tLABEL, expecting '='
+app/views/homes/_form.html.erb:48: syntax error, unexpected tLABEL, expecting '='
+app/views/homes/new.html.erb:3
+Started GET "/homes/new" for ::1 at 2021-12-14 06:12:09 +0700
+Processing by HomesController#new as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering layout layouts/application.html.erb
+  Rendering homes/new.html.erb within layouts/application
+  Rendered homes/_form.html.erb (Duration: 2.2ms | Allocations: 1635)
+  Rendered homes/new.html.erb within layouts/application (Duration: 3.3ms | Allocations: 1975)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered static_pages/_nav.html.erb (Duration: 0.9ms | Allocations: 453)
+  Rendered layout layouts/application.html.erb (Duration: 22.3ms | Allocations: 9411)
+Completed 200 OK in 28ms (Views: 24.3ms | ActiveRecord: 0.2ms | Allocations: 11893)
+
+
+Started GET "/homes/new" for ::1 at 2021-12-14 06:13:05 +0700
+Processing by HomesController#new as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering layout layouts/application.html.erb
+  Rendering homes/new.html.erb within layouts/application
+  Rendered homes/_form.html.erb (Duration: 2.4ms | Allocations: 1613)
+  Rendered homes/new.html.erb within layouts/application (Duration: 4.1ms | Allocations: 1973)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered static_pages/_nav.html.erb (Duration: 2.2ms | Allocations: 453)
+  Rendered layout layouts/application.html.erb (Duration: 25.0ms | Allocations: 9305)
+Completed 200 OK in 31ms (Views: 26.9ms | ActiveRecord: 0.2ms | Allocations: 11781)
+
+
+Started GET "/homelikes" for ::1 at 2021-12-14 06:13:11 +0700
+Processing by HomelikesController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering layout layouts/application.html.erb
+  Rendering homelikes/index.html.erb within layouts/application
+  [1m[36mHomelike Load (0.2ms)[0m  [1m[34mSELECT "homelikes".* FROM "homelikes" WHERE "homelikes"."user_id" = ?[0m  [["user_id", 2]]
+  ↳ app/views/homelikes/index.html.erb:20
+  Rendered homelikes/index.html.erb within layouts/application (Duration: 4.6ms | Allocations: 1562)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered static_pages/_nav.html.erb (Duration: 0.2ms | Allocations: 170)
+  Rendered layout layouts/application.html.erb (Duration: 42.0ms | Allocations: 8855)
+Completed 200 OK in 47ms (Views: 43.6ms | ActiveRecord: 0.4ms | Allocations: 10948)
+
+
+Started GET "/homes" for ::1 at 2021-12-14 06:13:13 +0700
+Processing by HomesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering homes/index.html.erb within layouts/application
+  [1m[36mHome Load (0.3ms)[0m  [1m[34mSELECT DISTINCT "homes".* FROM "homes"[0m
+  ↳ app/views/homes/index.html.erb:15
+  Rendered homes/index.html.erb within layouts/application (Duration: 4.4ms | Allocations: 2300)
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/static_pages/_nav.html.erb:12
+  Rendered static_pages/_nav.html.erb (Duration: 2.1ms | Allocations: 1036)
+  Rendered layout layouts/application.html.erb (Duration: 34.0ms | Allocations: 10690)
+Completed 200 OK in 36ms (Views: 34.1ms | ActiveRecord: 0.5ms | Allocations: 11281)
+
+
+Started GET "/homes/1" for ::1 at 2021-12-14 06:13:14 +0700
+Processing by HomesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mHome Load (0.3ms)[0m  [1m[34mSELECT "homes".* FROM "homes" WHERE "homes"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/homes_controller.rb:70:in `set_home'
+  Rendering layout layouts/application.html.erb
+  Rendering homes/show.html.erb within layouts/application
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/homes/show.html.erb:25
+  [1m[36mActiveStorage::Attachment Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "active_storage_attachments" WHERE "active_storage_attachments"."record_id" = ? AND "active_storage_attachments"."record_type" = ? AND "active_storage_attachments"."name" = ? LIMIT ?[0m  [["record_id", 1], ["record_type", "Home"], ["name", "detail_image"], ["LIMIT", 1]]
+  ↳ app/views/homes/show.html.erb:35
+  [1m[36mCACHE ActiveStorage::Attachment Exists? (0.0ms)[0m  [1m[34mSELECT 1 AS one FROM "active_storage_attachments" WHERE "active_storage_attachments"."record_id" = ? AND "active_storage_attachments"."record_type" = ? AND "active_storage_attachments"."name" = ? LIMIT ?[0m  [["record_id", 1], ["record_type", "Home"], ["name", "detail_image"], ["LIMIT", 1]]
+  ↳ app/views/homes/show.html.erb:43
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/homes/show.html.erb:51
+  [1m[36mHomelike Load (0.1ms)[0m  [1m[34mSELECT "homelikes".* FROM "homelikes" WHERE "homelikes"."user_id" = ?[0m  [["user_id", 2]]
+  ↳ app/views/homes/show.html.erb:51
+  [1m[36mHomeReview Load (0.3ms)[0m  [1m[34mSELECT "home_reviews".* FROM "home_reviews" WHERE "home_reviews"."home_id" = ? ORDER BY created_at DESC[0m  [["home_id", 1]]
+  ↳ app/views/homes/show.html.erb:116
+  Rendered homes/show.html.erb within layouts/application (Duration: 16.9ms | Allocations: 8531)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered static_pages/_nav.html.erb (Duration: 0.2ms | Allocations: 155)
+  Rendered layout layouts/application.html.erb (Duration: 39.4ms | Allocations: 15461)
+Completed 200 OK in 66ms (Views: 42.4ms | ActiveRecord: 2.4ms | Allocations: 24345)
+
+
+Started GET "/homes/1/edit" for ::1 at 2021-12-14 06:13:21 +0700
+Processing by HomesController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mHome Load (0.2ms)[0m  [1m[34mSELECT "homes".* FROM "homes" WHERE "homes"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/homes_controller.rb:70:in `set_home'
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mHome Load (0.4ms)[0m  [1m[34mSELECT "homes".* FROM "homes" WHERE "homes"."user_id" = ? AND "homes"."id" = ? LIMIT ?[0m  [["user_id", 2], ["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/homes_controller.rb:12:in `correct_user'
+Redirected to http://localhost:3000/homes
+Filter chain halted as :correct_user rendered or redirected
+Completed 302 Found in 10ms (ActiveRecord: 0.8ms | Allocations: 3172)
+
+
+Started GET "/homes" for ::1 at 2021-12-14 06:13:21 +0700
+Processing by HomesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering homes/index.html.erb within layouts/application
+  [1m[36mHome Load (0.2ms)[0m  [1m[34mSELECT DISTINCT "homes".* FROM "homes"[0m
+  ↳ app/views/homes/index.html.erb:15
+  Rendered homes/index.html.erb within layouts/application (Duration: 2.4ms | Allocations: 1887)
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/static_pages/_nav.html.erb:12
+  Rendered static_pages/_nav.html.erb (Duration: 2.2ms | Allocations: 1031)
+  Rendered layout layouts/application.html.erb (Duration: 22.5ms | Allocations: 9387)
+Completed 200 OK in 24ms (Views: 22.8ms | ActiveRecord: 0.3ms | Allocations: 9873)
+
+
+Started GET "/homes/1/edit" for ::1 at 2021-12-14 06:13:22 +0700
+Processing by HomesController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mHome Load (0.3ms)[0m  [1m[34mSELECT "homes".* FROM "homes" WHERE "homes"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/homes_controller.rb:70:in `set_home'
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mHome Load (0.3ms)[0m  [1m[34mSELECT "homes".* FROM "homes" WHERE "homes"."user_id" = ? AND "homes"."id" = ? LIMIT ?[0m  [["user_id", 2], ["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/homes_controller.rb:12:in `correct_user'
+Redirected to http://localhost:3000/homes
+Filter chain halted as :correct_user rendered or redirected
+Completed 302 Found in 10ms (ActiveRecord: 1.1ms | Allocations: 3192)
+
+
+Started GET "/homes" for ::1 at 2021-12-14 06:13:22 +0700
+Processing by HomesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering homes/index.html.erb within layouts/application
+  [1m[36mHome Load (0.3ms)[0m  [1m[34mSELECT DISTINCT "homes".* FROM "homes"[0m
+  ↳ app/views/homes/index.html.erb:15
+  Rendered homes/index.html.erb within layouts/application (Duration: 4.8ms | Allocations: 1882)
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/static_pages/_nav.html.erb:12
+  Rendered static_pages/_nav.html.erb (Duration: 2.0ms | Allocations: 1031)
+  Rendered layout layouts/application.html.erb (Duration: 22.3ms | Allocations: 9460)
+Completed 200 OK in 23ms (Views: 22.4ms | ActiveRecord: 0.4ms | Allocations: 9943)
+
+
+Started GET "/homes/2/edit" for ::1 at 2021-12-14 06:13:23 +0700
+Processing by HomesController#edit as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mHome Load (0.3ms)[0m  [1m[34mSELECT "homes".* FROM "homes" WHERE "homes"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/homes_controller.rb:70:in `set_home'
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mHome Load (0.2ms)[0m  [1m[34mSELECT "homes".* FROM "homes" WHERE "homes"."user_id" = ? AND "homes"."id" = ? LIMIT ?[0m  [["user_id", 2], ["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/homes_controller.rb:12:in `correct_user'
+Redirected to http://localhost:3000/homes
+Filter chain halted as :correct_user rendered or redirected
+Completed 302 Found in 9ms (ActiveRecord: 0.7ms | Allocations: 3175)
+
+
+Started GET "/homes" for ::1 at 2021-12-14 06:13:23 +0700
+Processing by HomesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering homes/index.html.erb within layouts/application
+  [1m[36mHome Load (0.3ms)[0m  [1m[34mSELECT DISTINCT "homes".* FROM "homes"[0m
+  ↳ app/views/homes/index.html.erb:15
+  Rendered homes/index.html.erb within layouts/application (Duration: 4.3ms | Allocations: 1882)
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/static_pages/_nav.html.erb:12
+  Rendered static_pages/_nav.html.erb (Duration: 4.0ms | Allocations: 1031)
+  Rendered layout layouts/application.html.erb (Duration: 21.6ms | Allocations: 9382)
+Completed 200 OK in 23ms (Views: 22.1ms | ActiveRecord: 0.7ms | Allocations: 9865)
+
+
+Started GET "/homes/3/edit" for ::1 at 2021-12-14 06:13:25 +0700
+Processing by HomesController#edit as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mHome Load (0.2ms)[0m  [1m[34mSELECT "homes".* FROM "homes" WHERE "homes"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/homes_controller.rb:70:in `set_home'
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mHome Load (0.3ms)[0m  [1m[34mSELECT "homes".* FROM "homes" WHERE "homes"."user_id" = ? AND "homes"."id" = ? LIMIT ?[0m  [["user_id", 2], ["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/homes_controller.rb:12:in `correct_user'
+Redirected to http://localhost:3000/homes
+Filter chain halted as :correct_user rendered or redirected
+Completed 302 Found in 8ms (ActiveRecord: 0.7ms | Allocations: 2692)
+
+
+Started GET "/homes" for ::1 at 2021-12-14 06:13:25 +0700
+Processing by HomesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering homes/index.html.erb within layouts/application
+  [1m[36mHome Load (0.2ms)[0m  [1m[34mSELECT DISTINCT "homes".* FROM "homes"[0m
+  ↳ app/views/homes/index.html.erb:15
+  Rendered homes/index.html.erb within layouts/application (Duration: 4.4ms | Allocations: 1882)
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/static_pages/_nav.html.erb:12
+  Rendered static_pages/_nav.html.erb (Duration: 1.9ms | Allocations: 1031)
+  Rendered layout layouts/application.html.erb (Duration: 23.6ms | Allocations: 9502)
+Completed 200 OK in 25ms (Views: 23.9ms | ActiveRecord: 0.3ms | Allocations: 9985)
+
+
+Started GET "/homes/5/edit" for ::1 at 2021-12-14 06:13:27 +0700
+Processing by HomesController#edit as HTML
+  Parameters: {"id"=>"5"}
+  [1m[36mHome Load (0.2ms)[0m  [1m[34mSELECT "homes".* FROM "homes" WHERE "homes"."id" = ? LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  ↳ app/controllers/homes_controller.rb:70:in `set_home'
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mHome Load (0.2ms)[0m  [1m[34mSELECT "homes".* FROM "homes" WHERE "homes"."user_id" = ? AND "homes"."id" = ? LIMIT ?[0m  [["user_id", 2], ["id", 5], ["LIMIT", 1]]
+  ↳ app/controllers/homes_controller.rb:12:in `correct_user'
+Redirected to http://localhost:3000/homes
+Filter chain halted as :correct_user rendered or redirected
+Completed 302 Found in 9ms (ActiveRecord: 0.7ms | Allocations: 3158)
+
+
+Started GET "/homes" for ::1 at 2021-12-14 06:13:27 +0700
+Processing by HomesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering homes/index.html.erb within layouts/application
+  [1m[36mHome Load (0.3ms)[0m  [1m[34mSELECT DISTINCT "homes".* FROM "homes"[0m
+  ↳ app/views/homes/index.html.erb:15
+  Rendered homes/index.html.erb within layouts/application (Duration: 4.8ms | Allocations: 1882)
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/static_pages/_nav.html.erb:12
+  Rendered static_pages/_nav.html.erb (Duration: 3.6ms | Allocations: 1031)
+  Rendered layout layouts/application.html.erb (Duration: 21.3ms | Allocations: 9384)
+Completed 200 OK in 22ms (Views: 21.4ms | ActiveRecord: 0.4ms | Allocations: 9867)
+
+
+Started DELETE "/homes/1" for ::1 at 2021-12-14 06:13:30 +0700
+Processing by HomesController#destroy as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "id"=>"1"}
+  [1m[36mHome Load (0.3ms)[0m  [1m[34mSELECT "homes".* FROM "homes" WHERE "homes"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/homes_controller.rb:70:in `set_home'
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mHome Load (0.1ms)[0m  [1m[34mSELECT "homes".* FROM "homes" WHERE "homes"."user_id" = ? AND "homes"."id" = ? LIMIT ?[0m  [["user_id", 2], ["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/homes_controller.rb:12:in `correct_user'
+Redirected to http://localhost:3000/homes
+Filter chain halted as :correct_user rendered or redirected
+Completed 302 Found in 7ms (ActiveRecord: 0.7ms | Allocations: 2725)
+
+
+Started GET "/homes" for ::1 at 2021-12-14 06:13:30 +0700
+Processing by HomesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering homes/index.html.erb within layouts/application
+  [1m[36mHome Load (0.3ms)[0m  [1m[34mSELECT DISTINCT "homes".* FROM "homes"[0m
+  ↳ app/views/homes/index.html.erb:15
+  Rendered homes/index.html.erb within layouts/application (Duration: 3.3ms | Allocations: 1882)
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/static_pages/_nav.html.erb:12
+  Rendered static_pages/_nav.html.erb (Duration: 2.3ms | Allocations: 1031)
+  Rendered layout layouts/application.html.erb (Duration: 23.8ms | Allocations: 9382)
+Completed 200 OK in 26ms (Views: 24.9ms | ActiveRecord: 0.5ms | Allocations: 9855)
+
+
+Started DELETE "/homes/1" for ::1 at 2021-12-14 06:13:38 +0700
+Processing by HomesController#destroy as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "id"=>"1"}
+  [1m[36mHome Load (0.3ms)[0m  [1m[34mSELECT "homes".* FROM "homes" WHERE "homes"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/homes_controller.rb:70:in `set_home'
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mHome Load (0.2ms)[0m  [1m[34mSELECT "homes".* FROM "homes" WHERE "homes"."user_id" = ? AND "homes"."id" = ? LIMIT ?[0m  [["user_id", 2], ["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/homes_controller.rb:12:in `correct_user'
+Redirected to http://localhost:3000/homes
+Filter chain halted as :correct_user rendered or redirected
+Completed 302 Found in 8ms (ActiveRecord: 0.8ms | Allocations: 2717)
+
+
+Started GET "/homes" for ::1 at 2021-12-14 06:13:38 +0700
+Processing by HomesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering homes/index.html.erb within layouts/application
+  [1m[36mHome Load (1.0ms)[0m  [1m[34mSELECT DISTINCT "homes".* FROM "homes"[0m
+  ↳ app/views/homes/index.html.erb:15
+  Rendered homes/index.html.erb within layouts/application (Duration: 6.3ms | Allocations: 1882)
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/static_pages/_nav.html.erb:12
+  Rendered static_pages/_nav.html.erb (Duration: 2.7ms | Allocations: 1031)
+  Rendered layout layouts/application.html.erb (Duration: 28.3ms | Allocations: 9404)
+Completed 200 OK in 29ms (Views: 27.8ms | ActiveRecord: 1.2ms | Allocations: 9877)
+
+
+Started GET "/homes" for ::1 at 2021-12-14 06:13:40 +0700
+Processing by HomesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering homes/index.html.erb within layouts/application
+  [1m[36mHome Load (0.2ms)[0m  [1m[34mSELECT DISTINCT "homes".* FROM "homes"[0m
+  ↳ app/views/homes/index.html.erb:15
+  Rendered homes/index.html.erb within layouts/application (Duration: 2.5ms | Allocations: 1880)
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/static_pages/_nav.html.erb:12
+  Rendered static_pages/_nav.html.erb (Duration: 2.0ms | Allocations: 1031)
+  Rendered layout layouts/application.html.erb (Duration: 19.9ms | Allocations: 9388)
+Completed 200 OK in 21ms (Views: 20.1ms | ActiveRecord: 0.3ms | Allocations: 9853)
+
+
+Started DELETE "/homes/1" for ::1 at 2021-12-14 06:13:44 +0700
+Processing by HomesController#destroy as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "id"=>"1"}
+  [1m[36mHome Load (0.2ms)[0m  [1m[34mSELECT "homes".* FROM "homes" WHERE "homes"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/homes_controller.rb:70:in `set_home'
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mHome Load (0.2ms)[0m  [1m[34mSELECT "homes".* FROM "homes" WHERE "homes"."user_id" = ? AND "homes"."id" = ? LIMIT ?[0m  [["user_id", 2], ["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/homes_controller.rb:12:in `correct_user'
+Redirected to http://localhost:3000/homes
+Filter chain halted as :correct_user rendered or redirected
+Completed 302 Found in 7ms (ActiveRecord: 0.6ms | Allocations: 2717)
+
+
+Started GET "/homes" for ::1 at 2021-12-14 06:13:44 +0700
+Processing by HomesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering homes/index.html.erb within layouts/application
+  [1m[36mHome Load (0.2ms)[0m  [1m[34mSELECT DISTINCT "homes".* FROM "homes"[0m
+  ↳ app/views/homes/index.html.erb:15
+  Rendered homes/index.html.erb within layouts/application (Duration: 3.2ms | Allocations: 1882)
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/static_pages/_nav.html.erb:12
+  Rendered static_pages/_nav.html.erb (Duration: 4.6ms | Allocations: 1031)
+  Rendered layout layouts/application.html.erb (Duration: 27.7ms | Allocations: 9382)
+Completed 200 OK in 30ms (Views: 27.9ms | ActiveRecord: 0.6ms | Allocations: 9855)
+
+
+Started GET "/homes" for ::1 at 2021-12-14 06:14:51 +0700
+Processing by HomesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering homes/index.html.erb within layouts/application
+  [1m[36mHome Load (0.2ms)[0m  [1m[34mSELECT DISTINCT "homes".* FROM "homes"[0m
+  ↳ app/views/homes/index.html.erb:15
+  Rendered homes/index.html.erb within layouts/application (Duration: 4.1ms | Allocations: 2294)
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/static_pages/_nav.html.erb:12
+  Rendered static_pages/_nav.html.erb (Duration: 3.0ms | Allocations: 1338)
+  Rendered layout layouts/application.html.erb (Duration: 30.6ms | Allocations: 10493)
+Completed 200 OK in 34ms (Views: 32.2ms | ActiveRecord: 0.3ms | Allocations: 11765)
+
+
+Started GET "/homes" for ::1 at 2021-12-14 06:16:17 +0700
+Processing by HomesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering homes/index.html.erb within layouts/application
+  [1m[36mHome Load (0.3ms)[0m  [1m[34mSELECT DISTINCT "homes".* FROM "homes"[0m
+  ↳ app/views/homes/index.html.erb:15
+  Rendered homes/index.html.erb within layouts/application (Duration: 4.6ms | Allocations: 1891)
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/static_pages/_nav.html.erb:12
+  Rendered static_pages/_nav.html.erb (Duration: 3.0ms | Allocations: 1031)
+  Rendered layout layouts/application.html.erb (Duration: 151.9ms | Allocations: 54528)
+Completed 200 OK in 154ms (Views: 152.3ms | ActiveRecord: 0.5ms | Allocations: 54994)
+
+
+Started GET "/homes" for ::1 at 2021-12-14 06:16:47 +0700
+Processing by HomesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering homes/index.html.erb within layouts/application
+  [1m[36mHome Load (0.3ms)[0m  [1m[34mSELECT DISTINCT "homes".* FROM "homes"[0m
+  ↳ app/views/homes/index.html.erb:15
+  Rendered homes/index.html.erb within layouts/application (Duration: 3.6ms | Allocations: 1880)
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/static_pages/_nav.html.erb:12
+  Rendered static_pages/_nav.html.erb (Duration: 3.8ms | Allocations: 1031)
+  Rendered layout layouts/application.html.erb (Duration: 160.3ms | Allocations: 57956)
+Completed 200 OK in 161ms (Views: 160.1ms | ActiveRecord: 0.7ms | Allocations: 58421)
+
+
+Started GET "/homes" for ::1 at 2021-12-14 06:16:51 +0700
+Processing by HomesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering homes/index.html.erb within layouts/application
+  [1m[36mHome Load (0.3ms)[0m  [1m[34mSELECT DISTINCT "homes".* FROM "homes"[0m
+  ↳ app/views/homes/index.html.erb:15
+  Rendered homes/index.html.erb within layouts/application (Duration: 3.9ms | Allocations: 1880)
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/static_pages/_nav.html.erb:12
+  Rendered static_pages/_nav.html.erb (Duration: 2.2ms | Allocations: 1031)
+  Rendered layout layouts/application.html.erb (Duration: 25.4ms | Allocations: 9932)
+Completed 200 OK in 27ms (Views: 25.7ms | ActiveRecord: 0.5ms | Allocations: 10397)
+
+
+Started GET "/homes" for ::1 at 2021-12-14 06:16:59 +0700
+Processing by HomesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering homes/index.html.erb within layouts/application
+  [1m[36mHome Load (0.2ms)[0m  [1m[34mSELECT DISTINCT "homes".* FROM "homes"[0m
+  ↳ app/views/homes/index.html.erb:15
+  Rendered homes/index.html.erb within layouts/application (Duration: 4.1ms | Allocations: 2295)
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/static_pages/_nav.html.erb:12
+  Rendered static_pages/_nav.html.erb (Duration: 2.6ms | Allocations: 1335)
+  Rendered layout layouts/application.html.erb (Duration: 22.9ms | Allocations: 10486)
+Completed 200 OK in 27ms (Views: 24.7ms | ActiveRecord: 0.4ms | Allocations: 11763)
+
+
+Started GET "/homes" for ::1 at 2021-12-14 06:17:16 +0700
+Processing by HomesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering homes/index.html.erb within layouts/application
+  [1m[36mHome Load (0.3ms)[0m  [1m[34mSELECT DISTINCT "homes".* FROM "homes"[0m
+  ↳ app/views/homes/index.html.erb:15
+  Rendered homes/index.html.erb within layouts/application (Duration: 5.3ms | Allocations: 1889)
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/static_pages/_nav.html.erb:12
+  Rendered static_pages/_nav.html.erb (Duration: 2.7ms | Allocations: 1031)
+  Rendered layout layouts/application.html.erb (Duration: 190.2ms | Allocations: 57089)
+Completed 200 OK in 192ms (Views: 190.5ms | ActiveRecord: 0.5ms | Allocations: 57555)
+
+
+Started GET "/homes" for ::1 at 2021-12-14 06:17:50 +0700
+Processing by HomesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering homes/index.html.erb within layouts/application
+  [1m[36mHome Load (0.4ms)[0m  [1m[34mSELECT DISTINCT "homes".* FROM "homes"[0m
+  ↳ app/views/homes/index.html.erb:15
+  Rendered homes/index.html.erb within layouts/application (Duration: 4.3ms | Allocations: 1880)
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/static_pages/_nav.html.erb:12
+  Rendered static_pages/_nav.html.erb (Duration: 2.9ms | Allocations: 1031)
+  Rendered layout layouts/application.html.erb (Duration: 170.4ms | Allocations: 55706)
+Completed 200 OK in 173ms (Views: 170.5ms | ActiveRecord: 0.6ms | Allocations: 56171)
+
+
+Started GET "/homes" for ::1 at 2021-12-14 06:18:02 +0700
+Processing by HomesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering homes/index.html.erb within layouts/application
+  [1m[36mHome Load (0.3ms)[0m  [1m[34mSELECT DISTINCT "homes".* FROM "homes"[0m
+  ↳ app/views/homes/index.html.erb:15
+  Rendered homes/index.html.erb within layouts/application (Duration: 3.8ms | Allocations: 1885)
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/static_pages/_nav.html.erb:12
+  Rendered static_pages/_nav.html.erb (Duration: 3.0ms | Allocations: 1031)
+  Rendered layout layouts/application.html.erb (Duration: 168.2ms | Allocations: 53821)
+Completed 200 OK in 170ms (Views: 168.2ms | ActiveRecord: 0.6ms | Allocations: 54286)
+
+
+Started GET "/homes" for ::1 at 2021-12-14 06:18:16 +0700
+Processing by HomesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering homes/index.html.erb within layouts/application
+  [1m[36mHome Load (0.2ms)[0m  [1m[34mSELECT DISTINCT "homes".* FROM "homes"[0m
+  ↳ app/views/homes/index.html.erb:15
+  Rendered homes/index.html.erb within layouts/application (Duration: 3.1ms | Allocations: 1880)
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/static_pages/_nav.html.erb:12
+  Rendered static_pages/_nav.html.erb (Duration: 2.9ms | Allocations: 1031)
+  Rendered layout layouts/application.html.erb (Duration: 143.3ms | Allocations: 55206)
+Completed 200 OK in 144ms (Views: 143.5ms | ActiveRecord: 0.4ms | Allocations: 55671)
+
+
+Started GET "/homes" for ::1 at 2021-12-14 06:19:24 +0700
+Processing by HomesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering homes/index.html.erb within layouts/application
+  [1m[36mHome Load (0.4ms)[0m  [1m[34mSELECT DISTINCT "homes".* FROM "homes"[0m
+  ↳ app/views/homes/index.html.erb:15
+  Rendered homes/index.html.erb within layouts/application (Duration: 4.6ms | Allocations: 2299)
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/static_pages/_nav.html.erb:12
+  Rendered static_pages/_nav.html.erb (Duration: 2.6ms | Allocations: 1334)
+  Rendered layout layouts/application.html.erb (Duration: 24.3ms | Allocations: 10490)
+Completed 200 OK in 28ms (Views: 25.5ms | ActiveRecord: 0.6ms | Allocations: 11767)
+
+
+Started GET "/homes" for ::1 at 2021-12-14 06:20:04 +0700
+Processing by HomesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering homes/index.html.erb within layouts/application
+  [1m[36mHome Load (0.6ms)[0m  [1m[34mSELECT DISTINCT "homes".* FROM "homes"[0m
+  ↳ app/views/homes/index.html.erb:15
+  Rendered homes/index.html.erb within layouts/application (Duration: 4.4ms | Allocations: 2294)
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/static_pages/_nav.html.erb:12
+  Rendered static_pages/_nav.html.erb (Duration: 2.6ms | Allocations: 1334)
+  Rendered layout layouts/application.html.erb (Duration: 26.9ms | Allocations: 10653)
+Completed 200 OK in 30ms (Views: 28.1ms | ActiveRecord: 0.7ms | Allocations: 11924)
+
+
+Started GET "/homes" for ::1 at 2021-12-14 06:21:07 +0700
+Processing by HomesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering homes/index.html.erb within layouts/application
+  [1m[36mHome Load (0.2ms)[0m  [1m[34mSELECT DISTINCT "homes".* FROM "homes"[0m
+  ↳ app/views/homes/index.html.erb:15
+  Rendered homes/index.html.erb within layouts/application (Duration: 3.6ms | Allocations: 2294)
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/static_pages/_nav.html.erb:12
+  Rendered static_pages/_nav.html.erb (Duration: 3.6ms | Allocations: 1334)
+  Rendered layout layouts/application.html.erb (Duration: 132.1ms | Allocations: 56267)
+Completed 200 OK in 136ms (Views: 133.9ms | ActiveRecord: 0.3ms | Allocations: 57538)
+
+
+Started GET "/static_pages/home" for ::1 at 2021-12-14 06:21:22 +0700
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/static_pages/home.html.erb:3
+  [1m[36mActiveStorage::Attachment Load (0.2ms)[0m  [1m[34mSELECT "active_storage_attachments".* FROM "active_storage_attachments" WHERE "active_storage_attachments"."record_id" = ? AND "active_storage_attachments"."record_type" = ? AND "active_storage_attachments"."name" = ? LIMIT ?[0m  [["record_id", 2], ["record_type", "User"], ["name", "avatar"], ["LIMIT", 1]]
+  ↳ app/views/static_pages/home.html.erb:4
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 7.8ms | Allocations: 2493)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered static_pages/_nav.html.erb (Duration: 0.3ms | Allocations: 169)
+  Rendered layout layouts/application.html.erb (Duration: 34.0ms | Allocations: 9305)
+Completed 200 OK in 37ms (Views: 35.3ms | ActiveRecord: 0.5ms | Allocations: 10281)
+
+
+Started GET "/homes" for ::1 at 2021-12-14 06:21:23 +0700
+Processing by HomesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering homes/index.html.erb within layouts/application
+  [1m[36mHome Load (0.4ms)[0m  [1m[34mSELECT DISTINCT "homes".* FROM "homes"[0m
+  ↳ app/views/homes/index.html.erb:15
+  Rendered homes/index.html.erb within layouts/application (Duration: 3.9ms | Allocations: 1896)
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/static_pages/_nav.html.erb:12
+  Rendered static_pages/_nav.html.erb (Duration: 13.0ms | Allocations: 1057)
+  Rendered layout layouts/application.html.erb (Duration: 58.0ms | Allocations: 10042)
+Completed 200 OK in 59ms (Views: 58.1ms | ActiveRecord: 0.6ms | Allocations: 10512)
+
+
+Started GET "/homes" for ::1 at 2021-12-14 06:21:45 +0700
+Processing by HomesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering homes/index.html.erb within layouts/application
+  [1m[36mHome Load (0.3ms)[0m  [1m[34mSELECT DISTINCT "homes".* FROM "homes"[0m
+  ↳ app/views/homes/index.html.erb:15
+  Rendered homes/index.html.erb within layouts/application (Duration: 4.0ms | Allocations: 1880)
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/static_pages/_nav.html.erb:12
+  Rendered static_pages/_nav.html.erb (Duration: 2.8ms | Allocations: 1031)
+  Rendered layout layouts/application.html.erb (Duration: 127.9ms | Allocations: 54948)
+Completed 200 OK in 130ms (Views: 128.2ms | ActiveRecord: 0.4ms | Allocations: 55413)
+
+
+Started GET "/homes" for ::1 at 2021-12-14 06:21:53 +0700
+Processing by HomesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering homes/index.html.erb within layouts/application
+  [1m[36mHome Load (0.3ms)[0m  [1m[34mSELECT DISTINCT "homes".* FROM "homes"[0m
+  ↳ app/views/homes/index.html.erb:15
+  Rendered homes/index.html.erb within layouts/application (Duration: 3.3ms | Allocations: 1880)
+  Rendered layout layouts/application.html.erb (Duration: 26.4ms | Allocations: 10042)
+Completed 500 Internal Server Error in 28ms (ActiveRecord: 0.3ms | Allocations: 10479)
+
+
+  
+ActionView::Template::Error (No such file or directory @ apply2files - /mnt/c/Users/truong/it-nihongo-project/tmp/cache/assets/sprockets/v4.0.0/xG/xGNvNBY2DxWLdDTwfIchgfeZCL4AyGyN9A-X9PdTWuo.cache.20760.3596.212881):
+     7:     <meta name="viewport" content="width=device-width, initial-scale=1">
+     8:     <%= csrf_meta_tags %>
+     9:     <%= csp_meta_tag %>
+    10:     <%= stylesheet_link_tag "styles" %>
+    11:     <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    12:     <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
+    13: 
+  
+app/views/layouts/application.html.erb:10
+Started GET "/homes" for ::1 at 2021-12-14 06:21:57 +0700
+Processing by HomesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering homes/index.html.erb within layouts/application
+  [1m[36mHome Load (0.2ms)[0m  [1m[34mSELECT DISTINCT "homes".* FROM "homes"[0m
+  ↳ app/views/homes/index.html.erb:15
+  Rendered homes/index.html.erb within layouts/application (Duration: 3.6ms | Allocations: 1884)
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/static_pages/_nav.html.erb:12
+  Rendered static_pages/_nav.html.erb (Duration: 2.8ms | Allocations: 1031)
+  Rendered layout layouts/application.html.erb (Duration: 141.5ms | Allocations: 55395)
+Completed 200 OK in 143ms (Views: 141.6ms | ActiveRecord: 0.4ms | Allocations: 55860)
+
+
+Started GET "/homes" for ::1 at 2021-12-14 06:22:08 +0700
+Processing by HomesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering homes/index.html.erb within layouts/application
+  [1m[36mHome Load (0.2ms)[0m  [1m[34mSELECT DISTINCT "homes".* FROM "homes"[0m
+  ↳ app/views/homes/index.html.erb:15
+  Rendered homes/index.html.erb within layouts/application (Duration: 3.0ms | Allocations: 1880)
+  Rendered layout layouts/application.html.erb (Duration: 95.6ms | Allocations: 38730)
+Completed 500 Internal Server Error in 97ms (ActiveRecord: 0.2ms | Allocations: 39167)
+
+
+  
+ActionView::Template::Error (No such file or directory @ apply2files - /mnt/c/Users/truong/it-nihongo-project/tmp/cache/assets/sprockets/v4.0.0/un/un-cOdEMAJDUZZvPsZ26GU9nzXElbLxOpUZ4ub6NPSE.cache.20920.3596.962233):
+     8:     <%= csrf_meta_tags %>
+     9:     <%= csp_meta_tag %>
+    10:     <%= stylesheet_link_tag "styles" %>
+    11:     <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    12:     <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
+    13: 
+    14:     <%# <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"> %>
+  
+app/views/layouts/application.html.erb:11
+Started GET "/homes" for ::1 at 2021-12-14 06:22:09 +0700
+Processing by HomesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering homes/index.html.erb within layouts/application
+  [1m[36mHome Load (0.3ms)[0m  [1m[34mSELECT DISTINCT "homes".* FROM "homes"[0m
+  ↳ app/views/homes/index.html.erb:15
+  Rendered homes/index.html.erb within layouts/application (Duration: 3.7ms | Allocations: 1884)
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/static_pages/_nav.html.erb:12
+  Rendered static_pages/_nav.html.erb (Duration: 4.5ms | Allocations: 1031)
+  Rendered layout layouts/application.html.erb (Duration: 96.8ms | Allocations: 33649)
+Completed 200 OK in 99ms (Views: 97.0ms | ActiveRecord: 0.6ms | Allocations: 34114)
+
+
+Started GET "/homes" for ::1 at 2021-12-14 06:22:09 +0700
+Processing by HomesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering homes/index.html.erb within layouts/application
+  [1m[36mHome Load (0.3ms)[0m  [1m[34mSELECT DISTINCT "homes".* FROM "homes"[0m
+  ↳ app/views/homes/index.html.erb:15
+  Rendered homes/index.html.erb within layouts/application (Duration: 5.5ms | Allocations: 1880)
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/static_pages/_nav.html.erb:12
+  Rendered static_pages/_nav.html.erb (Duration: 3.2ms | Allocations: 1031)
+  Rendered layout layouts/application.html.erb (Duration: 31.2ms | Allocations: 9587)
+Completed 200 OK in 33ms (Views: 31.2ms | ActiveRecord: 0.6ms | Allocations: 10052)
+
+
+Started GET "/homes" for ::1 at 2021-12-14 06:22:10 +0700
+Processing by HomesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering homes/index.html.erb within layouts/application
+  [1m[36mHome Load (0.3ms)[0m  [1m[34mSELECT DISTINCT "homes".* FROM "homes"[0m
+  ↳ app/views/homes/index.html.erb:15
+  Rendered homes/index.html.erb within layouts/application (Duration: 2.8ms | Allocations: 1880)
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/static_pages/_nav.html.erb:12
+  Rendered static_pages/_nav.html.erb (Duration: 2.5ms | Allocations: 1031)
+  Rendered layout layouts/application.html.erb (Duration: 35.6ms | Allocations: 10119)
+Completed 200 OK in 37ms (Views: 35.7ms | ActiveRecord: 0.5ms | Allocations: 10584)
+
+
+Started GET "/homes" for ::1 at 2021-12-14 06:22:16 +0700
+Processing by HomesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering homes/index.html.erb within layouts/application
+  [1m[36mHome Load (0.3ms)[0m  [1m[34mSELECT DISTINCT "homes".* FROM "homes"[0m
+  ↳ app/views/homes/index.html.erb:15
+  Rendered homes/index.html.erb within layouts/application (Duration: 5.9ms | Allocations: 1880)
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/static_pages/_nav.html.erb:12
+  Rendered static_pages/_nav.html.erb (Duration: 2.5ms | Allocations: 1031)
+  Rendered layout layouts/application.html.erb (Duration: 155.2ms | Allocations: 53515)
+Completed 200 OK in 156ms (Views: 155.2ms | ActiveRecord: 0.5ms | Allocations: 53980)
+
+
+Started GET "/static_pages/home" for ::1 at 2021-12-14 06:22:30 +0700
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/static_pages/home.html.erb:3
+  [1m[36mActiveStorage::Attachment Load (0.2ms)[0m  [1m[34mSELECT "active_storage_attachments".* FROM "active_storage_attachments" WHERE "active_storage_attachments"."record_id" = ? AND "active_storage_attachments"."record_type" = ? AND "active_storage_attachments"."name" = ? LIMIT ?[0m  [["record_id", 2], ["record_type", "User"], ["name", "avatar"], ["LIMIT", 1]]
+  ↳ app/views/static_pages/home.html.erb:4
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 4.5ms | Allocations: 1855)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered static_pages/_nav.html.erb (Duration: 0.4ms | Allocations: 160)
+  Rendered layout layouts/application.html.erb (Duration: 29.9ms | Allocations: 9095)
+Completed 200 OK in 31ms (Views: 30.1ms | ActiveRecord: 0.4ms | Allocations: 9484)
+
+
+Started GET "/static_pages/home" for ::1 at 2021-12-14 06:23:36 +0700
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/static_pages/home.html.erb:2
+  [1m[36mActiveStorage::Attachment Load (0.2ms)[0m  [1m[34mSELECT "active_storage_attachments".* FROM "active_storage_attachments" WHERE "active_storage_attachments"."record_id" = ? AND "active_storage_attachments"."record_type" = ? AND "active_storage_attachments"."name" = ? LIMIT ?[0m  [["record_id", 2], ["record_type", "User"], ["name", "avatar"], ["LIMIT", 1]]
+  ↳ app/views/static_pages/home.html.erb:3
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 5.5ms | Allocations: 1976)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered static_pages/_nav.html.erb (Duration: 1.6ms | Allocations: 463)
+  Rendered layout layouts/application.html.erb (Duration: 37.3ms | Allocations: 9811)
+Completed 200 OK in 41ms (Views: 39.5ms | ActiveRecord: 0.3ms | Allocations: 11004)
+
+
+Started GET "/homelikes" for ::1 at 2021-12-14 06:23:37 +0700
+Processing by HomelikesController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering layout layouts/application.html.erb
+  Rendering homelikes/index.html.erb within layouts/application
+  [1m[36mHomelike Load (0.4ms)[0m  [1m[34mSELECT "homelikes".* FROM "homelikes" WHERE "homelikes"."user_id" = ?[0m  [["user_id", 2]]
+  ↳ app/views/homelikes/index.html.erb:20
+  Rendered homelikes/index.html.erb within layouts/application (Duration: 6.1ms | Allocations: 1587)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered static_pages/_nav.html.erb (Duration: 0.4ms | Allocations: 170)
+  Rendered layout layouts/application.html.erb (Duration: 40.9ms | Allocations: 8738)
+Completed 200 OK in 45ms (Views: 42.2ms | ActiveRecord: 0.6ms | Allocations: 10831)
+
+
+Started GET "/homes" for ::1 at 2021-12-14 06:23:37 +0700
+Processing by HomesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering homes/index.html.erb within layouts/application
+  [1m[36mHome Load (0.4ms)[0m  [1m[34mSELECT DISTINCT "homes".* FROM "homes"[0m
+  ↳ app/views/homes/index.html.erb:15
+  Rendered homes/index.html.erb within layouts/application (Duration: 6.2ms | Allocations: 2782)
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/static_pages/_nav.html.erb:12
+  Rendered static_pages/_nav.html.erb (Duration: 2.2ms | Allocations: 1036)
+  Rendered layout layouts/application.html.erb (Duration: 35.9ms | Allocations: 10477)
+Completed 200 OK in 39ms (Views: 37.2ms | ActiveRecord: 0.6ms | Allocations: 11529)
+
+
+Started GET "/static_pages/home" for ::1 at 2021-12-14 06:23:38 +0700
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/static_pages/home.html.erb:2
+  [1m[36mActiveStorage::Attachment Load (0.4ms)[0m  [1m[34mSELECT "active_storage_attachments".* FROM "active_storage_attachments" WHERE "active_storage_attachments"."record_id" = ? AND "active_storage_attachments"."record_type" = ? AND "active_storage_attachments"."name" = ? LIMIT ?[0m  [["record_id", 2], ["record_type", "User"], ["name", "avatar"], ["LIMIT", 1]]
+  ↳ app/views/static_pages/home.html.erb:3
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 9.2ms | Allocations: 1857)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered static_pages/_nav.html.erb (Duration: 0.3ms | Allocations: 169)
+  Rendered layout layouts/application.html.erb (Duration: 37.6ms | Allocations: 9112)
+Completed 200 OK in 39ms (Views: 37.5ms | ActiveRecord: 0.8ms | Allocations: 9500)
+
+
+Started GET "/static_pages/home" for ::1 at 2021-12-14 06:24:21 +0700
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/static_pages/home.html.erb:2
+  [1m[36mActiveStorage::Attachment Load (0.2ms)[0m  [1m[34mSELECT "active_storage_attachments".* FROM "active_storage_attachments" WHERE "active_storage_attachments"."record_id" = ? AND "active_storage_attachments"."record_type" = ? AND "active_storage_attachments"."name" = ? LIMIT ?[0m  [["record_id", 2], ["record_type", "User"], ["name", "avatar"], ["LIMIT", 1]]
+  ↳ app/views/static_pages/home.html.erb:3
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 4.4ms | Allocations: 1972)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered static_pages/_nav.html.erb (Duration: 0.9ms | Allocations: 464)
+  Rendered layout layouts/application.html.erb (Duration: 163.1ms | Allocations: 83635)
+Completed 200 OK in 166ms (Views: 164.9ms | ActiveRecord: 0.4ms | Allocations: 84822)
+
+
+Started GET "/542ac03681516bcca0dd605bedd41a2b.jpg" for ::1 at 2021-12-14 06:24:22 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/542ac03681516bcca0dd605bedd41a2b.jpg"):
+  
+Started GET "/static_pages/home" for ::1 at 2021-12-14 06:24:23 +0700
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/static_pages/home.html.erb:2
+  [1m[36mActiveStorage::Attachment Load (0.1ms)[0m  [1m[34mSELECT "active_storage_attachments".* FROM "active_storage_attachments" WHERE "active_storage_attachments"."record_id" = ? AND "active_storage_attachments"."record_type" = ? AND "active_storage_attachments"."name" = ? LIMIT ?[0m  [["record_id", 2], ["record_type", "User"], ["name", "avatar"], ["LIMIT", 1]]
+  ↳ app/views/static_pages/home.html.erb:3
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 3.7ms | Allocations: 1855)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered static_pages/_nav.html.erb (Duration: 0.8ms | Allocations: 160)
+  Rendered layout layouts/application.html.erb (Duration: 23.1ms | Allocations: 8822)
+Completed 200 OK in 24ms (Views: 23.3ms | ActiveRecord: 0.3ms | Allocations: 9207)
+
+
+Started GET "/static_pages/home" for ::1 at 2021-12-14 06:24:30 +0700
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/static_pages/home.html.erb:2
+  [1m[36mActiveStorage::Attachment Load (0.2ms)[0m  [1m[34mSELECT "active_storage_attachments".* FROM "active_storage_attachments" WHERE "active_storage_attachments"."record_id" = ? AND "active_storage_attachments"."record_type" = ? AND "active_storage_attachments"."name" = ? LIMIT ?[0m  [["record_id", 2], ["record_type", "User"], ["name", "avatar"], ["LIMIT", 1]]
+  ↳ app/views/static_pages/home.html.erb:3
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 5.0ms | Allocations: 1855)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered static_pages/_nav.html.erb (Duration: 1.4ms | Allocations: 160)
+  Rendered layout layouts/application.html.erb (Duration: 114.1ms | Allocations: 43950)
+Completed 200 OK in 116ms (Views: 114.7ms | ActiveRecord: 0.4ms | Allocations: 44334)
+
+
+Started GET "/542ac03681516bcca0dd605bedd41a2b.jpg" for ::1 at 2021-12-14 06:24:30 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/542ac03681516bcca0dd605bedd41a2b.jpg"):
+  
+Started GET "/static_pages/home" for ::1 at 2021-12-14 06:24:39 +0700
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/static_pages/home.html.erb:2
+  [1m[36mActiveStorage::Attachment Load (0.2ms)[0m  [1m[34mSELECT "active_storage_attachments".* FROM "active_storage_attachments" WHERE "active_storage_attachments"."record_id" = ? AND "active_storage_attachments"."record_type" = ? AND "active_storage_attachments"."name" = ? LIMIT ?[0m  [["record_id", 2], ["record_type", "User"], ["name", "avatar"], ["LIMIT", 1]]
+  ↳ app/views/static_pages/home.html.erb:3
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 4.3ms | Allocations: 1854)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered static_pages/_nav.html.erb (Duration: 0.7ms | Allocations: 160)
+  Rendered layout layouts/application.html.erb (Duration: 106.2ms | Allocations: 43738)
+Completed 200 OK in 107ms (Views: 106.4ms | ActiveRecord: 0.4ms | Allocations: 44122)
+
+
+Started GET "/542ac03681516bcca0dd605bedd41a2b.jpg" for ::1 at 2021-12-14 06:24:39 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/542ac03681516bcca0dd605bedd41a2b.jpg"):
+  
+Started GET "/static_pages/home" for ::1 at 2021-12-14 06:24:59 +0700
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/static_pages/home.html.erb:2
+  [1m[36mActiveStorage::Attachment Load (0.2ms)[0m  [1m[34mSELECT "active_storage_attachments".* FROM "active_storage_attachments" WHERE "active_storage_attachments"."record_id" = ? AND "active_storage_attachments"."record_type" = ? AND "active_storage_attachments"."name" = ? LIMIT ?[0m  [["record_id", 2], ["record_type", "User"], ["name", "avatar"], ["LIMIT", 1]]
+  ↳ app/views/static_pages/home.html.erb:3
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 4.4ms | Allocations: 1854)
+  Rendered layout layouts/application.html.erb (Duration: 77.6ms | Allocations: 29227)
+Completed 500 Internal Server Error in 79ms (ActiveRecord: 0.4ms | Allocations: 29583)
+
+
+  
+ActionView::Template::Error (No such file or directory @ apply2files - /mnt/c/Users/truong/it-nihongo-project/tmp/cache/assets/sprockets/v4.0.0/bP/bP6q2fRErt3j5vRGct2zRLIKTa4NRmL8TwRJUjLs60c.cache.15720.3596.514353):
+     8:     <%= csrf_meta_tags %>
+     9:     <%= csp_meta_tag %>
+    10:     <%= stylesheet_link_tag "styles" %>
+    11:     <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    12:     <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
+    13: 
+    14:     <%# <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"> %>
+  
+app/views/layouts/application.html.erb:11
+Started GET "/static_pages/home" for ::1 at 2021-12-14 06:25:31 +0700
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/static_pages/home.html.erb:2
+  [1m[36mActiveStorage::Attachment Load (0.2ms)[0m  [1m[34mSELECT "active_storage_attachments".* FROM "active_storage_attachments" WHERE "active_storage_attachments"."record_id" = ? AND "active_storage_attachments"."record_type" = ? AND "active_storage_attachments"."name" = ? LIMIT ?[0m  [["record_id", 2], ["record_type", "User"], ["name", "avatar"], ["LIMIT", 1]]
+  ↳ app/views/static_pages/home.html.erb:3
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 5.4ms | Allocations: 1854)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered static_pages/_nav.html.erb (Duration: 0.8ms | Allocations: 160)
+  Rendered layout layouts/application.html.erb (Duration: 167.7ms | Allocations: 57339)
+Completed 200 OK in 170ms (Views: 168.7ms | ActiveRecord: 0.4ms | Allocations: 57723)
+
+
+Started GET "/static_pages/home" for ::1 at 2021-12-14 06:26:27 +0700
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/static_pages/home.html.erb:2
+  [1m[36mActiveStorage::Attachment Load (0.3ms)[0m  [1m[34mSELECT "active_storage_attachments".* FROM "active_storage_attachments" WHERE "active_storage_attachments"."record_id" = ? AND "active_storage_attachments"."record_type" = ? AND "active_storage_attachments"."name" = ? LIMIT ?[0m  [["record_id", 2], ["record_type", "User"], ["name", "avatar"], ["LIMIT", 1]]
+  ↳ app/views/static_pages/home.html.erb:3
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 5.5ms | Allocations: 1972)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered static_pages/_nav.html.erb (Duration: 0.9ms | Allocations: 463)
+  Rendered layout layouts/application.html.erb (Duration: 34.3ms | Allocations: 10261)
+Completed 200 OK in 38ms (Views: 35.8ms | ActiveRecord: 0.4ms | Allocations: 11454)
+
+
+Started GET "/static_pages/home" for ::1 at 2021-12-14 06:26:34 +0700
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/static_pages/home.html.erb:2
+  [1m[36mActiveStorage::Attachment Load (0.1ms)[0m  [1m[34mSELECT "active_storage_attachments".* FROM "active_storage_attachments" WHERE "active_storage_attachments"."record_id" = ? AND "active_storage_attachments"."record_type" = ? AND "active_storage_attachments"."name" = ? LIMIT ?[0m  [["record_id", 2], ["record_type", "User"], ["name", "avatar"], ["LIMIT", 1]]
+  ↳ app/views/static_pages/home.html.erb:3
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 3.5ms | Allocations: 1856)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered static_pages/_nav.html.erb (Duration: 0.3ms | Allocations: 160)
+  Rendered layout layouts/application.html.erb (Duration: 20.0ms | Allocations: 8997)
+Completed 200 OK in 21ms (Views: 20.5ms | ActiveRecord: 0.3ms | Allocations: 9382)
+
+
+Started GET "/homes" for ::1 at 2021-12-14 06:26:35 +0700
+Processing by HomesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering homes/index.html.erb within layouts/application
+  [1m[36mHome Load (0.4ms)[0m  [1m[34mSELECT DISTINCT "homes".* FROM "homes"[0m
+  ↳ app/views/homes/index.html.erb:15
+  Rendered homes/index.html.erb within layouts/application (Duration: 7.0ms | Allocations: 2769)
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/static_pages/_nav.html.erb:12
+  Rendered static_pages/_nav.html.erb (Duration: 2.8ms | Allocations: 1036)
+  Rendered layout layouts/application.html.erb (Duration: 42.8ms | Allocations: 11186)
+Completed 200 OK in 46ms (Views: 44.1ms | ActiveRecord: 0.5ms | Allocations: 12244)
+
+
+Started GET "/homes" for ::1 at 2021-12-14 06:27:22 +0700
+Processing by HomesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering homes/index.html.erb within layouts/application
+  [1m[36mHome Load (0.2ms)[0m  [1m[34mSELECT DISTINCT "homes".* FROM "homes"[0m
+  ↳ app/views/homes/index.html.erb:15
+  Rendered homes/index.html.erb within layouts/application (Duration: 3.1ms | Allocations: 1880)
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/static_pages/_nav.html.erb:12
+  Rendered static_pages/_nav.html.erb (Duration: 2.7ms | Allocations: 1031)
+  Rendered layout layouts/application.html.erb (Duration: 146.1ms | Allocations: 62982)
+Completed 200 OK in 148ms (Views: 146.4ms | ActiveRecord: 0.4ms | Allocations: 63448)
+
+
+Started GET "/homes/new" for ::1 at 2021-12-14 06:27:49 +0700
+Processing by HomesController#new as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering layout layouts/application.html.erb
+  Rendering homes/new.html.erb within layouts/application
+  Rendered homes/_form.html.erb (Duration: 7.8ms | Allocations: 1623)
+  Rendered homes/new.html.erb within layouts/application (Duration: 11.0ms | Allocations: 2433)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered static_pages/_nav.html.erb (Duration: 0.2ms | Allocations: 156)
+  Rendered layout layouts/application.html.erb (Duration: 45.8ms | Allocations: 9683)
+Completed 200 OK in 51ms (Views: 46.8ms | ActiveRecord: 0.3ms | Allocations: 11486)
+
+
+Started GET "/homes" for ::1 at 2021-12-14 06:27:52 +0700
+Processing by HomesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering homes/index.html.erb within layouts/application
+  [1m[36mHome Load (0.2ms)[0m  [1m[34mSELECT DISTINCT "homes".* FROM "homes"[0m
+  ↳ app/views/homes/index.html.erb:15
+  Rendered homes/index.html.erb within layouts/application (Duration: 4.2ms | Allocations: 1888)
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/static_pages/_nav.html.erb:12
+  Rendered static_pages/_nav.html.erb (Duration: 2.0ms | Allocations: 1031)
+  Rendered layout layouts/application.html.erb (Duration: 37.6ms | Allocations: 10460)
+Completed 200 OK in 39ms (Views: 37.8ms | ActiveRecord: 0.4ms | Allocations: 10929)
+
+
+Started GET "/homelikes" for ::1 at 2021-12-14 06:27:52 +0700
+Processing by HomelikesController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering layout layouts/application.html.erb
+  Rendering homelikes/index.html.erb within layouts/application
+  [1m[36mHomelike Load (0.3ms)[0m  [1m[34mSELECT "homelikes".* FROM "homelikes" WHERE "homelikes"."user_id" = ?[0m  [["user_id", 2]]
+  ↳ app/views/homelikes/index.html.erb:20
+  Rendered homelikes/index.html.erb within layouts/application (Duration: 4.8ms | Allocations: 1579)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered static_pages/_nav.html.erb (Duration: 0.3ms | Allocations: 170)
+  Rendered layout layouts/application.html.erb (Duration: 29.3ms | Allocations: 8854)
+Completed 200 OK in 34ms (Views: 31.0ms | ActiveRecord: 0.5ms | Allocations: 10941)
+
+
+Started GET "/homes" for ::1 at 2021-12-14 06:27:54 +0700
+Processing by HomesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering homes/index.html.erb within layouts/application
+  [1m[36mHome Load (0.3ms)[0m  [1m[34mSELECT DISTINCT "homes".* FROM "homes"[0m
+  ↳ app/views/homes/index.html.erb:15
+  Rendered homes/index.html.erb within layouts/application (Duration: 3.7ms | Allocations: 1894)
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/static_pages/_nav.html.erb:12
+  Rendered static_pages/_nav.html.erb (Duration: 2.2ms | Allocations: 1036)
+  Rendered layout layouts/application.html.erb (Duration: 41.1ms | Allocations: 10468)
+Completed 200 OK in 43ms (Views: 41.4ms | ActiveRecord: 0.5ms | Allocations: 10937)
+
+
+Started GET "/homelikes" for ::1 at 2021-12-14 06:27:55 +0700
+Processing by HomelikesController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering layout layouts/application.html.erb
+  Rendering homelikes/index.html.erb within layouts/application
+  [1m[36mHomelike Load (0.3ms)[0m  [1m[34mSELECT "homelikes".* FROM "homelikes" WHERE "homelikes"."user_id" = ?[0m  [["user_id", 2]]
+  ↳ app/views/homelikes/index.html.erb:20
+  Rendered homelikes/index.html.erb within layouts/application (Duration: 2.6ms | Allocations: 810)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered static_pages/_nav.html.erb (Duration: 0.2ms | Allocations: 160)
+  Rendered layout layouts/application.html.erb (Duration: 33.4ms | Allocations: 8520)
+Completed 200 OK in 37ms (Views: 34.0ms | ActiveRecord: 0.5ms | Allocations: 10024)
+
+
+Started GET "/homes" for ::1 at 2021-12-14 06:27:56 +0700
+Processing by HomesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering homes/index.html.erb within layouts/application
+  [1m[36mHome Load (0.3ms)[0m  [1m[34mSELECT DISTINCT "homes".* FROM "homes"[0m
+  ↳ app/views/homes/index.html.erb:15
+  Rendered homes/index.html.erb within layouts/application (Duration: 3.7ms | Allocations: 1880)
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/static_pages/_nav.html.erb:12
+  Rendered static_pages/_nav.html.erb (Duration: 3.9ms | Allocations: 1031)
+  Rendered layout layouts/application.html.erb (Duration: 42.1ms | Allocations: 10450)
+Completed 200 OK in 43ms (Views: 42.2ms | ActiveRecord: 0.5ms | Allocations: 10918)
+
+
+Started GET "/homelikes" for ::1 at 2021-12-14 06:27:56 +0700
+Processing by HomelikesController#index as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering layout layouts/application.html.erb
+  Rendering homelikes/index.html.erb within layouts/application
+  [1m[36mHomelike Load (0.4ms)[0m  [1m[34mSELECT "homelikes".* FROM "homelikes" WHERE "homelikes"."user_id" = ?[0m  [["user_id", 2]]
+  ↳ app/views/homelikes/index.html.erb:20
+  Rendered homelikes/index.html.erb within layouts/application (Duration: 3.6ms | Allocations: 810)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered static_pages/_nav.html.erb (Duration: 0.2ms | Allocations: 160)
+  Rendered layout layouts/application.html.erb (Duration: 35.2ms | Allocations: 8546)
+Completed 200 OK in 39ms (Views: 35.4ms | ActiveRecord: 0.8ms | Allocations: 10050)
+
+
+Started GET "/homelikes" for ::1 at 2021-12-14 06:29:47 +0700
+Processing by HomelikesController#index as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering layout layouts/application.html.erb
+  Rendering homelikes/index.html.erb within layouts/application
+  Rendered homelikes/index.html.erb within layouts/application (Duration: 0.9ms | Allocations: 1343)
+  Rendered layout layouts/application.html.erb (Duration: 1.5ms | Allocations: 1408)
+Completed 500 Internal Server Error in 6ms (ActiveRecord: 0.3ms | Allocations: 3688)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check <p id="notice"><%= notice %></p>
+
+<h1>Homes</h1>
+
+
+  <% current_user.homelikes.each do |homelike| %>
+    <% @homes.each do |home| %>
+      <div class="home-wrapper">
+        <div class="col-md-10">
+          <div class="row p-2 bg-white border rounded">
+              <div class="col-md-3 mt-1"><img class="img-fluid img-responsive rounded product-image" src="https://picsum.photos/200" alt="home image"></div>
+              <div class="col-md-6 mt-1">
+                  <h5><%= home.name %></h5>
+                  <h6><%= home.address %> Address</h6>
+                  <div class="d-flex flex-row">
+                      <div class="ratings mr-2"><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></div><span>123</span>
+                  </div>
+                  <p class="text-justify text-truncate para mb-0"><%= home.detail%> details.<br><br></p>
+              </div>
+              <div class="align-items-center align-content-center col-md-3 border-left mt-1">
+                  <div class="d-flex flex-row align-items-center">
+                      <h4 class="mr-1"><%= home.price %>$</h4>
+                  </div>
+                  <%# <h6 class="text-success">Free shipping</h6> %>
+                  <div class="d-flex flex-column mt-4">
+                    <%= link_to 'Details', home, class: 'btn btn-primary btn-sm' %>
+                    <%= link_to 'Edit', edit_home_path(home), class: 'btn btn-outline-primary btn-sm mt-2' %>
+                    <%= link_to 'Delete', home, method: :delete, data: { confirm: 'Are you sure?' }, class: 'btn btn-outline-primary btn-sm mt-2' %>
+                  </div>
+              </div>
+          </div>
+        </div>
+      </div>
+      <% end %>
+
+    <% end %>
+  <%end%>
+  </tbody>
+</table>
+
+<br>
+
+):
+1:    <p id="notice"><%= notice %></p>
+2:    
+3:    <h1>Homes</h1>
+4:    
+5:    
+6:      <% current_user.homelikes.each do |homelike| %>
+7:        <% @homes.each do |home| %>
+8:          <div class="home-wrapper">
+9:            <div class="col-md-10">
+10:              <div class="row p-2 bg-white border rounded">
+11:                  <div class="col-md-3 mt-1"><img class="img-fluid img-responsive rounded product-image" src="https://picsum.photos/200" alt="home image"></div>
+12:                  <div class="col-md-6 mt-1">
+13:                      <h5><%= home.name %></h5>
+14:                      <h6><%= home.address %> Address</h6>
+15:                      <div class="d-flex flex-row">
+16:                          <div class="ratings mr-2"><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></div><span>123</span>
+17:                      </div>
+18:                      <p class="text-justify text-truncate para mb-0"><%= home.detail%> details.<br><br></p>
+19:                  </div>
+20:                  <div class="align-items-center align-content-center col-md-3 border-left mt-1">
+21:                      <div class="d-flex flex-row align-items-center">
+22:                          <h4 class="mr-1"><%= home.price %>$</h4>
+23:                      </div>
+24:                      <%# <h6 class="text-success">Free shipping</h6> %>
+25:                      <div class="d-flex flex-column mt-4">
+26:                        <%= link_to 'Details', home, class: 'btn btn-primary btn-sm' %>
+27:                        <%= link_to 'Edit', edit_home_path(home), class: 'btn btn-outline-primary btn-sm mt-2' %>
+28:                        <%= link_to 'Delete', home, method: :delete, data: { confirm: 'Are you sure?' }, class: 'btn btn-outline-primary btn-sm mt-2' %>
+29:                      </div>
+30:                  </div>
+31:              </div>
+32:            </div>
+33:          </div>
+34:          <% end %>
+35:    
+36:        <% end %>
+37:      <%end%>
+38:      </tbody>
+39:    </table>
+40:    
+41:    <br>
+  
+app/views/homelikes/index.html.erb:44: syntax error, unexpected `end', expecting end-of-input
+app/views/homelikes/index.html.erb:44: syntax error, unexpected `end', expecting end-of-input
+app/views/homelikes/index.html.erb:44: syntax error, unexpected `end', expecting end-of-input
+app/views/homelikes/index.html.erb:44: syntax error, unexpected `end', expecting end-of-input
+app/views/homelikes/index.html.erb:44: syntax error, unexpected `end', expecting end-of-input
+app/views/homelikes/index.html.erb:44: syntax error, unexpected `end', expecting end-of-input
+Started GET "/homelikes" for ::1 at 2021-12-14 06:29:49 +0700
+Processing by HomelikesController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering layout layouts/application.html.erb
+  Rendering homelikes/index.html.erb within layouts/application
+  Rendered homelikes/index.html.erb within layouts/application (Duration: 0.9ms | Allocations: 1332)
+  Rendered layout layouts/application.html.erb (Duration: 1.5ms | Allocations: 1397)
+Completed 500 Internal Server Error in 5ms (ActiveRecord: 0.2ms | Allocations: 2869)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check <p id="notice"><%= notice %></p>
+
+<h1>Homes</h1>
+
+
+  <% current_user.homelikes.each do |homelike| %>
+    <% @homes.each do |home| %>
+      <div class="home-wrapper">
+        <div class="col-md-10">
+          <div class="row p-2 bg-white border rounded">
+              <div class="col-md-3 mt-1"><img class="img-fluid img-responsive rounded product-image" src="https://picsum.photos/200" alt="home image"></div>
+              <div class="col-md-6 mt-1">
+                  <h5><%= home.name %></h5>
+                  <h6><%= home.address %> Address</h6>
+                  <div class="d-flex flex-row">
+                      <div class="ratings mr-2"><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></div><span>123</span>
+                  </div>
+                  <p class="text-justify text-truncate para mb-0"><%= home.detail%> details.<br><br></p>
+              </div>
+              <div class="align-items-center align-content-center col-md-3 border-left mt-1">
+                  <div class="d-flex flex-row align-items-center">
+                      <h4 class="mr-1"><%= home.price %>$</h4>
+                  </div>
+                  <%# <h6 class="text-success">Free shipping</h6> %>
+                  <div class="d-flex flex-column mt-4">
+                    <%= link_to 'Details', home, class: 'btn btn-primary btn-sm' %>
+                    <%= link_to 'Edit', edit_home_path(home), class: 'btn btn-outline-primary btn-sm mt-2' %>
+                    <%= link_to 'Delete', home, method: :delete, data: { confirm: 'Are you sure?' }, class: 'btn btn-outline-primary btn-sm mt-2' %>
+                  </div>
+              </div>
+          </div>
+        </div>
+      </div>
+      <% end %>
+
+    <% end %>
+  <%end%>
+  </tbody>
+</table>
+
+<br>
+
+):
+1:    <p id="notice"><%= notice %></p>
+2:    
+3:    <h1>Homes</h1>
+4:    
+5:    
+6:      <% current_user.homelikes.each do |homelike| %>
+7:        <% @homes.each do |home| %>
+8:          <div class="home-wrapper">
+9:            <div class="col-md-10">
+10:              <div class="row p-2 bg-white border rounded">
+11:                  <div class="col-md-3 mt-1"><img class="img-fluid img-responsive rounded product-image" src="https://picsum.photos/200" alt="home image"></div>
+12:                  <div class="col-md-6 mt-1">
+13:                      <h5><%= home.name %></h5>
+14:                      <h6><%= home.address %> Address</h6>
+15:                      <div class="d-flex flex-row">
+16:                          <div class="ratings mr-2"><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></div><span>123</span>
+17:                      </div>
+18:                      <p class="text-justify text-truncate para mb-0"><%= home.detail%> details.<br><br></p>
+19:                  </div>
+20:                  <div class="align-items-center align-content-center col-md-3 border-left mt-1">
+21:                      <div class="d-flex flex-row align-items-center">
+22:                          <h4 class="mr-1"><%= home.price %>$</h4>
+23:                      </div>
+24:                      <%# <h6 class="text-success">Free shipping</h6> %>
+25:                      <div class="d-flex flex-column mt-4">
+26:                        <%= link_to 'Details', home, class: 'btn btn-primary btn-sm' %>
+27:                        <%= link_to 'Edit', edit_home_path(home), class: 'btn btn-outline-primary btn-sm mt-2' %>
+28:                        <%= link_to 'Delete', home, method: :delete, data: { confirm: 'Are you sure?' }, class: 'btn btn-outline-primary btn-sm mt-2' %>
+29:                      </div>
+30:                  </div>
+31:              </div>
+32:            </div>
+33:          </div>
+34:          <% end %>
+35:    
+36:        <% end %>
+37:      <%end%>
+38:      </tbody>
+39:    </table>
+40:    
+41:    <br>
+  
+app/views/homelikes/index.html.erb:44: syntax error, unexpected `end', expecting end-of-input
+app/views/homelikes/index.html.erb:44: syntax error, unexpected `end', expecting end-of-input
+app/views/homelikes/index.html.erb:44: syntax error, unexpected `end', expecting end-of-input
+app/views/homelikes/index.html.erb:44: syntax error, unexpected `end', expecting end-of-input
+app/views/homelikes/index.html.erb:44: syntax error, unexpected `end', expecting end-of-input
+app/views/homelikes/index.html.erb:44: syntax error, unexpected `end', expecting end-of-input
+Started GET "/homelikes" for ::1 at 2021-12-14 06:30:12 +0700
+Processing by HomelikesController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering layout layouts/application.html.erb
+  Rendering homelikes/index.html.erb within layouts/application
+  Rendered homelikes/index.html.erb within layouts/application (Duration: 0.7ms | Allocations: 1332)
+  Rendered layout layouts/application.html.erb (Duration: 1.2ms | Allocations: 1397)
+Completed 500 Internal Server Error in 6ms (ActiveRecord: 0.2ms | Allocations: 3681)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check <p id="notice"><%= notice %></p>
+
+<h1>Homes</h1>
+
+
+  <% current_user.homelikes.each do |homelike| %>
+    <% @homes.each do |home| %>
+      <div class="home-wrapper">
+        <div class="col-md-10">
+          <div class="row p-2 bg-white border rounded">
+              <div class="col-md-3 mt-1"><img class="img-fluid img-responsive rounded product-image" src="https://picsum.photos/200" alt="home image"></div>
+              <div class="col-md-6 mt-1">
+                  <h5><%= home.name %></h5>
+                  <h6><%= home.address %> Address</h6>
+                  <div class="d-flex flex-row">
+                      <div class="ratings mr-2"><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></div><span>123</span>
+                  </div>
+                  <p class="text-justify text-truncate para mb-0"><%= home.detail%> details.<br><br></p>
+              </div>
+              <div class="align-items-center align-content-center col-md-3 border-left mt-1">
+                  <div class="d-flex flex-row align-items-center">
+                      <h4 class="mr-1"><%= home.price %>$</h4>
+                  </div>
+                  <%# <h6 class="text-success">Free shipping</h6> %>
+                  <div class="d-flex flex-column mt-4">
+                    <%= link_to 'Details', home, class: 'btn btn-primary btn-sm' %>
+                    <%= link_to 'Edit', edit_home_path(home), class: 'btn btn-outline-primary btn-sm mt-2' %>
+                    <%= link_to 'Delete', home, method: :delete, data: { confirm: 'Are you sure?' }, class: 'btn btn-outline-primary btn-sm mt-2' %>
+                  </div>
+              </div>
+          </div>
+        </div>
+      </div>
+      <% end %>
+    <% end %>
+  <%end%>
+
+<br>
+
+):
+1:    <p id="notice"><%= notice %></p>
+2:    
+3:    <h1>Homes</h1>
+4:    
+5:    
+6:      <% current_user.homelikes.each do |homelike| %>
+7:        <% @homes.each do |home| %>
+8:          <div class="home-wrapper">
+9:            <div class="col-md-10">
+10:              <div class="row p-2 bg-white border rounded">
+11:                  <div class="col-md-3 mt-1"><img class="img-fluid img-responsive rounded product-image" src="https://picsum.photos/200" alt="home image"></div>
+12:                  <div class="col-md-6 mt-1">
+13:                      <h5><%= home.name %></h5>
+14:                      <h6><%= home.address %> Address</h6>
+15:                      <div class="d-flex flex-row">
+16:                          <div class="ratings mr-2"><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></div><span>123</span>
+17:                      </div>
+18:                      <p class="text-justify text-truncate para mb-0"><%= home.detail%> details.<br><br></p>
+19:                  </div>
+20:                  <div class="align-items-center align-content-center col-md-3 border-left mt-1">
+21:                      <div class="d-flex flex-row align-items-center">
+22:                          <h4 class="mr-1"><%= home.price %>$</h4>
+23:                      </div>
+24:                      <%# <h6 class="text-success">Free shipping</h6> %>
+25:                      <div class="d-flex flex-column mt-4">
+26:                        <%= link_to 'Details', home, class: 'btn btn-primary btn-sm' %>
+27:                        <%= link_to 'Edit', edit_home_path(home), class: 'btn btn-outline-primary btn-sm mt-2' %>
+28:                        <%= link_to 'Delete', home, method: :delete, data: { confirm: 'Are you sure?' }, class: 'btn btn-outline-primary btn-sm mt-2' %>
+29:                      </div>
+30:                  </div>
+31:              </div>
+32:            </div>
+33:          </div>
+34:          <% end %>
+35:        <% end %>
+36:      <%end%>
+37:    
+38:    <br>
+  
+app/views/homelikes/index.html.erb:41: syntax error, unexpected `end', expecting end-of-input
+app/views/homelikes/index.html.erb:41: syntax error, unexpected `end', expecting end-of-input
+app/views/homelikes/index.html.erb:41: syntax error, unexpected `end', expecting end-of-input
+app/views/homelikes/index.html.erb:41: syntax error, unexpected `end', expecting end-of-input
+app/views/homelikes/index.html.erb:41: syntax error, unexpected `end', expecting end-of-input
+app/views/homelikes/index.html.erb:41: syntax error, unexpected `end', expecting end-of-input
+Started GET "/homelikes" for ::1 at 2021-12-14 06:30:13 +0700
+Processing by HomelikesController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering layout layouts/application.html.erb
+  Rendering homelikes/index.html.erb within layouts/application
+  Rendered homelikes/index.html.erb within layouts/application (Duration: 0.8ms | Allocations: 1322)
+  Rendered layout layouts/application.html.erb (Duration: 1.4ms | Allocations: 1387)
+Completed 500 Internal Server Error in 5ms (ActiveRecord: 0.2ms | Allocations: 2859)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check <p id="notice"><%= notice %></p>
+
+<h1>Homes</h1>
+
+
+  <% current_user.homelikes.each do |homelike| %>
+    <% @homes.each do |home| %>
+      <div class="home-wrapper">
+        <div class="col-md-10">
+          <div class="row p-2 bg-white border rounded">
+              <div class="col-md-3 mt-1"><img class="img-fluid img-responsive rounded product-image" src="https://picsum.photos/200" alt="home image"></div>
+              <div class="col-md-6 mt-1">
+                  <h5><%= home.name %></h5>
+                  <h6><%= home.address %> Address</h6>
+                  <div class="d-flex flex-row">
+                      <div class="ratings mr-2"><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></div><span>123</span>
+                  </div>
+                  <p class="text-justify text-truncate para mb-0"><%= home.detail%> details.<br><br></p>
+              </div>
+              <div class="align-items-center align-content-center col-md-3 border-left mt-1">
+                  <div class="d-flex flex-row align-items-center">
+                      <h4 class="mr-1"><%= home.price %>$</h4>
+                  </div>
+                  <%# <h6 class="text-success">Free shipping</h6> %>
+                  <div class="d-flex flex-column mt-4">
+                    <%= link_to 'Details', home, class: 'btn btn-primary btn-sm' %>
+                    <%= link_to 'Edit', edit_home_path(home), class: 'btn btn-outline-primary btn-sm mt-2' %>
+                    <%= link_to 'Delete', home, method: :delete, data: { confirm: 'Are you sure?' }, class: 'btn btn-outline-primary btn-sm mt-2' %>
+                  </div>
+              </div>
+          </div>
+        </div>
+      </div>
+      <% end %>
+    <% end %>
+  <%end%>
+
+<br>
+
+):
+1:    <p id="notice"><%= notice %></p>
+2:    
+3:    <h1>Homes</h1>
+4:    
+5:    
+6:      <% current_user.homelikes.each do |homelike| %>
+7:        <% @homes.each do |home| %>
+8:          <div class="home-wrapper">
+9:            <div class="col-md-10">
+10:              <div class="row p-2 bg-white border rounded">
+11:                  <div class="col-md-3 mt-1"><img class="img-fluid img-responsive rounded product-image" src="https://picsum.photos/200" alt="home image"></div>
+12:                  <div class="col-md-6 mt-1">
+13:                      <h5><%= home.name %></h5>
+14:                      <h6><%= home.address %> Address</h6>
+15:                      <div class="d-flex flex-row">
+16:                          <div class="ratings mr-2"><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></div><span>123</span>
+17:                      </div>
+18:                      <p class="text-justify text-truncate para mb-0"><%= home.detail%> details.<br><br></p>
+19:                  </div>
+20:                  <div class="align-items-center align-content-center col-md-3 border-left mt-1">
+21:                      <div class="d-flex flex-row align-items-center">
+22:                          <h4 class="mr-1"><%= home.price %>$</h4>
+23:                      </div>
+24:                      <%# <h6 class="text-success">Free shipping</h6> %>
+25:                      <div class="d-flex flex-column mt-4">
+26:                        <%= link_to 'Details', home, class: 'btn btn-primary btn-sm' %>
+27:                        <%= link_to 'Edit', edit_home_path(home), class: 'btn btn-outline-primary btn-sm mt-2' %>
+28:                        <%= link_to 'Delete', home, method: :delete, data: { confirm: 'Are you sure?' }, class: 'btn btn-outline-primary btn-sm mt-2' %>
+29:                      </div>
+30:                  </div>
+31:              </div>
+32:            </div>
+33:          </div>
+34:          <% end %>
+35:        <% end %>
+36:      <%end%>
+37:    
+38:    <br>
+  
+app/views/homelikes/index.html.erb:41: syntax error, unexpected `end', expecting end-of-input
+app/views/homelikes/index.html.erb:41: syntax error, unexpected `end', expecting end-of-input
+app/views/homelikes/index.html.erb:41: syntax error, unexpected `end', expecting end-of-input
+app/views/homelikes/index.html.erb:41: syntax error, unexpected `end', expecting end-of-input
+app/views/homelikes/index.html.erb:41: syntax error, unexpected `end', expecting end-of-input
+app/views/homelikes/index.html.erb:41: syntax error, unexpected `end', expecting end-of-input
+Started GET "/homelikes" for ::1 at 2021-12-14 06:30:16 +0700
+Processing by HomelikesController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering layout layouts/application.html.erb
+  Rendering homelikes/index.html.erb within layouts/application
+  Rendered homelikes/index.html.erb within layouts/application (Duration: 0.7ms | Allocations: 1324)
+  Rendered layout layouts/application.html.erb (Duration: 1.1ms | Allocations: 1389)
+Completed 500 Internal Server Error in 6ms (ActiveRecord: 0.2ms | Allocations: 3673)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check <p id="notice"><%= notice %></p>
+
+<h1>Homes</h1>
+
+
+  <% current_user.homelikes.each do |homelike| %>
+    <% @homes.each do |home| %>
+      <div class="home-wrapper">
+        <div class="col-md-10">
+          <div class="row p-2 bg-white border rounded">
+              <div class="col-md-3 mt-1"><img class="img-fluid img-responsive rounded product-image" src="https://picsum.photos/200" alt="home image"></div>
+              <div class="col-md-6 mt-1">
+                  <h5><%= home.name %></h5>
+                  <h6><%= home.address %> Address</h6>
+                  <div class="d-flex flex-row">
+                      <div class="ratings mr-2"><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></div><span>123</span>
+                  </div>
+                  <p class="text-justify text-truncate para mb-0"><%= home.detail%> details.<br><br></p>
+              </div>
+              <div class="align-items-center align-content-center col-md-3 border-left mt-1">
+                  <div class="d-flex flex-row align-items-center">
+                      <h4 class="mr-1"><%= home.price %>$</h4>
+                  </div>
+                  <%# <h6 class="text-success">Free shipping</h6> %>
+                  <div class="d-flex flex-column mt-4">
+                    <%= link_to 'Details', home, class: 'btn btn-primary btn-sm' %>
+                    <%= link_to 'Edit', edit_home_path(home), class: 'btn btn-outline-primary btn-sm mt-2' %>
+                    <%= link_to 'Delete', home, method: :delete, data: { confirm: 'Are you sure?' }, class: 'btn btn-outline-primary btn-sm mt-2' %>
+                  </div>
+              </div>
+          </div>
+        </div>
+      </div>
+      <% end %>
+    <% end %>
+  <%end%>
+
+):
+1:    <p id="notice"><%= notice %></p>
+2:    
+3:    <h1>Homes</h1>
+4:    
+5:    
+6:      <% current_user.homelikes.each do |homelike| %>
+7:        <% @homes.each do |home| %>
+8:          <div class="home-wrapper">
+9:            <div class="col-md-10">
+10:              <div class="row p-2 bg-white border rounded">
+11:                  <div class="col-md-3 mt-1"><img class="img-fluid img-responsive rounded product-image" src="https://picsum.photos/200" alt="home image"></div>
+12:                  <div class="col-md-6 mt-1">
+13:                      <h5><%= home.name %></h5>
+14:                      <h6><%= home.address %> Address</h6>
+15:                      <div class="d-flex flex-row">
+16:                          <div class="ratings mr-2"><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></div><span>123</span>
+17:                      </div>
+18:                      <p class="text-justify text-truncate para mb-0"><%= home.detail%> details.<br><br></p>
+19:                  </div>
+20:                  <div class="align-items-center align-content-center col-md-3 border-left mt-1">
+21:                      <div class="d-flex flex-row align-items-center">
+22:                          <h4 class="mr-1"><%= home.price %>$</h4>
+23:                      </div>
+24:                      <%# <h6 class="text-success">Free shipping</h6> %>
+25:                      <div class="d-flex flex-column mt-4">
+26:                        <%= link_to 'Details', home, class: 'btn btn-primary btn-sm' %>
+27:                        <%= link_to 'Edit', edit_home_path(home), class: 'btn btn-outline-primary btn-sm mt-2' %>
+28:                        <%= link_to 'Delete', home, method: :delete, data: { confirm: 'Are you sure?' }, class: 'btn btn-outline-primary btn-sm mt-2' %>
+29:                      </div>
+30:                  </div>
+31:              </div>
+32:            </div>
+33:          </div>
+34:          <% end %>
+35:        <% end %>
+36:      <%end%>
+  
+app/views/homelikes/index.html.erb:38: syntax error, unexpected `end', expecting end-of-input
+app/views/homelikes/index.html.erb:38: syntax error, unexpected `end', expecting end-of-input
+app/views/homelikes/index.html.erb:38: syntax error, unexpected `end', expecting end-of-input
+app/views/homelikes/index.html.erb:38: syntax error, unexpected `end', expecting end-of-input
+app/views/homelikes/index.html.erb:38: syntax error, unexpected `end', expecting end-of-input
+app/views/homelikes/index.html.erb:38: syntax error, unexpected `end', expecting end-of-input
+Started GET "/homelikes" for ::1 at 2021-12-14 06:30:30 +0700
+Processing by HomelikesController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering layout layouts/application.html.erb
+  Rendering homelikes/index.html.erb within layouts/application
+  Rendered homelikes/index.html.erb within layouts/application (Duration: 2.0ms | Allocations: 1314)
+  Rendered layout layouts/application.html.erb (Duration: 2.9ms | Allocations: 1379)
+Completed 500 Internal Server Error in 7ms (ActiveRecord: 0.2ms | Allocations: 2851)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check <p id="notice"><%= notice %></p>
+
+<h1>Homes</h1>
+
+
+  <% current_user.homelikes.each do |homelike| %>
+    <% @homes.each do |home| %>
+      <div class="home-wrapper">
+        <div class="col-md-10">
+          <div class="row p-2 bg-white border rounded">
+              <div class="col-md-3 mt-1"><img class="img-fluid img-responsive rounded product-image" src="https://picsum.photos/200" alt="home image"></div>
+              <div class="col-md-6 mt-1">
+                  <h5><%= home.name %></h5>
+                  <h6><%= home.address %> Address</h6>
+                  <div class="d-flex flex-row">
+                      <div class="ratings mr-2"><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></div><span>123</span>
+                  </div>
+                  <p class="text-justify text-truncate para mb-0"><%= home.detail%> details.<br><br></p>
+              </div>
+              <div class="align-items-center align-content-center col-md-3 border-left mt-1">
+                  <div class="d-flex flex-row align-items-center">
+                      <h4 class="mr-1"><%= home.price %>$</h4>
+                  </div>
+                  <%# <h6 class="text-success">Free shipping</h6> %>
+                  <div class="d-flex flex-column mt-4">
+                    <%= link_to 'Details', home, class: 'btn btn-primary btn-sm' %>
+                    <%= link_to 'Edit', edit_home_path(home), class: 'btn btn-outline-primary btn-sm mt-2' %>
+                    <%= link_to 'Delete', home, method: :delete, data: { confirm: 'Are you sure?' }, class: 'btn btn-outline-primary btn-sm mt-2' %>
+                  </div>
+              </div>
+          </div>
+        </div>
+      </div>
+      <% end %>
+    <% end %>
+  <%end%>
+
+):
+1:    <p id="notice"><%= notice %></p>
+2:    
+3:    <h1>Homes</h1>
+4:    
+5:    
+6:      <% current_user.homelikes.each do |homelike| %>
+7:        <% @homes.each do |home| %>
+8:          <div class="home-wrapper">
+9:            <div class="col-md-10">
+10:              <div class="row p-2 bg-white border rounded">
+11:                  <div class="col-md-3 mt-1"><img class="img-fluid img-responsive rounded product-image" src="https://picsum.photos/200" alt="home image"></div>
+12:                  <div class="col-md-6 mt-1">
+13:                      <h5><%= home.name %></h5>
+14:                      <h6><%= home.address %> Address</h6>
+15:                      <div class="d-flex flex-row">
+16:                          <div class="ratings mr-2"><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></div><span>123</span>
+17:                      </div>
+18:                      <p class="text-justify text-truncate para mb-0"><%= home.detail%> details.<br><br></p>
+19:                  </div>
+20:                  <div class="align-items-center align-content-center col-md-3 border-left mt-1">
+21:                      <div class="d-flex flex-row align-items-center">
+22:                          <h4 class="mr-1"><%= home.price %>$</h4>
+23:                      </div>
+24:                      <%# <h6 class="text-success">Free shipping</h6> %>
+25:                      <div class="d-flex flex-column mt-4">
+26:                        <%= link_to 'Details', home, class: 'btn btn-primary btn-sm' %>
+27:                        <%= link_to 'Edit', edit_home_path(home), class: 'btn btn-outline-primary btn-sm mt-2' %>
+28:                        <%= link_to 'Delete', home, method: :delete, data: { confirm: 'Are you sure?' }, class: 'btn btn-outline-primary btn-sm mt-2' %>
+29:                      </div>
+30:                  </div>
+31:              </div>
+32:            </div>
+33:          </div>
+34:          <% end %>
+35:        <% end %>
+36:      <%end%>
+  
+app/views/homelikes/index.html.erb:38: syntax error, unexpected `end', expecting end-of-input
+app/views/homelikes/index.html.erb:38: syntax error, unexpected `end', expecting end-of-input
+app/views/homelikes/index.html.erb:38: syntax error, unexpected `end', expecting end-of-input
+app/views/homelikes/index.html.erb:38: syntax error, unexpected `end', expecting end-of-input
+app/views/homelikes/index.html.erb:38: syntax error, unexpected `end', expecting end-of-input
+app/views/homelikes/index.html.erb:38: syntax error, unexpected `end', expecting end-of-input
+Started GET "/homelikes" for ::1 at 2021-12-14 06:30:48 +0700
+Processing by HomelikesController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering layout layouts/application.html.erb
+  Rendering homelikes/index.html.erb within layouts/application
+  [1m[36mHomelike Load (0.1ms)[0m  [1m[34mSELECT "homelikes".* FROM "homelikes" WHERE "homelikes"."user_id" = ?[0m  [["user_id", 2]]
+  ↳ app/views/homelikes/index.html.erb:6
+  Rendered homelikes/index.html.erb within layouts/application (Duration: 2.4ms | Allocations: 1125)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered static_pages/_nav.html.erb (Duration: 1.9ms | Allocations: 463)
+  Rendered layout layouts/application.html.erb (Duration: 21.4ms | Allocations: 8913)
+Completed 200 OK in 26ms (Views: 23.1ms | ActiveRecord: 0.3ms | Allocations: 11224)
+
+
+Started GET "/homelikes" for ::1 at 2021-12-14 06:30:55 +0700
+Processing by HomelikesController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering layout layouts/application.html.erb
+  Rendering homelikes/index.html.erb within layouts/application
+  [1m[36mHomelike Load (0.2ms)[0m  [1m[34mSELECT "homelikes".* FROM "homelikes" WHERE "homelikes"."user_id" = ?[0m  [["user_id", 2]]
+  ↳ app/views/homelikes/index.html.erb:6
+  Rendered homelikes/index.html.erb within layouts/application (Duration: 1.6ms | Allocations: 812)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered static_pages/_nav.html.erb (Duration: 0.2ms | Allocations: 160)
+  Rendered layout layouts/application.html.erb (Duration: 32.2ms | Allocations: 8711)
+Completed 200 OK in 35ms (Views: 32.5ms | ActiveRecord: 0.4ms | Allocations: 10212)
+
+
+Started GET "/homelikes" for ::1 at 2021-12-14 06:30:58 +0700
+Processing by HomelikesController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering layout layouts/application.html.erb
+  Rendering homelikes/index.html.erb within layouts/application
+  [1m[36mHomelike Load (0.2ms)[0m  [1m[34mSELECT "homelikes".* FROM "homelikes" WHERE "homelikes"."user_id" = ?[0m  [["user_id", 2]]
+  ↳ app/views/homelikes/index.html.erb:6
+  Rendered homelikes/index.html.erb within layouts/application (Duration: 2.2ms | Allocations: 810)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered static_pages/_nav.html.erb (Duration: 0.2ms | Allocations: 160)
+  Rendered layout layouts/application.html.erb (Duration: 23.5ms | Allocations: 8262)
+Completed 200 OK in 27ms (Views: 24.1ms | ActiveRecord: 0.4ms | Allocations: 9765)
+
+
+Started GET "/homes" for ::1 at 2021-12-14 06:30:59 +0700
+Processing by HomesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering homes/index.html.erb within layouts/application
+  [1m[36mHome Load (0.2ms)[0m  [1m[34mSELECT DISTINCT "homes".* FROM "homes"[0m
+  ↳ app/views/homes/index.html.erb:15
+  Rendered homes/index.html.erb within layouts/application (Duration: 4.2ms | Allocations: 2299)
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/static_pages/_nav.html.erb:12
+  Rendered static_pages/_nav.html.erb (Duration: 2.2ms | Allocations: 1036)
+  Rendered layout layouts/application.html.erb (Duration: 29.7ms | Allocations: 10873)
+Completed 200 OK in 33ms (Views: 31.4ms | ActiveRecord: 0.4ms | Allocations: 11925)
+
+
+Started GET "/homelikes" for ::1 at 2021-12-14 06:31:00 +0700
+Processing by HomelikesController#index as HTML
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering layout layouts/application.html.erb
+  Rendering homelikes/index.html.erb within layouts/application
+  [1m[36mHomelike Load (0.3ms)[0m  [1m[34mSELECT "homelikes".* FROM "homelikes" WHERE "homelikes"."user_id" = ?[0m  [["user_id", 2]]
+  ↳ app/views/homelikes/index.html.erb:6
+  Rendered homelikes/index.html.erb within layouts/application (Duration: 3.0ms | Allocations: 812)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered static_pages/_nav.html.erb (Duration: 0.2ms | Allocations: 170)
+  Rendered layout layouts/application.html.erb (Duration: 32.3ms | Allocations: 8517)
+Completed 200 OK in 37ms (Views: 32.8ms | ActiveRecord: 0.9ms | Allocations: 10021)
+
+
+Started GET "/homes" for ::1 at 2021-12-14 06:31:01 +0700
+Processing by HomesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering homes/index.html.erb within layouts/application
+  [1m[36mHome Load (0.3ms)[0m  [1m[34mSELECT DISTINCT "homes".* FROM "homes"[0m
+  ↳ app/views/homes/index.html.erb:15
+  Rendered homes/index.html.erb within layouts/application (Duration: 3.5ms | Allocations: 1880)
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/static_pages/_nav.html.erb:12
+  Rendered static_pages/_nav.html.erb (Duration: 2.4ms | Allocations: 1031)
+  Rendered layout layouts/application.html.erb (Duration: 43.0ms | Allocations: 10456)
+Completed 200 OK in 44ms (Views: 43.4ms | ActiveRecord: 0.5ms | Allocations: 10926)
+
+
+Started GET "/homelikes" for ::1 at 2021-12-14 06:31:02 +0700
+Processing by HomelikesController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering layout layouts/application.html.erb
+  Rendering homelikes/index.html.erb within layouts/application
+  [1m[36mHomelike Load (0.3ms)[0m  [1m[34mSELECT "homelikes".* FROM "homelikes" WHERE "homelikes"."user_id" = ?[0m  [["user_id", 2]]
+  ↳ app/views/homelikes/index.html.erb:6
+  Rendered homelikes/index.html.erb within layouts/application (Duration: 2.9ms | Allocations: 810)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered static_pages/_nav.html.erb (Duration: 0.2ms | Allocations: 160)
+  Rendered layout layouts/application.html.erb (Duration: 34.4ms | Allocations: 8496)
+Completed 200 OK in 38ms (Views: 34.9ms | ActiveRecord: 0.5ms | Allocations: 9999)
+
+
+Started GET "/homes" for ::1 at 2021-12-14 06:31:02 +0700
+Processing by HomesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering homes/index.html.erb within layouts/application
+  [1m[36mHome Load (0.4ms)[0m  [1m[34mSELECT DISTINCT "homes".* FROM "homes"[0m
+  ↳ app/views/homes/index.html.erb:15
+  Rendered homes/index.html.erb within layouts/application (Duration: 4.1ms | Allocations: 1880)
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/static_pages/_nav.html.erb:12
+  Rendered static_pages/_nav.html.erb (Duration: 2.2ms | Allocations: 1031)
+  Rendered layout layouts/application.html.erb (Duration: 40.6ms | Allocations: 10448)
+Completed 200 OK in 42ms (Views: 40.8ms | ActiveRecord: 0.5ms | Allocations: 10916)
+
+
+Started DELETE "/users/sign_out" for ::1 at 2021-12-14 06:31:04 +0700
+Processing by Devise::SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+Redirected to http://localhost:3000/
+Completed 302 Found in 40ms (ActiveRecord: 0.2ms | Allocations: 2623)
+
+
+Started GET "/" for ::1 at 2021-12-14 06:31:04 +0700
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 1.8ms | Allocations: 234)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered static_pages/_nav.html.erb (Duration: 0.3ms | Allocations: 185)
+  Rendered layout layouts/application.html.erb (Duration: 17.7ms | Allocations: 7375)
+Completed 200 OK in 22ms (Views: 20.8ms | ActiveRecord: 0.0ms | Allocations: 8349)
+
+
+Started GET "/users/sign_up" for ::1 at 2021-12-14 06:31:07 +0700
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering devise/registrations/new.html.erb within layouts/application
+  Rendered devise/shared/_error_messages.html.erb (Duration: 6.6ms | Allocations: 563)
+  Rendered devise/shared/_links.html.erb (Duration: 21.5ms | Allocations: 531)
+  Rendered devise/registrations/new.html.erb within layouts/application (Duration: 81.9ms | Allocations: 6524)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered static_pages/_nav.html.erb (Duration: 0.3ms | Allocations: 191)
+  Rendered layout layouts/application.html.erb (Duration: 110.7ms | Allocations: 14744)
+Completed 200 OK in 119ms (Views: 117.8ms | ActiveRecord: 0.0ms | Allocations: 16824)
+
+
+Started GET "/users/sign_in" for ::1 at 2021-12-14 06:31:12 +0700
+Processing by Devise::SessionsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (Duration: 1.5ms | Allocations: 995)
+  Rendered devise/sessions/new.html.erb within layouts/application (Duration: 37.7ms | Allocations: 3635)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered static_pages/_nav.html.erb (Duration: 0.9ms | Allocations: 485)
+  Rendered layout layouts/application.html.erb (Duration: 54.0ms | Allocations: 11459)
+Completed 200 OK in 59ms (Views: 57.7ms | ActiveRecord: 0.0ms | Allocations: 13208)
+
+
+Started GET "/users/password/new" for ::1 at 2021-12-14 06:31:15 +0700
+Processing by Devise::PasswordsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering devise/passwords/new.html.erb within layouts/application
+  Rendered devise/shared/_error_messages.html.erb (Duration: 0.6ms | Allocations: 619)
+  Rendered devise/shared/_links.html.erb (Duration: 0.6ms | Allocations: 530)
+  Rendered devise/passwords/new.html.erb within layouts/application (Duration: 16.1ms | Allocations: 2633)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered static_pages/_nav.html.erb (Duration: 0.8ms | Allocations: 485)
+  Rendered layout layouts/application.html.erb (Duration: 43.7ms | Allocations: 11079)
+Completed 200 OK in 55ms (Views: 53.2ms | ActiveRecord: 0.0ms | Allocations: 12917)
+
+
+Started GET "/homelikes" for ::1 at 2021-12-14 06:31:16 +0700
+Processing by HomelikesController#index as HTML
+Completed 401 Unauthorized in 1ms (ActiveRecord: 0.0ms | Allocations: 238)
+
+
+Started GET "/users/sign_in" for ::1 at 2021-12-14 06:31:16 +0700
+Processing by Devise::SessionsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (Duration: 0.6ms | Allocations: 528)
+  Rendered devise/sessions/new.html.erb within layouts/application (Duration: 2.7ms | Allocations: 1845)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered static_pages/_nav.html.erb (Duration: 0.7ms | Allocations: 485)
+  Rendered layout layouts/application.html.erb (Duration: 19.1ms | Allocations: 9668)
+Completed 200 OK in 22ms (Views: 21.8ms | ActiveRecord: 0.0ms | Allocations: 11412)
+
+
+Started GET "/homes" for ::1 at 2021-12-14 06:31:18 +0700
+Processing by HomesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering homes/index.html.erb within layouts/application
+  [1m[36mHome Load (0.4ms)[0m  [1m[34mSELECT DISTINCT "homes".* FROM "homes"[0m
+  ↳ app/views/homes/index.html.erb:15
+  Rendered homes/index.html.erb within layouts/application (Duration: 5.8ms | Allocations: 2771)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered static_pages/_nav.html.erb (Duration: 0.4ms | Allocations: 213)
+  Rendered layout layouts/application.html.erb (Duration: 30.6ms | Allocations: 10054)
+Completed 200 OK in 34ms (Views: 32.3ms | ActiveRecord: 0.4ms | Allocations: 11118)
+
+
+Started GET "/static_pages/home" for ::1 at 2021-12-14 06:31:23 +0700
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 0.7ms | Allocations: 218)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered static_pages/_nav.html.erb (Duration: 0.3ms | Allocations: 183)
+  Rendered layout layouts/application.html.erb (Duration: 27.0ms | Allocations: 7929)
+Completed 200 OK in 29ms (Views: 28.4ms | ActiveRecord: 0.0ms | Allocations: 8896)
+
+
+Started GET "/homes" for ::1 at 2021-12-14 06:31:25 +0700
+Processing by HomesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering homes/index.html.erb within layouts/application
+  [1m[36mHome Load (0.3ms)[0m  [1m[34mSELECT DISTINCT "homes".* FROM "homes"[0m
+  ↳ app/views/homes/index.html.erb:15
+  Rendered homes/index.html.erb within layouts/application (Duration: 3.4ms | Allocations: 1894)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered static_pages/_nav.html.erb (Duration: 0.3ms | Allocations: 213)
+  Rendered layout layouts/application.html.erb (Duration: 35.5ms | Allocations: 9637)
+Completed 200 OK in 37ms (Views: 36.0ms | ActiveRecord: 0.3ms | Allocations: 10104)
+
+

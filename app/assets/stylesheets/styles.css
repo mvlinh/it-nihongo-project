@@ -1,6 +1,12 @@
 @import url('./navbar/navbar.css');
 @import url('./Item/ItemCard.scss');
+@import url('./homePage/home.css');
 
 .home-wrapper {
     padding-top: 20px;
+}
+
+.rows-3 {
+    height: 100px;
+    align-items: top;
 }
