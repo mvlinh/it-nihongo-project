@@ -1,0 +1,27 @@
+.m-navbar {
+    /* background-image: url(542ac03681516bcca0dd605bedd41a2b.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-image: url('https://www.ohanaliving.vn/542ac03681516bcca0dd605bedd41a2b.jpg'); */
+    background-color: pink;
+}
+
+.navbar-left {
+    display: flex;
+    margin-right: auto;
+}
+
+.container-wrapper {
+    padding: 20px 32px;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    top: 0;
+    justify-content: space-between;
+}
+
+.nav-item {
+    font-size: 20px;
+    color: #ffffff;
+}
