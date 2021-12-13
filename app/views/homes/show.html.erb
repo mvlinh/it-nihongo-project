@@ -26,6 +26,10 @@
 </p>
 
 <p>
+  <strong>user name:</strong>
+  <%= @home.user.phone %>
+</p>
+<p>
   <strong>detail:</strong>
   <%= @home.detail   %>
 </p>
@@ -47,13 +51,16 @@
     <% end %> 
   <% end %>
 </p>
-    <% like = nil%>
+  <% if user_signed_in? %>
+      <% like = nil%>
     <% current_user.homelikes.each do |homelike|%>
       <% if homelike.home_id == @home.id %>
       <% like = 1%>
       <% end %>
     <% end %>
-
+      <% else %>
+      <% like = nil%>
+      <% end %>
   <% if !like%>
     <%= form_with(model: @homelike) do |form| %>
       <% if @homelike.errors.any? %>
@@ -69,19 +76,11 @@
 
       <% end %>
 
-
       <div class="field">
-        <%= form.label :user_id %>
-        <%= form.hidden_field :user_id , :value => current_user.id %>
-      </div>
-
-      <div class="field">
-        <%= form.label :home_id %>
         <%= form.hidden_field :home_id , :value => @home.id%>
       </div>
 
       <div class="field">
-        <%= form.label :status %>
         <%= form.hidden_field :status, :value => "1"%>
       </div>
 
