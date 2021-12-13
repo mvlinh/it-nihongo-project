@@ -48,6 +48,14 @@ ActiveRecord::Schema.define(version: 2021_12_12_092337) do
     t.datetime "updated_at", precision: 6, null: false
   end
 
+  create_table "homelikes", force: :cascade do |t|
+    t.integer "user_id"
+    t.integer "home_id"
+    t.integer "status"
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
+  end
+
   create_table "homes", force: :cascade do |t|
     t.string "name"
     t.string "address"
