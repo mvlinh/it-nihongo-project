@@ -8,6 +8,10 @@
     padding-bottom: 48px;
 }
 
+a:hover {
+    background-color: #fff !important;
+}
+
 .container-wrapper {
     padding: 20px 32px;
     display: flex;
