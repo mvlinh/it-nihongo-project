@@ -1,45 +1,43 @@
 <p id="notice"><%= notice %></p>
 
-<h1>Homes</h1>
+<%# ----------------------------- %>
+
+<%# ------------------------------ %>
+<div class="header-wrapper">
+  <h1 style="display: flex">Homes</h1>
+  <%= link_to 'New Home', new_home_path, class: 'btn btn-primary btn-sm header-btn' %>
+</div>
 <%= search_form_for @q do |f| %>
   <%= f.search_field :name_or_address_or_room_number_or_price_cont, placeholder: "Search..." %>
   <%= f.submit "Search!" %>
 <% end %>
-<table>
-  <thead>
-    <tr>
-      <th>Name</th>
-      <th>Address</th>
-      <th>Room number</th>
-      <th>Price</th>
-      <th>user</th>
-      <th><%= sort_link(@q, :name, "Name", default_order: :asc) %></th>
-      <th><%= sort_link(@q, :address, "Address", default_order: :asc) %></th>
-      <th><%= sort_link(@q, :room_number, "Room number", default_order: :asc) %></th>
-      <th><%= sort_link(@q, :price, "Price", default_order: :asc) %></th>
-      <th><%= sort_link(@q, :users, "User", default_order: :asc) %></th>
-      <th>detail</th>
-      <th colspan="3"></th>
-    </tr>
-  </thead>
 
-  <tbody>
-    <% @homes.each do |home| %>
-      <tr>
-        <td><%= home.name %></td>
-        <td><%= home.address %></td>
-        <td><%= home.room_number %></td>
-        <td><%= home.price %></td>
-        <td><%= home.user.name %></td>
-        <td><%= home.detail%></td>
-        <td><%= link_to 'Show', home %></td>
-        <td><%= link_to 'Edit', edit_home_path(home) %></td>
-        <td><%= link_to 'Destroy', home, method: :delete, data: { confirm: 'Are you sure?' } %></td>
-      </tr>
-    <% end %>
-  </tbody>
-</table>
+<% @homes.each do |home| %>
+<div class="home-wrapper">
+  <div class="col-md-10">
+    <div class="row p-2 bg-white border rounded">
+        <div class="col-md-3 mt-1"><img class="img-fluid img-responsive rounded product-image" src="https://picsum.photos/200" alt="home image"></div>
+        <div class="col-md-6 mt-1">
+            <h5><%= home.name %></h5>
+            <h6><%= home.address %> Address</h6>
+            <div class="d-flex flex-row">
+                <div class="ratings mr-2"><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></div><span>123</span>
+            </div>
+            <p class="text-justify text-truncate para mb-0"><%= home.detail%> details.<br><br></p>
+        </div>
+        <div class="align-items-center align-content-center col-md-3 border-left mt-1">
+            <div class="d-flex flex-row align-items-center">
+                <h4 class="mr-1"><%= home.price %>$</h4>
+            </div>
+            <%# <h6 class="text-success">Free shipping</h6> %>
+            <div class="d-flex flex-column mt-4">
+              <%= link_to 'Details', home, class: 'btn btn-primary btn-sm m-light-btn' %>
+              <%= link_to 'Edit', edit_home_path(home), class: 'btn btn-secondary btn-sm mt-2 m-light-btnyarn install --check-files' %>
+              <%= link_to 'Delete', home, method: :delete, data: { confirm: 'Are you sure?' }, class: 'btn btn-sm mt-2 m-light-btn btn-danger' %>
+            </div>
+        </div>
+    </div>
+  </div>
+</div>
+<% end %>
 
-<br>
-
-<%= link_to 'New Home', new_home_path %>

@@ -1,8 +1,6 @@
-<h1>Home</h1>
-<h3>名前</h3>
+Hi
 <% if user_signed_in? %>
 <% if current_user.avatar.attached? %>
 <%= image_tag current_user.avatar %>
 <% end %>
 <% end %>
-
