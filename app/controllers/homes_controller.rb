@@ -6,6 +6,8 @@ class HomesController < ApplicationController
   # GET /homes or /homes.json
   def index
     @homes = Home.all
+    @q = Home.ransack(params[:q])
+    @homes = @q.result(distinct: true)
   end
   def correct_user
     @homes =  current_user.homes.find_by(id: params[:id])
