@@ -2,19 +2,18 @@ class HomesController < ApplicationController
   before_action :set_home, only: %i[ show edit update destroy ]
   before_action :authenticate_user!, except: [:index, :show]
   before_action :correct_user, only: [:edit, :update, :destroy]
-  impressionist actions: [:show,:index],unique: [:session_hash]
   # GET /homes or /homes.json
   def index
-    @homes = Home.all
+    @q = Home.ransack(params[:q])
+    @homes = @q.result(distinct: true)
   end
+
   def correct_user
     @homes =  current_user.homes.find_by(id: params[:id])
     redirect_to homes_path, notice: "Đây không phải nhà bạn" if @homes.nil?
   end
   # GET /homes/1 or /homes/1.json
   def show
-    @homes = Home.find(params[:id])
-    impressionist(@homes, "unique view", :unique => [:session_hash])
     @homelike = Homelike.new
     @home_review = HomeReview.new
   end

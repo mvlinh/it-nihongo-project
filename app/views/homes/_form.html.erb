@@ -10,40 +10,47 @@
       </ul>
     </div>
   <% end %>
-  <div class="field">
-    <%= form.label :name %>
-    <%= form.text_field :name %>
+  <%# ------------------ %>
+  <div class="container">
+  <div class="row">
+    <div class="col-8">
+      <form>
+        <div class="form-group">
+          <%= form.label :name %>
+          <%= form.text_field :name, class:"form-control" %>
+          <%= form.label :address %>
+          <%= form.text_field :address, class:"form-control" %>
+        </div>
+        
+        <div class="form-group">
+          <%= form.label :room_number %>
+          <%= form.number_field :room_number, class:"form-control" %>
+        </div>
+        
+        <div class="form-group">
+          <%= form.label :detail %>
+          <%= form.text_area :detail, class:"form-control rows-3", placeholder:"Details"%>
+        </div>
+        
+        <div class="form-group">
+          <label for="group2">Add apartment detail picture</label>
+          <div class="input-group" id="group2">
+            <div class="input-group-prepend">
+              <span class="input-group-text" id="addon2"><i class="fas fa-file-image"></i></span>
+            </div>
+            <div class="custom-file">
+              <%= form.label :detail_image , class:"custom-file-input" %>
+              <%= form.file_field :detail_image, multiple: true, class:"custom-file-label" %>
+            </div>
+          </div>
+        </div>
+        <div class="actions ">
+          <%= form.submit 'Submit', :class => 'btn btn-info'%>
+        </div>
+        <%# <button type="submit" class="btn btn-info">Submit</button> %>
+      </form>
+    </div>
   </div>
-
-  <div class="field">
-    <%= form.label :home_avatar %>
-    <%= form.file_field :home_avatar %>
-  </div>
-  <div class="field">
-  <%= form.label :detail_image %>
-  <%= form.file_field :detail_image, multiple: true%>
 </div>
-  <div class="field">
-    <%= form.label :address %>
-    <%= form.text_field :address %>
-  </div>
-
-  <div class="field">
-    <%= form.label :room_number %>
-    <%= form.number_field :room_number %>
-  </div>
-
-  <div class="field">
-    <%= form.label :price %>
-    <%= form.number_field :price %>
-  </div>
-
-  <div class="field">
-    <%= form.label :detail %>
-    <%= form.text_field :detail %>
-  </div>
-
-  <div class="actions">
-    <%= form.submit %>
-  </div>
+  <%# ------------------ %>
 <% end %>
