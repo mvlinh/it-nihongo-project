@@ -1,13 +1,13 @@
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark" style="background-color: #e3f2fd;">
-  <div class="container-fluid">
-    　<%= link_to " ホームページ" ,static_pages_home_path%>
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav me-auto　justify-content-center">
+<nav class="navbar navbar-expand-lg m-navbar">
+  <div class="container-wrapper">
+    　<%= link_to image_tag("https://www.ohanaliving.vn/8cc95480cbd2708db10ad4b8de56306a.svg") ,static_pages_home_path, class: "navbar-left m-img"%>
+    <div class="" id="navbarSupportedContent" style="display: flex">
+      <ul class="navbar-nav me-auto　">
         <li class="nav-item" style="margin: 0 50px">
           <%= link_to "ホーム", homes_path %>
         </li>
         <li class="nav-item" style="margin: 0 50px">
-        <%= link_to "好きホーム", homelikes_path %>
+        <%= link_to "好きなホーム", homelikes_path %>
       </li>
       <% if user_signed_in? %>
         <li class="nav-item" style="margin: 0 50px">

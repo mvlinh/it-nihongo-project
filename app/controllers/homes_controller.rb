@@ -3,6 +3,7 @@ class HomesController < ApplicationController
   before_action :authenticate_user!, except: [:index, :show]
   before_action :correct_user, only: [:edit, :update, :destroy]
   impressionist actions: [:show,:index],unique: [:session_hash]
+  rescue_from ActionController::RenderError, with: :redirect_to_default
   # GET /homes or /homes.json
   def index
     @homes = Home.all
@@ -11,7 +12,7 @@ class HomesController < ApplicationController
   end
   def correct_user
     @homes =  current_user.homes.find_by(id: params[:id])
-    redirect_to homes_path, notice: "Đây không phải nhà bạn" if @homes.nil?
+    redirect_to homes_path, notice: "これはあなたの家ではないので、あなたには権利がありません" if @homes.nil?
   end
   # GET /homes/1 or /homes/1.json
   def show
@@ -62,11 +63,20 @@ class HomesController < ApplicationController
   def destroy
     @home.destroy
     respond_to do |format|
-      format.html { redirect_to homes_url, notice: "Home was successfully destroyed." }
+      format.html { redirect_back(fallback_location: root_path) }
       format.json { head :no_content }
     end
   end
+  def publish
+    homes = Home.find params[:id]
+    redirect_to :back
+  end
 
+  private
+
+  def redirect_to_default
+    redirect_to root_path
+  end
   private
     # Use callbacks to share common setup or constraints between actions.
     def set_home

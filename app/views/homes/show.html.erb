@@ -1,61 +1,62 @@
-<p id="notice"><%= notice %></p>
-<p>
-  <strong>Name:</strong>
-  <%= @home.name %>
-</p>
 
-<p>
-  <strong>Address:</strong>
-  <%= @home.address %>
-</p>
-
-<p>
-  <strong>Room number:</strong>
-  <%= @home.room_number %>
-</p>
-
-<p>
-  <strong>Price:</strong>
-  <%= @home.price %>
-</p>
-
-<p>
-  <strong>user name:</strong>
-  <%= @home.user.name %>
-</p>
-
-<p>
-  <strong>user name:</strong>
-  <%= @home.user.phone %>
-</p>
-<p>
-  <strong>detail:</strong>
-  <%= @home.detail   %>
-</p>
-
-<p>
-
-  <% if @home.detail_image.attached? %>
-    <strong>avatar:</strong>
-    <%=  image_tag(@home.home_avatar) %>
-  <% end %>
-</p>
-
-<p>
-
-<% if @home.detail_image.attached? %>
-  <strong>detail_image:</strong>
-    <% @home.detail_image.each do |image|%>
-    <%=  image_tag image  ,width: "200px" %>
-    <% end %> 
-  <% end %>
-</p>
+<div class="container">
+  <div class="row">
+    <div class="col-md -6">
+    <p>
+    <% if @home.home_avatar.attached? %>
+      <strong></strong>
+      <%=  image_tag @home.home_avatar ,:style => "width: 100%"%>
+    <% end %>
+  </p>
+    </div>
+    <div class="col-md -6">
+    <p>
+    <strong>ホームの名前</strong>
+    <%= @home.name %>
+  </p>
+  
+  <p>
+    <strong>住所:</strong>
+    <%= @home.address %>
+  </p>
+  
+  <p>
+    <strong>部屋数:</strong>
+    <%= @home.room_number %>
+  </p>
+  
+  <p>
+    <strong>家賃:</strong>
+    <%= @home.price %>
+    円
+  </p>
+  
+  <p>
+    <strong>大家:</strong>
+    <%= @home.user.name %>
+  </p>
+  
+  <p>
+    <strong>大家の電話番号:</strong>
+    <%= @home.user.phone %>
+  </p>
+  <p>
+    <strong>詳細:</strong>
+    <%= @home.detail   %>
+  </p>
+  
+    </div>
+    
+  </div>
+</div>
+<div class="container">
+  <div class="row">
+    <div class="col-sm">
+   
 <p>
   <strong>Like:</strong>
   <%= @home.homelikes.count %>
-</p>
 
-<p>
   <strong>view:</strong>
   <%= @home.impressionist_count%>
 </p>
@@ -96,28 +97,21 @@
         <%= form.submit "Like", class:'btn btn-primary'%>
       </div>
     <% end %>
-  <% else %>
-    <% current_user.homelikes.each do |homelike| %>
-      <% if homelike.home_id == @home.id %>
-      <%= link_to 'Unlike', homelike, method: :delete, data: {:user_id => current_user.id, :home_id => @home.id }, class: 'btn btn-danger' %>
-      <% end %>
-    <%end%>
-    
-    <% end %>
-
-
-<h2>Review From</h2>
- <%= form_with(model: @home_review, local: true) do |form| %>
-   <div class= "field">
-     <%= form.text_area :review %>
-     <%= form.hidden_field :home_id, :value => @home.id %>
-   </div>
-   <div class="actions">
-     <%= form.submit %>
-   </div>
+    <div>
+<% if user_signed_in? %>
+  <h2>レビュー</h2>
+  <%= form_with(model: @home_review, local: true) do |form| %>
+    <div class= "field">
+      <%= form.text_area :review %>
+      <%= form.hidden_field :home_id, :value => @home.id %>
+    </div>
+    <div class="actions">
+      <%= form.submit "送信" %>
+    </div>
+  <% end %>
 <% end %>
 
-<h2>Review List</h2>
+<h2>レビューリスト</h2>
 <ul>
  <% @home.home_review.each do |home_review|%>
     <li><%= home_review.review %>
@@ -126,5 +120,53 @@
  <% end %>
 </ul>
 
-<%= link_to 'Edit', edit_home_path(@home) %> |
-<%= link_to 'Back', homes_path %>
+<%= link_to '編集', edit_home_path(@home) %> |
+<%= link_to '戻る', homes_path %>
+</div>
+  <% else %>
+    <% current_user.homelikes.each do |homelike| %>
+      <% if homelike.home_id == @home.id %>
+      <%= link_to 'Unlike', homelike, method: :delete, data: {:user_id => current_user.id, :home_id => @home.id }, class: 'btn btn-danger' %>
+      <% end %>
+      
+    <%end%>
+    <div>
+<% if user_signed_in? %>
+  <h2>レビュー</h2>
+  <%= form_with(model: @home_review, local: true) do |form| %>
+    <div class= "field">
+      <%= form.text_area :review %>
+      <%= form.hidden_field :home_id, :value => @home.id %>
+    </div>
+    <div class="actions">
+      <%= form.submit "送信" %>
+    </div>
+  <% end %>
+<% end %>
+
+<h2>レビューリスト</h2>
+<ul>
+ <% @home.home_review.each do |home_review|%>
+    <li><%= home_review.review %>
+     (<i><%= home_review.user.name %></i>)
+    </li>
+ <% end %>
+</ul>
+
+<%= link_to '編集', edit_home_path(@home) %> |
+<%= link_to '戻る', homes_path %>
+</div>
+<% end %>
+</div>
+<div class="col-sm">
+  
+<p>
+    <% if @home.detail_image.attached? %>
+      <% @home.detail_image.each do |image|%>
+      <%=  image_tag image  ,width: "60%" %>
+      <% end %> 
+    <% end %>
+</p>
+</div>
+</div>
+</div>

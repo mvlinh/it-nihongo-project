@@ -1,8 +1,23 @@
-<h1>Home</h1>
-<h3>名前</h3>
+<div  class="text-center">
 <% if user_signed_in? %>
+<div>
+<div>
+こんにちは: 
+<%= current_user.name%> さん
+</div>
 <% if current_user.avatar.attached? %>
-<%= image_tag current_user.avatar %>
+    <%=  image_tag current_user.avatar, :class => "img-fluid img-responsive rounded product-image",:style => "width: 20%" %>
 <% end %>
 <% end %>
+   
+</div>
+<h5>
+どこからでも家が簡単に探せる</h5>
+<p>
+このウェブサイトは、日本に行ったばかりの人が住む家を探す手助けをしてくれることを願って作成されました。</p>
+<p>
+家を探している方や、知り合いが家を探している方は、当サイトまでご案内ください。</p>
+<p>
+良い家をご存知の方は、こちらに投稿してください</p>
 
+</div>

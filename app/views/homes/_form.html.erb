@@ -1,8 +1,9 @@
+
+
 <%= form_with(model: home) do |form| %>
   <% if home.errors.any? %>
     <div id="error_explanation">
       <h2><%= pluralize(home.errors.count, "error") %> prohibited this home from being saved:</h2>
-
       <ul>
         <% home.errors.each do |error| %>
           <li><%= error.full_message %></li>
@@ -10,40 +11,40 @@
       </ul>
     </div>
   <% end %>
-  <div class="field">
-    <%= form.label :name %>
+  <div class="field form-group">
+    <%= form.label :名前 %><br />
     <%= form.text_field :name %>
   </div>
 
-  <div class="field">
-    <%= form.label :home_avatar %>
+  <div class="field form-group">
+    <%= form.label :ホームアバター %>
     <%= form.file_field :home_avatar %>
   </div>
-  <div class="field">
-  <%= form.label :detail_image %>
+  <div class="field form-group">
+  <%= form.label :詳細画像 %>
   <%= form.file_field :detail_image, multiple: true%>
 </div>
-  <div class="field">
-    <%= form.label :address %>
+  <div class="field form-group">
+    <%= form.label :住所 %><br />
     <%= form.text_field :address %>
   </div>
 
-  <div class="field">
-    <%= form.label :room_number %>
+  <div class="field form-group">
+    <%= form.label :部屋数 %><br />
     <%= form.number_field :room_number %>
   </div>
 
-  <div class="field">
-    <%= form.label :price %>
+  <div class="field form-group">
+    <%= form.label :家賃 %><br />
     <%= form.number_field :price %>
   </div>
 
-  <div class="field">
-    <%= form.label :detail %>
+  <div class="field form-group">
+    <%= form.label :詳細 %><br />
     <%= form.text_field :detail %>
   </div>
 
   <div class="actions">
-    <%= form.submit %>
+    <%= form.submit "送信" %><br />
   </div>
 <% end %>
